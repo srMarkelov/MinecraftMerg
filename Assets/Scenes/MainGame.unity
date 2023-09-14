@@ -5010,7 +5010,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.309555, y: -3.6699219}
+  m_AnchoredPosition: {x: -34.30957, y: -3.6699219}
   m_SizeDelta: {x: 93.12, y: 95.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &350856693
@@ -25791,7 +25791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1084608271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33698,10 +33698,8 @@ MonoBehaviour:
   fieldConstructor: {fileID: 1724807957}
   _finishLevelView: {fileID: 1590386919}
   _uiLevelManager: {fileID: 1428912773}
-  _characterSpawner: {fileID: 0}
   _finishLevelController: {fileID: 1590386921}
   _storageVariable: {fileID: 500136726}
-  _killContainer: {fileID: 1049355206}
   IsWin: 0
   IsLose: 0
 --- !u!4 &1351574697
@@ -42403,10 +42401,10 @@ MonoBehaviour:
   - {fileID: 1399026630}
   - {fileID: 1117824532}
   _backgroundSprites:
-  - {fileID: 21300000, guid: 24ca82c8b4926e444a2c20c9953dc917, type: 3}
-  - {fileID: 21300000, guid: 4de462bfd61028245aa6dc67e4b2134c, type: 3}
-  - {fileID: 21300000, guid: deaf0c649c544a74581e43cdc3dbf1e6, type: 3}
-  - {fileID: 21300000, guid: f06e5f0bad237ef41b255a832b7b3167, type: 3}
+  - {fileID: 21300000, guid: c5de4412d5b83d54783403adc9be8e77, type: 3}
+  - {fileID: 21300000, guid: 8cfd4dd61f730324d9352ab30faab08c, type: 3}
+  - {fileID: 21300000, guid: 4da9d57ba1f324f4c92b26f4c51780f2, type: 3}
+  - {fileID: 21300000, guid: e4c0f2e6099d4d64fbff9202cb6312f0, type: 3}
   _buyMeleeSprites:
   - {fileID: -1601143214, guid: 671e48afa6b6be543ad0a8d93e808785, type: 3}
   - {fileID: -45728128, guid: c83d974aaf196374cbf6a289d24953b7, type: 3}

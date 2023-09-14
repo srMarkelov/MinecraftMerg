@@ -19,7 +19,7 @@ namespace Core.Battler
         [SerializeField] private UiLevelManager _uiLevelManager;
         [SerializeField] private FinishLevelController _finishLevelController;
         [SerializeField] private StorageVariable _storageVariable;
-        [SerializeField] private GameObject _killContainer;
+
 
         
         private readonly List<ICharacter> _battlesCharacters = new List<ICharacter>();

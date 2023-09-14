@@ -58,11 +58,11 @@ MonoBehaviour:
   _killReward: {fileID: 2272972958694323544, guid: d13ceeb542c3a8041a730f7c437c8cc2, type: 3}
   _damageParticleSystem: {fileID: 819143708959874033}
   _spawnParticlesDeath: {fileID: 8064393618222025518}
-  _animator: {fileID: 5975983579999493160}
+  _animator: {fileID: 0}
   _animatorEnemy: {fileID: 0}
-  _attackClip: {fileID: 98585834929204583, guid: 9c0920543d046ca4a8c8c04253d230f0, type: 2}
+  _attackClip: {fileID: -2634955063343297083, guid: 87eb7d5cd0ef03741906274cd8667a23, type: 2}
   _attackEnemyClip: {fileID: 0}
-  timeBeforeAttack: 0.4
+  timeBeforeAttack: 0.74
   timeBeforeEnemyAttack: 0
   _skaleTakeDamage: 0
   _skaleDefolt: 0

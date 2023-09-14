@@ -15,8 +15,8 @@ MonoBehaviour:
   LevelDatas:
   - FieldWidth: 5
     FieldHeight: 3
-    VictoryReward: 608.73584
-    DefeatReward: 274.19803
+    VictoryReward: 496.94678
+    DefeatReward: 299.19836
     Characters:
     - Type: 16
       PositionX: 3
