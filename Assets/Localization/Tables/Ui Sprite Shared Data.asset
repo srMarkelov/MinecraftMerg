@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Ui Sprite Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Ui Sprite
+  m_TableCollectionNameGuidString: 1e71fa3da621e4350a6e935df8f16717
+  m_Entries:
+  - m_Id: 57152516382720
+    m_Key: HeroLibrary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49413354414080
+    m_Key: LevelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308512151298048
+    m_Key: StartGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62139191517184
+    m_Key: NotAvailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45888411000832
+    m_Key: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40681052561408
+    m_Key: SettingMusic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42464688726016
+    m_Key: SettingSounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67522358403072
+    m_Key: TakeBurronFinishPanel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72719310774272
+    m_Key: TakeRewardBurronFinishPanel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76507903942656
+    m_Key: 'You''veEarnedBackground '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3247470057111552
+    m_Key: PlateLose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3249769072574464
+    m_Key: PlateWin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30842527683534848
+    m_Key: FreeCell
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 8366274600299921439
+    - rid: 6092513343218122754
+  m_KeyGenerator:
+    rid: 8366274600299921433
+  references:
+    version: 2
+    RefIds:
+    - rid: 6092513343218122754
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 3247470057111552
+          m_TableCodes:
+          - ru
+          - en
+          - tr
+        - m_KeyId: 3249769072574464
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        m_TypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 8366274600299921433
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1687264488236
+    - rid: 8366274600299921439
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 308512151298048
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 40681052561408
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 42464688726016
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 45888411000832
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 49413354414080
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 57152516382720
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 62139191517184
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 67522358403072
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 72719310774272
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 76507903942656
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        - m_KeyId: 30842527683534848
+          m_TableCodes:
+          - en
+          - ru
+          - tr
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

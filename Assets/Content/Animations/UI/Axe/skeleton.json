@@ -1,0 +1,93 @@
+{
+"skeleton": {
+	"hash": "jHme0bjXfviAZKTGl2DuGQ5GbgA",
+	"spine": "3.8.0",
+	"x": -86.47,
+	"y": 2,
+	"width": 91,
+	"height": 70,
+	"images": "D:/UnityProjects/1.Материалы/Stickman/Animations/UI/Axe/1x",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Axe", "parent": "root", "length": 86.93, "rotation": 135.41, "x": 0.57, "y": 3.97 }
+],
+"slots": [
+	{ "name": "Axe", "bone": "Axe", "attachment": "Axe" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Axe": {
+				"Axe": { "x": 52.76, "y": 5.64, "rotation": -135.41, "width": 91, "height": 70 },
+				"Axe_2": { "x": 54.54, "y": 7.21, "rotation": -135.27, "width": 96, "height": 70 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack": {
+		"slots": {
+			"Axe": {
+				"attachment": [
+					{ "name": "Axe" },
+					{ "time": 0.5667, "name": "Axe_2" }
+				]
+			}
+		},
+		"bones": {
+			"Axe": {
+				"rotate": [
+					{ "angle": -56.47 },
+					{ "time": 0.3667, "angle": -84.89 },
+					{ "time": 0.5, "angle": -92.14 },
+					{ "time": 0.5667 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.5667 }
+				],
+				"scale": [
+					{ "x": 0.17, "y": 0.208 },
+					{ "time": 0.2667, "x": 0.844, "y": 0.912 },
+					{ "time": 0.5, "x": 1.2, "y": 1.121 },
+					{ "time": 0.5667 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 0.5667 }
+				]
+			}
+		}
+	},
+	"Out": {
+		"slots": {
+			"Axe": {
+				"attachment": [
+					{ "name": "Axe_2" }
+				]
+			}
+		},
+		"bones": {
+			"Axe": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{},
+					{ "time": 0.3, "x": -63.13, "y": 38.64 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3, "x": 0, "y": 0.006 }
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English (en)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9a643f031d06b40a893d7510c5b0d036
+  m_SerializeEntries:
+  - m_GUID: 9deae352c27bb4a98b58352a1113e047
+    m_Address: StartGameEN-11_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 27a57df9c00dc4b53bd436e3eaf4d69f
+    m_Address: MusicEN-12
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 5a1b0340a311a468ca80578447db8c3d
+    m_Address: SoundsEN-12
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 5ed3bde3854864a3ab3b54ea6fce276f
+    m_Address: SettingEN-12
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: e2f8dcec87e8c4b5e8d0c4cdf90f4eb8
+    m_Address: LevelEN-11_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 0d33dec07e386411ab6f33f4e5d0a2bf
+    m_Address: HeroLibraryEN-03_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 4f05abe19f99b4e36a6e2abb77550b0b
+    m_Address: NotAvailableEN-07_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: cb9263ccb65fa4fe595782bf83056b0a
+    m_Address: TakeEN-02_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 02d56eaed6f874cdd8312ef4067a7a4b
+    m_Address: TakeRewardEN-02_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 9d7062790725d41dba3d6540dbcf63da
+    m_Address: You'veEarnedBackgroundEN-10_0
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 4a389c1a26274ae4aa6e68725c512ff9
+    m_Address: PlateLoseEN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 31a9e94953034084e91a6e9d4a2f76b9
+    m_Address: PlateWinEN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: ae0c2046c70bcfc41a2f52db930e52ad
+    m_Address: EN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 678350963ca2145a988f70ef1abf1a2f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c4c5860b4fe0446958ae49b4cec4c6bd, type: 2}
+    - {fileID: 11400000, guid: bf82958db3175450792301819aba9f27, type: 2}

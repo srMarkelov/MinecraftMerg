@@ -1,0 +1,132 @@
+
+skeleton.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Глаза
+  rotate: true
+  xy: 529, 4
+  size: 70, 59
+  orig: 70, 59
+  offset: 0, 0
+  index: -1
+Голова
+  rotate: false
+  xy: 518, 158
+  size: 287, 273
+  orig: 287, 273
+  offset: 0, 0
+  index: -1
+Крыло
+  rotate: true
+  xy: 659, 36
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+Кулак П
+  rotate: false
+  xy: 4, 251
+  size: 254, 768
+  orig: 254, 768
+  offset: 0, 0
+  index: -1
+КулакЛ
+  rotate: false
+  xy: 492, 78
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1
+Лапки
+  rotate: true
+  xy: 592, 20
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+Нога Л
+  rotate: true
+  xy: 569, 88
+  size: 66, 292
+  orig: 66, 292
+  offset: 0, 0
+  index: -1
+Нога П
+  rotate: true
+  xy: 143, 45
+  size: 67, 292
+  orig: 67, 292
+  offset: 0, 0
+  index: -1
+ПлащЗ
+  rotate: false
+  xy: 861, 495
+  size: 379, 524
+  orig: 379, 524
+  offset: 0, 0
+  index: -1
+ПлащЛ
+  rotate: false
+  xy: 262, 435
+  size: 278, 584
+  orig: 278, 584
+  offset: 0, 0
+  index: -1
+ПлащП
+  rotate: false
+  xy: 544, 444
+  size: 313, 575
+  orig: 313, 575
+  offset: 0, 0
+  index: -1
+Птица
+  rotate: true
+  xy: 143, 116
+  size: 131, 109
+  orig: 131, 109
+  offset: 0, 0
+  index: -1
+Рука Л
+  rotate: true
+  xy: 256, 156
+  size: 91, 258
+  orig: 91, 258
+  offset: 0, 0
+  index: -1
+Рука П
+  rotate: true
+  xy: 4, 44
+  size: 203, 135
+  orig: 203, 135
+  offset: 0, 0
+  index: -1
+Ступня
+  rotate: false
+  xy: 439, 9
+  size: 86, 52
+  orig: 86, 52
+  offset: 0, 0
+  index: -1
+Ступня (2)
+  rotate: true
+  xy: 439, 65
+  size: 87, 49
+  orig: 87, 49
+  offset: 0, 0
+  index: -1
+Тень
+  rotate: false
+  xy: 809, 193
+  size: 438, 247
+  orig: 438, 247
+  offset: 0, 0
+  index: -1
+Торс
+  rotate: true
+  xy: 4, 12
+  size: 28, 308
+  orig: 28, 308
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Веревка Л
+  rotate: false
+  xy: 4, 4
+  size: 251, 309
+  orig: 251, 309
+  offset: 0, 0
+  index: -1
+Веревка П
+  rotate: false
+  xy: 259, 4
+  size: 251, 309
+  orig: 251, 309
+  offset: 0, 0
+  index: -1
+Табличка
+  rotate: false
+  xy: 4, 317
+  size: 519, 105
+  orig: 519, 105
+  offset: 0, 0
+  index: -1

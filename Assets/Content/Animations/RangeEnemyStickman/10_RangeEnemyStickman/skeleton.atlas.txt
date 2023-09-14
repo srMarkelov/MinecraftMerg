@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Глаза
+  rotate: false
+  xy: 496, 8
+  size: 43, 62
+  orig: 43, 62
+  offset: 0, 0
+  index: -1
+Голова
+  rotate: false
+  xy: 555, 4
+  size: 137, 133
+  orig: 137, 133
+  offset: 0, 0
+  index: -1
+Кулак Л
+  rotate: true
+  xy: 425, 10
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+Кулак П
+  rotate: false
+  xy: 321, 74
+  size: 196, 178
+  orig: 196, 178
+  offset: 0, 0
+  index: -1
+Нога Л
+  rotate: true
+  xy: 696, 62
+  size: 75, 207
+  orig: 75, 207
+  offset: 0, 0
+  index: -1
+Нога П
+  rotate: false
+  xy: 1052, 75
+  size: 78, 177
+  orig: 78, 177
+  offset: 0, 0
+  index: -1
+Рука Л
+  rotate: true
+  xy: 751, 177
+  size: 75, 201
+  orig: 75, 201
+  offset: 0, 0
+  index: -1
+Рука П
+  rotate: true
+  xy: 907, 17
+  size: 156, 141
+  orig: 156, 141
+  offset: 0, 0
+  index: -1
+Стрела
+  rotate: false
+  xy: 281, 25
+  size: 140, 36
+  orig: 140, 36
+  offset: 0, 0
+  index: -1
+Ступня
+  rotate: true
+  xy: 521, 77
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+Тень
+  rotate: false
+  xy: 4, 65
+  size: 313, 187
+  orig: 313, 187
+  offset: 0, 0
+  index: -1
+Тетива
+  rotate: true
+  xy: 4, 23
+  size: 9, 273
+  orig: 9, 273
+  offset: 0, 0
+  index: -1
+Торс
+  rotate: true
+  xy: 4, 36
+  size: 25, 209
+  orig: 25, 209
+  offset: 0, 0
+  index: -1
+Шляпа
+  rotate: false
+  xy: 521, 141
+  size: 226, 111
+  orig: 226, 111
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,181 @@
+{
+"skeleton": {
+	"hash": "30uwk9BlMfQn661sLnNKfdPt2kI",
+	"spine": "3.8.0",
+	"x": -37.07,
+	"y": -0.09,
+	"width": 72,
+	"height": 80.96,
+	"images": "D:/UnityProjects/1.Материалы/Stickman/Animations/Bee/1x",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "x": 2.56, "y": -1.28 },
+	{ "name": "PCH", "parent": "root", "length": 32.28, "rotation": -176.46, "x": 3.2, "y": 31.27 },
+	{ "name": "L", "parent": "PCH", "length": 28.45, "rotation": -51.63, "x": 3.86, "y": -13.84 },
+	{ "name": "P", "parent": "PCH", "length": 29.34, "rotation": -86.81, "x": 0.24, "y": -16.7 }
+],
+"slots": [
+	{ "name": "P", "bone": "P", "attachment": "P" },
+	{ "name": "PCH", "bone": "PCH", "attachment": "PCH" },
+	{ "name": "L", "bone": "L", "attachment": "L" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"L": {
+				"L": { "x": 17.4, "y": -0.36, "rotation": -131.91, "width": 27, "height": 28 }
+			},
+			"P": {
+				"P": { "x": 16.29, "y": 1.01, "rotation": -109.7, "width": 23, "height": 32 }
+			},
+			"PCH": {
+				"PCH": { "x": 7.04, "y": 3.15, "rotation": 176.46, "width": 72, "height": 53 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"PCH": {
+				"rotate": [
+					{},
+					{ "time": 0.4, "angle": 3.55 },
+					{ "time": 1.7, "angle": -8.36, "curve": "stepped" },
+					{ "time": 2.5, "angle": -8.36 },
+					{ "time": 3.4667, "angle": 5.09 },
+					{ "time": 4.4, "angle": 16.04 },
+					{ "time": 5.4 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.8333, "y": 42.93, "curve": 0.259, "c2": 0.06, "c3": 0.549, "c4": 0.59 },
+					{ "time": 3.8, "y": -92.16 },
+					{ "time": 5.4 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 5.4 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 5.4 }
+				]
+			},
+			"L": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "angle": 56.34 },
+					{ "time": 0.2333, "angle": 3.81 },
+					{ "time": 0.3667, "angle": 39.02 },
+					{ "time": 0.5 },
+					{ "time": 0.6, "angle": 56.34 },
+					{ "time": 0.7333, "angle": 3.81 },
+					{ "time": 0.8667, "angle": 39.02 },
+					{ "time": 0.9667 },
+					{ "time": 1.1, "angle": 56.34 },
+					{ "time": 1.2, "angle": 3.81 },
+					{ "time": 1.3333, "angle": 39.02 },
+					{ "time": 1.4667 },
+					{ "time": 1.6, "angle": 56.34 },
+					{ "time": 1.7, "angle": 3.81 },
+					{ "time": 1.8333, "angle": 39.02 },
+					{ "time": 1.9667 },
+					{ "time": 2.0667, "angle": 56.34 },
+					{ "time": 2.2, "angle": 3.81 },
+					{ "time": 2.3333, "angle": 39.02 },
+					{ "time": 2.4333 },
+					{ "time": 2.5667, "angle": 56.34 },
+					{ "time": 2.6667, "angle": 3.81 },
+					{ "time": 2.8, "angle": 39.02 },
+					{ "time": 2.9333 },
+					{ "time": 3.0667, "angle": 56.34 },
+					{ "time": 3.1667, "angle": 3.81 },
+					{ "time": 3.3, "angle": 39.02 },
+					{ "time": 3.4333 },
+					{ "time": 3.5333, "angle": 56.34 },
+					{ "time": 3.6667, "angle": 3.81 },
+					{ "time": 3.8, "angle": 39.02 },
+					{ "time": 3.9 },
+					{ "time": 4.0333, "angle": 56.34 },
+					{ "time": 4.1333, "angle": 3.81 },
+					{ "time": 4.2667, "angle": 39.02 },
+					{ "time": 4.4 },
+					{ "time": 4.5333, "angle": 56.34 },
+					{ "time": 4.6333, "angle": 3.81 },
+					{ "time": 4.7667, "angle": 39.02 },
+					{ "time": 4.9 },
+					{ "time": 5, "angle": 56.34 },
+					{ "time": 5.1333, "angle": 3.81 },
+					{ "time": 5.2667, "angle": 39.02 },
+					{ "time": 5.3667 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			},
+			"P": {
+				"rotate": [
+					{ "angle": 71.83 },
+					{ "time": 0.1333, "angle": 25.95 },
+					{ "time": 0.2667, "angle": 80.42 },
+					{ "time": 0.4, "angle": 24.95 },
+					{ "time": 0.5333, "angle": 71.83 },
+					{ "time": 0.6667, "angle": 25.95 },
+					{ "time": 0.8, "angle": 80.42 },
+					{ "time": 0.9333, "angle": 24.95 },
+					{ "time": 1.1, "angle": 71.83 },
+					{ "time": 1.2333, "angle": 25.95 },
+					{ "time": 1.4, "angle": 80.42 },
+					{ "time": 1.5333, "angle": 24.95 },
+					{ "time": 1.6667, "angle": 71.83 },
+					{ "time": 1.8, "angle": 25.95 },
+					{ "time": 1.9333, "angle": 80.42 },
+					{ "time": 2.0667, "angle": 24.95 },
+					{ "time": 2.2, "angle": 71.83 },
+					{ "time": 2.3333, "angle": 25.95 },
+					{ "time": 2.4667, "angle": 80.42 },
+					{ "time": 2.6, "angle": 24.95 },
+					{ "time": 2.7333, "angle": 71.83 },
+					{ "time": 2.8667, "angle": 25.95 },
+					{ "time": 3, "angle": 80.42 },
+					{ "time": 3.1333, "angle": 24.95 },
+					{ "time": 3.3, "angle": 71.83 },
+					{ "time": 3.4333, "angle": 25.95 },
+					{ "time": 3.6, "angle": 80.42 },
+					{ "time": 3.7333, "angle": 24.95 },
+					{ "time": 3.8667, "angle": 71.83 },
+					{ "time": 4, "angle": 25.95 },
+					{ "time": 4.1333, "angle": 80.42 },
+					{ "time": 4.2667, "angle": 24.95 },
+					{ "time": 4.4, "angle": 71.83 },
+					{ "time": 4.5333, "angle": 25.95 },
+					{ "time": 4.6667, "angle": 80.42 },
+					{ "time": 4.8, "angle": 24.95 },
+					{ "time": 4.9333, "angle": 71.83 },
+					{ "time": 5.0667, "angle": 25.95 },
+					{ "time": 5.2, "angle": 80.42 },
+					{ "time": 5.3333, "angle": 24.95 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			}
+		}
+	}
+}
+}
