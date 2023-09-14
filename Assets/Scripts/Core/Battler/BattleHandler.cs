@@ -17,7 +17,6 @@ namespace Core.Battler
         [SerializeField] private FieldConstructor fieldConstructor;
         [SerializeField] private FinishLevelView _finishLevelView;
         [SerializeField] private UiLevelManager _uiLevelManager;
-        [SerializeField] private CharacterSpawner _characterSpawner;
         [SerializeField] private FinishLevelController _finishLevelController;
         [SerializeField] private StorageVariable _storageVariable;
         [SerializeField] private GameObject _killContainer;
