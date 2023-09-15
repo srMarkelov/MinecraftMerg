@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 6367b59522c534bb58c69d91d050b4c5
   m_SerializeEntries:
-  - m_GUID: 0a8f20c2b3c1e4e1494437cb49b83682
-    m_Address: StartGameTR-11_0
+  - m_GUID: 1c0186785a686c04f957e150955ac0e8
+    m_Address: StartBattleTR 1_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
@@ -32,13 +32,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 15c43d54c3d1a4b70ad806036879f688
-    m_Address: SettingTR-12
+  - m_GUID: 1ee89c73200115d44acc6450302fc6bb
+    m_Address: SettingTR
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: b5d482da4c9ec4763883e8346d004059
-    m_Address: LevelTR-11_0
+  - m_GUID: fbcea987c8b89764898ee1f167b60986
+    m_Address: LevelTR
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
