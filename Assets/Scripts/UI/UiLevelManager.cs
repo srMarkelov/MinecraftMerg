@@ -40,10 +40,13 @@ public class UiLevelManager : MonoBehaviour
     [SerializeField] private CharacterSeller _characterSeller;
     [SerializeField] private FieldConstructor _fieldConstructor;
     [SerializeField] private TextMeshProUGUI _priceMeleeCharacterText;
+    [SerializeField] private TextMeshProUGUI _priceMeleeCharacterTextBackground;
     [SerializeField] private TextMeshProUGUI _priceRangeCharacterText;
+    [SerializeField] private TextMeshProUGUI _priceRangeCharacterTextBackgrpund;
     [SerializeField] private TextMeshProUGUI _currentLevelText;   //KOLHOZ
     [SerializeField] private TextMeshProUGUI _currentGoldText;    //KOLHOZ
     [SerializeField] private TextMeshProUGUI _boxRewardText;
+    [SerializeField] private TextMeshProUGUI _boxRewardTextBackground;
     [SerializeField] private BattleHandler _battleHandler;
     [SerializeField] private Animator _axeMusicAnimator;
     [SerializeField] private Animator _axeSoundAnimator;
@@ -53,7 +56,9 @@ public class UiLevelManager : MonoBehaviour
     [SerializeField] private int _sec;
     [SerializeField] private int _min;
     [SerializeField] private int _delta = 1;
+    /*
     [SerializeField] private TextMeshProUGUI _timerText;
+    */
     [SerializeField] private StorageVariable _storageVariable;
     [SerializeField] private FormattingMoney _formattingMoney;
     [SerializeField] private MoneyСonverting _moneyСonverting;
@@ -150,7 +155,8 @@ public class UiLevelManager : MonoBehaviour
                 }
                 _sec -= _delta;
                 PlayerPrefs.SetInt("Sec", _sec);
-                _timerText.text = $"{_min.ToString("D2")}:{_sec.ToString("D2")}";
+                _boxRewardText.text = $"{_min.ToString("D2")}:{_sec.ToString("D2")}";
+                _boxRewardTextBackground.text = $"{_min.ToString("D2")}:{_sec.ToString("D2")}";
                 yield return new WaitForSeconds(1);
             }
         }
@@ -313,15 +319,21 @@ public class UiLevelManager : MonoBehaviour
         
         _priceMeleeCharacterText.DOColor(new Color(_priceMeleeCharacterText.color.r,
             _priceMeleeCharacterText.color.g, _priceMeleeCharacterText.color.b, 0f), 1f).SetLink(gameObject);
+        _priceMeleeCharacterTextBackground.DOColor(new Color(_priceMeleeCharacterTextBackground.color.r,
+            _priceMeleeCharacterTextBackground.color.g, _priceMeleeCharacterTextBackground.color.b, 0f), 1f).SetLink(gameObject);
             
         _priceRangeCharacterText.DOColor(new Color(_priceRangeCharacterText.color.r,
             _priceRangeCharacterText.color.g, _priceRangeCharacterText.color.b, 0f), 1f).SetLink(gameObject);
+        _priceRangeCharacterTextBackgrpund.DOColor(new Color(_priceRangeCharacterTextBackgrpund.color.r,
+            _priceRangeCharacterTextBackgrpund.color.g, _priceRangeCharacterTextBackgrpund.color.b, 0f), 1f).SetLink(gameObject);
             
         _boxRewardButton.GetComponent<Image>().DOColor(new Color(_boxRewardButton.GetComponent<Image>().color.r,
             _boxRewardButton.GetComponent<Image>().color.g, _boxRewardButton.GetComponent<Image>().color.b, 0f), 1f).SetLink(gameObject);
         
         _boxRewardText.DOColor(new Color(_boxRewardText.color.r,
             _boxRewardText.color.g, _boxRewardText.color.b, 0f), 1f).SetLink(gameObject);
+        _boxRewardTextBackground.DOColor(new Color(_boxRewardTextBackground.color.r,
+            _boxRewardTextBackground.color.g, _boxRewardTextBackground.color.b, 0f), 1f).SetLink(gameObject);
         foreach (var button in _levelButton)
         {
             button.interactable = false;
@@ -345,15 +357,21 @@ public class UiLevelManager : MonoBehaviour
         
         _priceMeleeCharacterText.DOColor(new Color(_priceMeleeCharacterText.color.r,
             _priceMeleeCharacterText.color.g, _priceMeleeCharacterText.color.b, 1f), 0.5f).SetLink(gameObject);
-            
+        _priceMeleeCharacterTextBackground.DOColor(new Color(_priceMeleeCharacterTextBackground.color.r,
+            _priceMeleeCharacterTextBackground.color.g, _priceMeleeCharacterTextBackground.color.b, 1f), 0.5f).SetLink(gameObject);    
+        
         _priceRangeCharacterText.DOColor(new Color(_priceRangeCharacterText.color.r,
             _priceRangeCharacterText.color.g, _priceRangeCharacterText.color.b, 1f), 0.5f).SetLink(gameObject);
+        _priceRangeCharacterTextBackgrpund.DOColor(new Color(_priceRangeCharacterTextBackgrpund.color.r,
+            _priceRangeCharacterTextBackgrpund.color.g, _priceRangeCharacterTextBackgrpund.color.b, 1f), 0.5f).SetLink(gameObject);
             
         _boxRewardButton.GetComponent<Image>().DOColor(new Color(_boxRewardButton.GetComponent<Image>().color.r,
             _boxRewardButton.GetComponent<Image>().color.g, _boxRewardButton.GetComponent<Image>().color.b, 1f), 0.5f).SetLink(gameObject);
         
         _boxRewardText.DOColor(new Color(_boxRewardText.color.r,
             _boxRewardText.color.g, _boxRewardText.color.b, 1f), 0.5f).SetLink(gameObject);
+        _boxRewardTextBackground.DOColor(new Color(_boxRewardTextBackground.color.r,
+            _boxRewardTextBackground.color.g, _boxRewardTextBackground.color.b, 1f), 0.5f).SetLink(gameObject);
         
         
         foreach (var button in _levelButton)
@@ -380,6 +398,7 @@ public class UiLevelManager : MonoBehaviour
         {
             _buyMelee.sprite = _enoughMoney[0];
             _priceMeleeCharacterText.gameObject.SetActive(true);
+            _priceMeleeCharacterTextBackground.gameObject.SetActive(true);
             _noMoneyStateMelee = false;
         }
         else
@@ -403,6 +422,7 @@ public class UiLevelManager : MonoBehaviour
                     new Color(_buyMelee.color.r, _buyMelee.color.g, _buyMelee.color.b, 0.8f), 0.3f).OnComplete(() =>
                 {
                     _priceMeleeCharacterText.gameObject.SetActive(false);
+                    _priceMeleeCharacterTextBackground.gameObject.SetActive(false);
                     _buyMelee.sprite = _notEnoughMoney[0];
                     _buyMelee.GetComponent<Button>().interactable = false;
                 });
@@ -443,6 +463,7 @@ public class UiLevelManager : MonoBehaviour
         if (_moneyСonverting.MoreOrEqual(MoneyInTheStorage, PriceRangeS))
         {
             _priceRangeCharacterText.gameObject.SetActive(true);
+            _priceRangeCharacterTextBackgrpund.gameObject.SetActive(true);
             _buyRange.sprite = _enoughMoney[1];
             _noMoneyStateRange = false;
 
@@ -467,6 +488,7 @@ public class UiLevelManager : MonoBehaviour
                     new Color(_buyRange.color.r, _buyRange.color.g, _buyRange.color.b, 0.8f), 0.3f).OnComplete(() =>
                 {
                     _priceRangeCharacterText.gameObject.SetActive(false);
+                    _priceRangeCharacterTextBackgrpund.gameObject.SetActive(false);
                     _buyRange.sprite = _notEnoughMoney[1];
                     _buyRange.GetComponent<Button>().interactable = false;
                 });

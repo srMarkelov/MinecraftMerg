@@ -26,6 +26,7 @@ public class LibraryItem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _hp;
     [SerializeField] private TextMeshProUGUI _dmg;
     [SerializeField] private TextMeshProUGUI _priceBuy;
+    [SerializeField] private TextMeshProUGUI _priceBuyBackground;
     [SerializeField] private Image _buyButton;
     [SerializeField] private  CharactersConfig _charactersConfig;
     [SerializeField] private  CharacterConfig _characterConfig;
@@ -52,6 +53,7 @@ public class LibraryItem : MonoBehaviour
     private void Update()
     {
         _priceBuy.text = $"{_countBuyClick}/3";
+        _priceBuyBackground.text = $"{_countBuyClick}/3";
         _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
         ControlAvailableCharacter();
         
@@ -255,6 +257,7 @@ public class LibraryItem : MonoBehaviour
         _hp.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         _dmg.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         _priceBuy.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
+        _priceBuyBackground.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         _buyButton.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         _notAvailable.gameObject.GetComponent<Image>().DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         
@@ -279,11 +282,13 @@ public class LibraryItem : MonoBehaviour
         {
             _buyButton.DOColor(new Color(1f, 1f, 1f, 0.45f), 0.3f);
             _priceBuy.DOColor(new Color(1f, 1f, 1f, 0.45f), 0.3f);
+            _priceBuyBackground.DOColor(new Color(0f, 0f, 0f, 0.45f), 0.3f);
         }
         else
         {
             _buyButton.DOColor(new Color(1f, 1f, 1f, 1f), 0.3f);
             _priceBuy.DOColor(new Color(1f, 1f, 1f, 1f), 0.3f);
+            _priceBuyBackground.DOColor(new Color(0f, 0f, 0f, 1f), 0.3f);
         }
     }
     

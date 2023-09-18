@@ -42,8 +42,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
-  - m_GUID: 3b9bad74db689444dad16e3fda732310
-    m_Address: HeroLibraryRU-03_0
+  - m_GUID: 716cffcb47f4cc44f9c97daff87f8cca
+    m_Address: LibraryLangRU_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru

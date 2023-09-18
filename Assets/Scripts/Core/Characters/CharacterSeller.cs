@@ -27,7 +27,9 @@ namespace Core.Characters
         [SerializeField] private TextMeshProUGUI _countBuyMeleeText;
         [SerializeField] private TextMeshProUGUI _countBuyRangeText;
         [SerializeField] private TextMeshProUGUI _priceMeleeCharacterText;
+        [SerializeField] private TextMeshProUGUI _priceMeleeCharacterTextBackground;
         [SerializeField] private TextMeshProUGUI _priceRangeCharacterText;
+        [SerializeField] private TextMeshProUGUI _priceRangeCharacterTextBackground;
         [SerializeField] private MoneyСonverting _moneyСonverting;
         [SerializeField] private UiLevelManager _uiLevelManager;
         [SerializeField] private SpriteRenderer _fullCells;
@@ -93,7 +95,10 @@ namespace Core.Characters
             _moneyСonverting.GoldConverting(PriceRangeS,_priceRange);
             
             _priceRangeCharacterText.text = _moneyСonverting.GetMoney(PriceRangeS);
+            _priceRangeCharacterTextBackground.text = _moneyСonverting.GetMoney(PriceRangeS);
+            
             _priceMeleeCharacterText.text = _moneyСonverting.GetMoney(PriceMeleeS);
+            _priceMeleeCharacterTextBackground.text = _moneyСonverting.GetMoney(PriceMeleeS);
         }
         private void Update()
         {
@@ -131,6 +136,7 @@ namespace Core.Characters
             
             _priceMelee = _moneyСonverting.GoldConverting(PriceMeleeS, _priceMelee);
             _priceMeleeCharacterText.text = _moneyСonverting.GetMoney(PriceMeleeS);
+            _priceMeleeCharacterTextBackground.text = _moneyСonverting.GetMoney(PriceMeleeS);
             
             PlayerPrefs.SetString("PriceMelee",_priceMeleeStr);
             PlayerPrefs.SetFloat(PriceMeleeS,_priceMelee);
@@ -141,6 +147,7 @@ namespace Core.Characters
             _priceRange = _moneyСonverting.Multiplication(PriceRangeS,1.12f);
             _priceRange = _moneyСonverting.GoldConverting(PriceRangeS, _priceRange);
             _priceRangeCharacterText.text = _moneyСonverting.GetMoney(PriceRangeS);
+            _priceRangeCharacterTextBackground.text = _moneyСonverting.GetMoney(PriceRangeS);
 
             PlayerPrefs.SetString("PriceRange",_priceRangeStr);
             PlayerPrefs.SetFloat("PriceRange",_priceRange);
@@ -203,7 +210,10 @@ namespace Core.Characters
             _oldLevel += 1;
             PlayerPrefs.SetInt("OldLevel", _oldLevel);
             _priceMeleeCharacterText.text = _moneyСonverting.GetMoney(PriceMeleeS);
+            _priceMeleeCharacterTextBackground.text = _moneyСonverting.GetMoney(PriceMeleeS);
+            
             _priceRangeCharacterText.text = _moneyСonverting.GetMoney(PriceRangeS);
+            _priceRangeCharacterTextBackground.text = _moneyСonverting.GetMoney(PriceRangeS);
 
             PlayerPrefs.SetFloat(PriceMeleeS,_priceMelee);
             PlayerPrefs.SetFloat(PriceRangeS,_priceRange);

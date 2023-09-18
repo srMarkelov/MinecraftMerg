@@ -42,8 +42,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 202d2c5494b414775935fdbd795f8794
-    m_Address: HeroLibraryTR-03_0
+  - m_GUID: 651cd1a86c7cbe444b5cfed08813f8a8
+    m_Address: LibraryLangTR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
