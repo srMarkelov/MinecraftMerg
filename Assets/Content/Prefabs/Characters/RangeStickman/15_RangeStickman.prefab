@@ -295,8 +295,8 @@ MonoBehaviour:
   _animatorEnemy: {fileID: 8265776548985631275}
   _attackClip: {fileID: 98585834929204583, guid: 224ce0b55a5c40a4992e49e6b5dc67e9, type: 2}
   _attackEnemyClip: {fileID: 98585834929204583, guid: 6fc58bee144547a4c8305da3bda092d3, type: 2}
-  timeBeforeAttack: 0.75
-  timeBeforeEnemyAttack: 0.75
+  timeBeforeAttack: 0.67
+  timeBeforeEnemyAttack: 0.67
   _skaleTakeDamage: 0
   _skaleDefolt: 0
   shellsController: {fileID: 2204228396054669897}
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8c520fc8850cc448043f64e53e59c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shills: {fileID: 5398457289974508428, guid: ace3cb2883dd1f14a94c11a294279605, type: 3}
+  _shills: {fileID: 5398457289974508428, guid: 8748e14eef82a5a48ad9e03902c3bbcb, type: 3}
   _instantiatePosition: {fileID: 8034916584692315160}
   _step: 0.5
   _CharacterTargerViews: []
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8c520fc8850cc448043f64e53e59c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shills: {fileID: 5398457289974508428, guid: ace3cb2883dd1f14a94c11a294279605, type: 3}
+  _shills: {fileID: 5398457289974508428, guid: 8748e14eef82a5a48ad9e03902c3bbcb, type: 3}
   _instantiatePosition: {fileID: 61693391614932318}
   _step: 0.5
   _CharacterTargerViews: []

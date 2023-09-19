@@ -322,9 +322,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8c520fc8850cc448043f64e53e59c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shills: {fileID: 5398457289974508428, guid: 4e133fcd81b087740b46bb0957935f8c, type: 3}
+  _shills: {fileID: 5398457289974508428, guid: f6b643fa53221e94ab4f4bda86dcb020, type: 3}
   _instantiatePosition: {fileID: 3294372738042830818}
-  _step: 5
+  _step: 0.5
   _CharacterTargerViews: []
   _ShellsViews: []
 --- !u!1 &1001385366701403389
@@ -828,9 +828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8c520fc8850cc448043f64e53e59c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shills: {fileID: 5398457289974508428, guid: 4e133fcd81b087740b46bb0957935f8c, type: 3}
+  _shills: {fileID: 5398457289974508428, guid: f6b643fa53221e94ab4f4bda86dcb020, type: 3}
   _instantiatePosition: {fileID: 1001385366701403389}
-  _step: 0
+  _step: 0.5
   _CharacterTargerViews: []
   _ShellsViews: []
 --- !u!1 &3623465257464227640
