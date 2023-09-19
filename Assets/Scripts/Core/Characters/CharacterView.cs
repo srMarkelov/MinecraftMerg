@@ -200,7 +200,8 @@ namespace Core.Characters
                     restartDamageMeleeEnemy = true;
                     _goRunBoss = true;
                     _goRunBossAudio = false;
-                    _currentRunBoss = 0;
+                    /*_currentRunBoss = 0;*/
+                    //asd
                     CurrentTimerAttack = 0;
                 }
             }
@@ -540,6 +541,8 @@ namespace Core.Characters
                         _audioRunMelee.pitch  = UnityEngine.Random.Range(0.9f,1.3f);
                         _audioRunMelee.Play();
                         _onMoveAnimation = true;
+                        _currentRunBoss = 0;
+
                     }
                     
                     SetMoveAnimation();

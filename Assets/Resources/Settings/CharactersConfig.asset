@@ -256,7 +256,7 @@ MonoBehaviour:
     - DamageType: 0
       Health: 1200000
       Damage: 150000
-      MovementSpeed: 0.35
+      MovementSpeed: 0.03
       DamageSpeed: 1.5
       KillReward: 70000
       View: {fileID: 410807052145958395, guid: be66faed313fc954090b0f39db30f73d, type: 3}

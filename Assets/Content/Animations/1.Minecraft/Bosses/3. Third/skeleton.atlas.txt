@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Голова
+  rotate: false
+  xy: 1293, 196
+  size: 326, 273
+  orig: 326, 273
+  offset: 0, 0
+  index: -1
+НогаЛ
+  rotate: true
+  xy: 1623, 142
+  size: 161, 404
+  orig: 161, 404
+  offset: 0, 0
+  index: -1
+НогаП
+  rotate: true
+  xy: 1623, 307
+  size: 162, 409
+  orig: 162, 409
+  offset: 0, 0
+  index: -1
+Рука Л
+  rotate: false
+  xy: 4, 57
+  size: 682, 412
+  orig: 682, 412
+  offset: 0, 0
+  index: -1
+Рука П
+  rotate: true
+  xy: 974, 4
+  size: 155, 396
+  orig: 155, 396
+  offset: 0, 0
+  index: -1
+Тень
+  rotate: false
+  xy: 974, 163
+  size: 315, 306
+  orig: 315, 306
+  offset: 0, 0
+  index: -1
+Торс
+  rotate: false
+  xy: 690, 67
+  size: 280, 402
+  orig: 280, 402
+  offset: 0, 0
+  index: -1
