@@ -52,6 +52,8 @@ public class UiLevelManager : MonoBehaviour
     [SerializeField] private BattleHandler _battleHandler;
     [SerializeField] private Animator _axeMusicAnimator;
     [SerializeField] private Animator _axeSoundAnimator;
+    [SerializeField] private GameObject  _checkMarkMusic;
+    [SerializeField] private GameObject _checkMarkSound;
     [SerializeField] private SoundController _soundController;
     
     [SerializeField] private Button _boxReward;
@@ -209,35 +211,55 @@ public class UiLevelManager : MonoBehaviour
     
     private void CheckAxeAnimation()
     {
-        _axeMusicAnimator.speed = 1000000f;
-        _axeSoundAnimator.speed = 1000000f;
+        /*_axeMusicAnimator.speed = 1000000f;
+        _axeSoundAnimator.speed = 1000000f;*/
 
         if (PlayerPrefs.GetInt("Music") == 1)
         {
-            
             _onMusic = true;
-            _axeMusicAnimator.SetBool(Attack,false);
-            _axeMusicAnimator.SetBool(Out,true);
+            
+            _checkMarkMusic.transform.DOScale(new Vector3(0.3f, 0.3f, 0.3f), 0.08f).SetUpdate(UpdateType.Normal,true)
+                .OnComplete(() =>
+                {
+                    _checkMarkMusic.SetActive(false);
+                });
+            
+            /*_axeMusicAnimator.SetBool(Attack,false);
+            _axeMusicAnimator.SetBool(Out,true);*/
         }
         else
-        {
+        {            
             _onMusic = false;
-            _axeMusicAnimator.SetBool(Attack,true);
-            _axeMusicAnimator.SetBool(Out,false);
+
+            _checkMarkMusic.SetActive(true);
+            _checkMarkMusic.transform.DOScale(Vector3.one, 0.08f).SetUpdate(UpdateType.Normal, true);
+            
+            /*_axeMusicAnimator.SetBool(Attack,true);
+            _axeMusicAnimator.SetBool(Out,false);*/
 
         }
         
         if (PlayerPrefs.GetInt("Sound") == 1)
         {
             _onSound = true;
-            _axeSoundAnimator.SetBool(Attack,false);
-            _axeSoundAnimator.SetBool(Out,true);
+            _checkMarkSound.transform.DOScale(new Vector3(0.3f, 0.3f, 0.3f), 0.08f).SetUpdate(UpdateType.Normal,true)
+                .OnComplete(() =>
+                {
+                    _checkMarkSound.SetActive(false);
+                });
+            
+            /*_axeSoundAnimator.SetBool(Attack,false);
+            _axeSoundAnimator.SetBool(Out,true);*/
         }
         else
         {
             _onSound = false;
-            _axeSoundAnimator.SetBool(Attack,true);
-            _axeSoundAnimator.SetBool(Out,false);
+            
+            _checkMarkSound.SetActive(true);
+            _checkMarkSound.transform.DOScale(Vector3.one, 0.08f).SetUpdate(UpdateType.Normal, true);
+            
+            /*_axeSoundAnimator.SetBool(Attack,true);
+            _axeSoundAnimator.SetBool(Out,false);*/
         }
     }
     public void OnSettingPanel()
@@ -245,7 +267,9 @@ public class UiLevelManager : MonoBehaviour
         if (_onSetting == false)
         {
 
+            /*
             Time.timeScale = 0.000001f;
+            */
 
             _settingPanel.SetActive(true);
             _settingPanel.transform.GetComponent<Image>().DOColor(new Color(0.3f, 0.3f, 0.3f, 0.5f), 0.3f)
@@ -290,12 +314,12 @@ public class UiLevelManager : MonoBehaviour
         if (_onMusic == false)
         {
             PlayerPrefs.SetInt("Music",1);
-            if (_axeMusicAnimator.GetCurrentAnimatorStateInfo(0).IsName("Out") == false) return;
+            /*if (_axeMusicAnimator.GetCurrentAnimatorStateInfo(0).IsName("Out") == false) return;*/
         }
         else
         {
             PlayerPrefs.SetInt("Music",0);
-            if (_axeMusicAnimator.GetCurrentAnimatorStateInfo(0).IsName("Attack")) return;
+            /*if (_axeMusicAnimator.GetCurrentAnimatorStateInfo(0).IsName("Attack")) return;*/
         }
     }
     public void OnClickSoundButton()
