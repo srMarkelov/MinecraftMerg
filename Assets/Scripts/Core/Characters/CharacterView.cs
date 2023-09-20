@@ -201,7 +201,7 @@ namespace Core.Characters
                     _goRunBoss = true;
                     _goRunBossAudio = false;
                     /*_currentRunBoss = 0;*/
-                    //asd
+
                     CurrentTimerAttack = 0;
                 }
             }

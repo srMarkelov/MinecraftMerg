@@ -55,7 +55,7 @@ MonoBehaviour:
   _healthBarPlayer: {fileID: 2620148797609603865}
   _healthBarEnemy: {fileID: 7752210675202732022}
   _healthBarGO: {fileID: 4145769247472177158}
-  _particlesDeath: {fileID: 3274072218000692931, guid: a415911863063734aa3c3b1a19c37782, type: 3}
+  _particlesDeath: {fileID: 3274072218000692931, guid: b7722fe102a3d0d44ac69392bb047089, type: 3}
   _killReward: {fileID: 2272972958694323544, guid: d13ceeb542c3a8041a730f7c437c8cc2, type: 3}
   _damageParticleSystem: {fileID: 7831135096712752338}
   _spawnParticlesDeath: {fileID: 6961467247205019288}

@@ -60,7 +60,7 @@ MonoBehaviour:
   _healthBarPlayer: {fileID: 6034435039508528347}
   _healthBarEnemy: {fileID: 2051212919966769204}
   _healthBarGO: {fileID: 5650477026473009092}
-  _particlesDeath: {fileID: 3274072218000692931, guid: a4b0a399e3554be4d8a933ca7e7e8a41, type: 3}
+  _particlesDeath: {fileID: 3274072218000692931, guid: 3a2024f03394548489bf5f2c9e3f8cd2, type: 3}
   _killReward: {fileID: 2272972958694323544, guid: d13ceeb542c3a8041a730f7c437c8cc2, type: 3}
   _damageParticleSystem: {fileID: 1267147046552438027}
   _spawnParticlesDeath: {fileID: 537329664291973886}
@@ -195,7 +195,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: f1ed360c1e11fe7489ba6d7707a37be0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.453
-  m_Pitch: 0.9184908
+  m_Pitch: 1.0762341
   Loop: 1
   Mute: 0
   Spatialize: 0
