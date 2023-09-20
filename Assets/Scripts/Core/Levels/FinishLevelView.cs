@@ -26,6 +26,7 @@ public class FinishLevelView : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _GoldRewardTextFromButton;
     [SerializeField] private TextMeshProUGUI _GoldMultiplierLoseText;
     [SerializeField] private TextMeshProUGUI _currentLevel;
+    [SerializeField] private TextMeshProUGUI _currentLevelBacground;
     [SerializeField] private GameObject _finishPanelBacground;
     [SerializeField] private GameObject _FinishWinPanel;
     [SerializeField] private GameObject _FinishLosePanel;
@@ -102,6 +103,7 @@ public class FinishLevelView : MonoBehaviour
     public void StartGame()
     {
         _currentLevel.text = $"{PlayerPrefs.GetInt("CurrentLevel")+1}";
+        _currentLevelBacground.text = $"{PlayerPrefs.GetInt("CurrentLevel")+1}";
     }
     
     private void Update()
@@ -124,6 +126,7 @@ public class FinishLevelView : MonoBehaviour
     public void SetCurrentLevelText(int level)
     {
         _currentLevel.text = $"{level+1}";
+        _currentLevelBacground.text = $"{level+1}";
     }
     
     public void OnFinishWinPanel()

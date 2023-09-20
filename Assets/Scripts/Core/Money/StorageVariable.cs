@@ -13,6 +13,7 @@ public class StorageVariable : MonoBehaviour
     private static string PriceMeleeS = "PriceMelee"; // Remove name
     private static string PriceRangeS = "PriceRange";
     [SerializeField] private TextMeshProUGUI _moneyText;
+    [SerializeField] private TextMeshProUGUI _moneyTextBackground;
     [SerializeField] private FormattingMoney _formattingMoney;
     [SerializeField] private MoneyСonverting _moneyСonverting;
     [SerializeField] private UiLevelManager _uiLevelManager;
@@ -48,6 +49,7 @@ public class StorageVariable : MonoBehaviour
     {
         _moneyInTheStorage = PlayerPrefs.GetFloat(MoneyInTheStorage);
         _moneyText.text = _moneyСonverting.GetStorageMoney(_moneyInTheStorage);
+        _moneyTextBackground.text = _moneyСonverting.GetStorageMoney(_moneyInTheStorage);
         StartCoroutine(_uiLevelManager.CheckStorageAndPriceMelee());
         StartCoroutine(_uiLevelManager.CheckStorageAndPriceRange());
     }
@@ -88,6 +90,7 @@ public class StorageVariable : MonoBehaviour
         PlayerPrefs.SetFloat(MoneyInTheStorage,_moneyInTheStorage);
 
         _moneyText.text = _moneyСonverting.GetStorageMoney(_moneyInTheStorage);
+        _moneyTextBackground.text = _moneyСonverting.GetStorageMoney(_moneyInTheStorage);
         SaveCloudController.singleton.ICloud.Save();
     }
     public void RemoveMoney(string indexRemoveMoney)
@@ -96,6 +99,7 @@ public class StorageVariable : MonoBehaviour
         _moneyInTheStorage = sumInStorage;
         PlayerPrefs.SetFloat(MoneyInTheStorage,_moneyInTheStorage);
         _moneyText.text = _moneyСonverting.GetStorageMoney(_moneyInTheStorage);
+        _moneyTextBackground.text = _moneyСonverting.GetStorageMoney(_moneyInTheStorage);
     }
 }
 

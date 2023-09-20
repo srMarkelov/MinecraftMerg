@@ -43,8 +43,10 @@ public class UiLevelManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _priceMeleeCharacterTextBackground;
     [SerializeField] private TextMeshProUGUI _priceRangeCharacterText;
     [SerializeField] private TextMeshProUGUI _priceRangeCharacterTextBackgrpund;
-    [SerializeField] private TextMeshProUGUI _currentLevelText;   //KOLHOZ
+    [SerializeField] private TextMeshProUGUI _currentLevelText;   
+    [SerializeField] private TextMeshProUGUI _currentLevelBackground;   
     [SerializeField] private TextMeshProUGUI _currentGoldText;    //KOLHOZ
+    [SerializeField] private TextMeshProUGUI _currentGoldTextBackground;    //KOLHOZ
     [SerializeField] private TextMeshProUGUI _boxRewardText;
     [SerializeField] private TextMeshProUGUI _boxRewardTextBackground;
     [SerializeField] private BattleHandler _battleHandler;
@@ -314,8 +316,13 @@ public class UiLevelManager : MonoBehaviour
         offLevelButton = true;
         _currentGoldText.DOColor(new Color(_currentGoldText.color.r,
             _currentGoldText.color.g, _currentGoldText.color.b, 0f), 1f).SetLink(gameObject);
+        _currentGoldTextBackground.DOColor(new Color(_currentGoldTextBackground.color.r,
+            _currentGoldTextBackground.color.g, _currentGoldTextBackground.color.b, 0f), 1f).SetLink(gameObject);
+        
         _currentLevelText.DOColor(new Color(_currentLevelText.color.r,
             _currentLevelText.color.g, _currentLevelText.color.b, 0f), 1f).SetLink(gameObject);
+        _currentLevelBackground.DOColor(new Color(_currentLevelBackground.color.r,
+            _currentLevelBackground.color.g, _currentLevelBackground.color.b, 0f), 1f).SetLink(gameObject);
         
         _priceMeleeCharacterText.DOColor(new Color(_priceMeleeCharacterText.color.r,
             _priceMeleeCharacterText.color.g, _priceMeleeCharacterText.color.b, 0f), 1f).SetLink(gameObject);
@@ -352,8 +359,13 @@ public class UiLevelManager : MonoBehaviour
         offLevelButton = false;
         _currentGoldText.DOColor(new Color(_currentGoldText.color.r,
             _currentGoldText.color.g, _currentGoldText.color.b, 1f), 0.5f).SetLink(gameObject);
+        _currentGoldTextBackground.DOColor(new Color(_currentGoldTextBackground.color.r,
+            _currentGoldTextBackground.color.g, _currentGoldTextBackground.color.b, 1f), 0.5f).SetLink(gameObject);
+        
         _currentLevelText.DOColor(new Color(_currentLevelText.color.r,
             _currentLevelText.color.g, _currentLevelText.color.b, 1f), 0.5f).SetLink(gameObject);
+        _currentLevelBackground.DOColor(new Color(_currentLevelBackground.color.r,
+            _currentLevelBackground.color.g, _currentLevelBackground.color.b, 1f), 0.5f).SetLink(gameObject);
         
         _priceMeleeCharacterText.DOColor(new Color(_priceMeleeCharacterText.color.r,
             _priceMeleeCharacterText.color.g, _priceMeleeCharacterText.color.b, 1f), 0.5f).SetLink(gameObject);
