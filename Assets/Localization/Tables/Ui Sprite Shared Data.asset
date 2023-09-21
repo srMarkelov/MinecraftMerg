@@ -55,43 +55,26 @@ MonoBehaviour:
     m_Key: 'You''veEarnedBackground '
     m_Metadata:
       m_Items: []
-  - m_Id: 3247470057111552
-    m_Key: PlateLose
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3249769072574464
-    m_Key: PlateWin
-    m_Metadata:
-      m_Items: []
   - m_Id: 30842527683534848
     m_Key: FreeCell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33719286263275520
+    m_Key: WinPlate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33729032928190464
+    m_Key: LosePlate
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8366274600299921439
-    - rid: 6092513343218122754
   m_KeyGenerator:
     rid: 8366274600299921433
   references:
     version: 2
     RefIds:
-    - rid: 6092513343218122754
-      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries:
-        - m_KeyId: 3247470057111552
-          m_TableCodes:
-          - ru
-          - en
-          - tr
-        - m_KeyId: 3249769072574464
-          m_TableCodes:
-          - en
-          - ru
-          - tr
-        m_TypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
     - rid: 8366274600299921433
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
@@ -155,5 +138,15 @@ MonoBehaviour:
           - en
           - ru
           - tr
+        - m_KeyId: 33719286263275520
+          m_TableCodes:
+          - ru
+          - en
+          - tr
+        - m_KeyId: 33729032928190464
+          m_TableCodes:
+          - tr
+          - ru
+          - en
         m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

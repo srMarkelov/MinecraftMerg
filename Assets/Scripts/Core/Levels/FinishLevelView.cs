@@ -20,10 +20,13 @@ public class FinishLevelView : MonoBehaviour
     [SerializeField] private CharacterSeller _characterSeller;
     [SerializeField] private Button _rewardBtn;
     [SerializeField] private Image _arrowWin;
-    [SerializeField] private TextMeshProUGUI _GoldMultiplierWinText;
+    [SerializeField] private TextMeshProUGUI _GoldMultiplierXText;
+    [SerializeField] private TextMeshProUGUI _GoldMultiplierXTextBackground;
     [SerializeField] private TextMeshProUGUI _GoldRewardText;
+    [SerializeField] private TextMeshProUGUI _GoldRewardTextBackground;
     [SerializeField] private GameObject _GoldRewardTextGO;
     [SerializeField] private TextMeshProUGUI _GoldRewardTextFromButton;
+    [SerializeField] private TextMeshProUGUI _GoldRewardTextFromButtonBackground;
     [SerializeField] private TextMeshProUGUI _GoldMultiplierLoseText;
     [SerializeField] private TextMeshProUGUI _currentLevel;
     [SerializeField] private TextMeshProUGUI _currentLevelBacground;
@@ -93,11 +96,15 @@ public class FinishLevelView : MonoBehaviour
     public void SetGoldRewardWinAndLoseText(string goldReward, bool f)
     {
         _GoldRewardText.text = goldReward;
+        _GoldRewardTextBackground.text = goldReward;
     }
     public void SetGoldRewardWinAndLoseText(string goldRewardIdex)
     {
         _GoldRewardText.text = _moneyСonverting.GetMoney(goldRewardIdex);
+        _GoldRewardTextBackground.text = _moneyСonverting.GetMoney(goldRewardIdex);
+        
         _GoldRewardTextFromButton.text = _moneyСonverting.GetMoney(goldRewardIdex);
+        _GoldRewardTextFromButtonBackground.text = _moneyСonverting.GetMoney(goldRewardIdex);
     }
     
     public void StartGame()
@@ -108,7 +115,8 @@ public class FinishLevelView : MonoBehaviour
     
     private void Update()
     {
-        _GoldMultiplierWinText.text = $"x{_fortunaWinTrigger.GoldMultiplier.ToString()}";
+        _GoldMultiplierXText.text = $"x{_fortunaWinTrigger.GoldMultiplier.ToString()}";
+        _GoldMultiplierXTextBackground.text = $"x{_fortunaWinTrigger.GoldMultiplier.ToString()}";
         StopArrow();
     }
 
@@ -148,18 +156,17 @@ public class FinishLevelView : MonoBehaviour
             .SetLink(gameObject);
 
         _GoldRewardText.gameObject.SetActive(true);
+        _GoldRewardTextBackground.gameObject.SetActive(true);
         _GoldRewardTextGO.SetActive(true);
         _FinishWinPanel.SetActive(true);
         _fortuna.SetActive(true);
         _rewardBtn.gameObject.SetActive(true);
+        _plateWin.SetActive(true);
+        _plateWin.transform.DOScale(new Vector3(1f, 1f, 1f), 0.0f).
+            /*SetEase(Ease.OutBack).*/SetLink(gameObject);
+        StartArrow();
         _FinishWinPanel.transform.DOScale(new Vector3(1f, 1f, 1f), 0.4f).
-            SetEase(Ease.OutBack).OnComplete(() =>
-            {
-                _plateWin.SetActive(true);
-                _plateWin.transform.DOScale(new Vector3(1f, 1f, 1f), 0.0f).
-                    SetEase(Ease.OutBack).SetLink(gameObject);
-                StartArrow();
-            }).SetLink(gameObject);
+            SetEase(Ease.OutBack).SetLink(gameObject);
         
         _fortuna.transform.DOScale(new Vector3(0.9f,0.9f, 0.9f), 0.8f).
             SetEase(Ease.OutBack).SetLink(gameObject);
@@ -185,18 +192,18 @@ public class FinishLevelView : MonoBehaviour
             .SetLink(gameObject);
 
         _GoldRewardText.gameObject.SetActive(true);
+        _GoldRewardTextBackground.gameObject.SetActive(true);
         _FinishLosePanel.SetActive(true);
         _fortuna.SetActive(true);
         _rewardBtn.gameObject.SetActive(true);
+        
+        _plateLose.SetActive(true);
+        _plateLose.transform.DOScale(new Vector3(1f, 1f, 1f), 0.0f).
+            SetEase(Ease.OutBack).SetLink(gameObject);
+        StartArrow();
+        
         _FinishLosePanel.transform.DOScale(new Vector3(1f, 1f, 1f), 0.4f).
-            SetEase(Ease.OutBack).OnComplete(() =>
-            {
-                _plateLose.SetActive(true);
-                _plateLose.transform.DOScale(new Vector3(1f, 1f, 1f), 0.0f).
-                    SetEase(Ease.OutBack).SetLink(gameObject);
-                StartArrow();
-
-            }).SetLink(gameObject);
+            SetEase(Ease.OutBack).SetLink(gameObject);
         
         _fortuna.transform.DOScale(new Vector3(0.9f,0.9f, 0.9f), 0.8f).
             SetEase(Ease.OutBack).SetLink(gameObject);
@@ -220,6 +227,7 @@ public class FinishLevelView : MonoBehaviour
             SetEase(Ease.InBack).OnComplete(() =>
             {
                 _GoldRewardText.gameObject.SetActive(false);
+                _GoldRewardTextBackground.gameObject.SetActive(false);
                 _FinishWinPanel.SetActive(false);
                 _fortuna.SetActive(false);
                 _rewardBtn.gameObject.SetActive(false);
@@ -251,6 +259,7 @@ public class FinishLevelView : MonoBehaviour
             SetEase(Ease.InBack).OnComplete(() =>
             {
                 _GoldRewardText.gameObject.SetActive(false);
+                _GoldRewardTextBackground.gameObject.SetActive(false);
                 _FinishLosePanel.SetActive(false);
                 _rewardBtn.gameObject.SetActive(false);
                 _finishPanelBacground.gameObject.SetActive(false);

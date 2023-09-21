@@ -24,7 +24,9 @@ public class LibraryItem : MonoBehaviour
     [SerializeField] private MoneyСonverting _moneyСonverting;
     [SerializeField] public CharacterType _characterType;
     [SerializeField] private TextMeshProUGUI _hp;
+    [SerializeField] private TextMeshProUGUI _hpBackground;
     [SerializeField] private TextMeshProUGUI _dmg;
+    [SerializeField] private TextMeshProUGUI _dmgBakground;
     [SerializeField] private TextMeshProUGUI _priceBuy;
     [SerializeField] private TextMeshProUGUI _priceBuyBackground;
     [SerializeField] private Image _buyButton;
@@ -247,7 +249,16 @@ public class LibraryItem : MonoBehaviour
         }
 
         _hp.text = $"{hpDight}\n{hpLetter}";
+        if (_hpBackground != null)
+        {
+            _hpBackground.text = $"{hpDight}\n{hpLetter}";
+        }
+        
         _dmg.text = $"{dmgDight}\n{dmgLetter}";
+        if (_dmgBakground != null)
+        {
+            _dmgBakground.text = $"{dmgDight}\n{dmgLetter}";
+        }
     }
 
     private bool offBuyButton;
@@ -255,7 +266,17 @@ public class LibraryItem : MonoBehaviour
     {
         offBuyButton = true;
         _hp.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
+        if (_hpBackground != null)
+        {
+            _hpBackground.DOColor((new Color(_hpBackground.color.r, _hpBackground.color.g, _hpBackground.color.b, 0f)),0.5f);
+        }
+        
         _dmg.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
+        if (_dmgBakground != null)
+        {
+            _dmgBakground.DOColor((new Color(_dmgBakground.color.r, _dmgBakground.color.g, _dmgBakground.color.b, 0f)),0.5f);
+        }
+        
         _priceBuy.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         _priceBuyBackground.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
         _buyButton.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 0f)),0.5f);
@@ -265,7 +286,15 @@ public class LibraryItem : MonoBehaviour
     public void OnText()
     {
         _hp.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 1f)),0.8f);
+        if (_hpBackground != null)
+        {
+            _hpBackground.DOColor((new Color(_hpBackground.color.r, _hpBackground.color.g, _hpBackground.color.b, 1f)),0.8f);
+        }
         _dmg.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 1f)),0.8f);
+        if (_dmgBakground != null)
+        {
+            _dmgBakground.DOColor((new Color(_dmgBakground.color.r, _dmgBakground.color.g, _dmgBakground.color.b, 1f)),0.8f);
+        }
         /*_priceBuy.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 1f)),0.8f);
         _buyButton.DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 1f)),0.8f);*/
         _notAvailable.gameObject.GetComponent<Image>().DOColor((new Color(_hp.color.r, _hp.color.g, _hp.color.b, 1f)),0.8f);

@@ -52,33 +52,33 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 102c94d24fdcb4e4d99cf54f2b0d0f1c
-    m_Address: TakeTR-02_0
+  - m_GUID: cdf2c991be4699442b1444ec0993909d
+    m_Address: Take TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: c95ddfbeb45cd4bf0ad3fa3304847a2b
-    m_Address: TakeRewardTR-02_0
+  - m_GUID: 6eba71d0fa7461e438a21b25a33b1185
+    m_Address: TakeReward TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 6a1c79516c0824dc0ae41fd47a5a6a71
-    m_Address: You'veEarnedBackgroundTR-10_0
+  - m_GUID: c51219bd6d72a294ebaa9dc166de0bff
+    m_Address: You've earned TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 2045a5bb022b14645b24d5ed3ade887f
-    m_Address: PlateLoseTR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-tr
-  - m_GUID: 4efd3502b666581498b72ee396898cdd
-    m_Address: PlateWinTR
+  - m_GUID: cf30a7d084d4fe5498e094447e244e5a
+    m_Address: Victory TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
   - m_GUID: 53ef48e656d717145be32fb8740cff9b
     m_Address: TR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+  - m_GUID: ec0bb1e79be4ceb4a88d9d5d1a2b3732
+    m_Address: Defeat TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
