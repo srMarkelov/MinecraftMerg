@@ -12,7 +12,8 @@ public class SeasonsView : MonoBehaviour
     [SerializeField] private int _autumnLevel;
     [SerializeField] private int _snowLevel;
     [SerializeField] private int _springLevel;
-    
+    [SerializeField] private int _summerLevel2;
+
     [SerializeField] private SpriteRenderer _background;
     [SerializeField] private SpriteRenderer _background2;
     [SerializeField] private Image _buyMelee;
@@ -61,9 +62,13 @@ public class SeasonsView : MonoBehaviour
             _snowParticleSystem.gameObject.SetActive(true);
             SetSnowSprites();
         }
-        else if (_currentLevel >= _springLevel)
+        else if (_currentLevel >= _springLevel && _currentLevel < _summerLevel2)
         {
             SetSpringSprites();
+        }
+        else if (_currentLevel >= _summerLevel2)
+        {
+            SetSummerSprites();
         }
     }
     

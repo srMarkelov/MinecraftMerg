@@ -132,3 +132,5 @@ MonoBehaviour:
   _speedMoveShill: 0.15
   _speedRotationShill: 10
   _shillRotation: {fileID: 1232953247170192598}
+  _itsEgg: 1
+  _checken: {fileID: 279469812388144044, guid: fea7d01e281c5a941b032d9083a5987e, type: 3}

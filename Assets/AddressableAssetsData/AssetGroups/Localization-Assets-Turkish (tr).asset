@@ -47,8 +47,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 9e470343e99164b08a05b7e260608aee
-    m_Address: NotAvailableTR-07_0
+  - m_GUID: 474c3ec6be7f2e142ab84f2ce591cff1
+    m_Address: NotAvailsble TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
@@ -72,8 +72,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 53ef48e656d717145be32fb8740cff9b
-    m_Address: TR
+  - m_GUID: 59b07fd2576ac2141a5fc33eff5939ce
+    m_Address: Field is filled TR_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr

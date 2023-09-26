@@ -44,6 +44,9 @@ public class FinishLevelView : MonoBehaviour
     private bool accessOn;
     private bool _onFinishPanel;
     public bool OnFinishPanel => _onFinishPanel;
+    
+    public bool ArrowMove;
+
 
 
     private void OnEnable()
@@ -147,8 +150,6 @@ public class FinishLevelView : MonoBehaviour
         _onFinishPanel = true;
         _winSound.Play();
         _finishPanelBacground.SetActive(true);
-        ArrowMove = true;
-        
 
         var finishPanelColor = _finishPanelBacground.transform.GetComponent<Image>();
         _finishPanelBacground.transform.GetComponent<Image>()
@@ -164,13 +165,13 @@ public class FinishLevelView : MonoBehaviour
         _plateWin.SetActive(true);
         _plateWin.transform.DOScale(new Vector3(1f, 1f, 1f), 0.0f).
             /*SetEase(Ease.OutBack).*/SetLink(gameObject);
-        StartArrow();
         _FinishWinPanel.transform.DOScale(new Vector3(1f, 1f, 1f), 0.4f).
             SetEase(Ease.OutBack).SetLink(gameObject);
         
         _fortuna.transform.DOScale(new Vector3(0.9f,0.9f, 0.9f), 0.8f).
             SetEase(Ease.OutBack).SetLink(gameObject);
-            
+        StartArrow();
+
     }
     public void OnFinishLosePanel()
     {
@@ -184,7 +185,6 @@ public class FinishLevelView : MonoBehaviour
 
         _loseSound.Play();
         _finishPanelBacground.SetActive(true);
-        ArrowMove = true;
 
         var finishPanelColor = _finishPanelBacground.transform.GetComponent<Image>();
         _finishPanelBacground.transform.GetComponent<Image>()
@@ -200,13 +200,14 @@ public class FinishLevelView : MonoBehaviour
         _plateLose.SetActive(true);
         _plateLose.transform.DOScale(new Vector3(1f, 1f, 1f), 0.0f).
             SetEase(Ease.OutBack).SetLink(gameObject);
-        StartArrow();
         
         _FinishLosePanel.transform.DOScale(new Vector3(1f, 1f, 1f), 0.4f).
             SetEase(Ease.OutBack).SetLink(gameObject);
         
         _fortuna.transform.DOScale(new Vector3(0.9f,0.9f, 0.9f), 0.8f).
             SetEase(Ease.OutBack).SetLink(gameObject);
+        StartArrow();
+
     }
     
     public void OffFinishWinPanel()
@@ -275,16 +276,16 @@ public class FinishLevelView : MonoBehaviour
     private void FalseBoolOnFinishPanel()
     {
         _onFinishPanel = false;
+        ArrowMove = false;
     }
 
-    public bool ArrowMove;
     public void ArrowWinMoveLeft()
     {
         if (ArrowMove == false)
         {
             return;
         }
-        _arrowWin.transform.DORotate(new Vector3(0, 0, 80f),2f).SetEase(Ease.Flash).OnComplete(() =>
+        _arrowWin.transform.DORotate(new Vector3(0, 0, 80f),1.2f).SetEase(Ease.Flash).OnComplete(() =>
         {
             ArrowWinMoveRight();
         }).SetLink(gameObject);
@@ -295,7 +296,7 @@ public class FinishLevelView : MonoBehaviour
         {
             return;
         }
-        _arrowWin.transform.DORotate(new Vector3(0, 0, -80f),2f).SetEase(Ease.Flash).OnComplete(() =>
+        _arrowWin.transform.DORotate(new Vector3(0, 0, -80f),1.2f).SetEase(Ease.Flash).OnComplete(() =>
         {
             ArrowWinMoveLeft();
         }).SetLink(gameObject);
@@ -303,7 +304,9 @@ public class FinishLevelView : MonoBehaviour
     
     private void StartArrow()
     {
-        _arrowWin.transform.DORotate(new Vector3(0, 0, 80f),1f).SetEase(Ease.Flash).OnComplete(() =>
+        ArrowMove = true;
+
+        _arrowWin.transform.DORotate(new Vector3(0, 0, 80f),0.6f)/*.SetEase(Ease.Flash)*/.OnComplete(() =>
         {
             ArrowWinMoveRight();
         }).SetLink(gameObject);

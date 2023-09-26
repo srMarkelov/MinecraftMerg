@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Core.Characters;
 using DG.Tweening;
+using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -13,6 +14,7 @@ public class ShellsView : MonoBehaviour
     [SerializeField] private float _speedMoveShill;
     [SerializeField] private float _speedRotationShill;
     [SerializeField] private GameObject _shillRotation;
+
 
     private float _fixAngle;
     private float _progress;
@@ -135,5 +137,6 @@ public class ShellsView : MonoBehaviour
     public void SetShellsController(ShellsController controller)
     {
         _shellsController = controller;
+        //aaa
     }
 }

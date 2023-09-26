@@ -47,8 +47,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
-  - m_GUID: 12aef623a41a245fc88ad4e292bad624
-    m_Address: NotAvailableRU-07_0
+  - m_GUID: 63bf13b65e104ff41b96d782ec7a86c4
+    m_Address: NotAvailsble RU_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
@@ -72,8 +72,8 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
-  - m_GUID: 4c706614530008d41ba712b4b647f96a
-    m_Address: RU
+  - m_GUID: f9909a9315a176d47ab3db2a4228ee0d
+    m_Address: Field is filled RU_0
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru

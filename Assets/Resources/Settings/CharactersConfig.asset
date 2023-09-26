@@ -133,28 +133,28 @@ MonoBehaviour:
       MovementSpeed: 0
       DamageSpeed: 1
       KillReward: 15
-      View: {fileID: 7690555978401786366, guid: e4b1dfcfa6aeeed46992842e366b3e17, type: 3}
+      View: {fileID: 410807052145958395, guid: 7769a334f780b7e478c119603319d737, type: 3}
     - DamageType: 1
       Health: 30
       Damage: 24
       MovementSpeed: 0
       DamageSpeed: 1.5
       KillReward: 35
-      View: {fileID: 410807052145958395, guid: 7e3fbaebda9cc7649b78a06d7baf1751, type: 3}
+      View: {fileID: 7690555978401786366, guid: e4b1dfcfa6aeeed46992842e366b3e17, type: 3}
     - DamageType: 1
       Health: 66
       Damage: 33
       MovementSpeed: 0
       DamageSpeed: 1
       KillReward: 82
-      View: {fileID: 410807052145958395, guid: 4b18bdaa8f23df54aa106572847cfb14, type: 3}
+      View: {fileID: 410807052145958395, guid: 7e3fbaebda9cc7649b78a06d7baf1751, type: 3}
     - DamageType: 1
       Health: 155
       Damage: 78
       MovementSpeed: 0
       DamageSpeed: 1
       KillReward: 192
-      View: {fileID: 410807052145958395, guid: 7769a334f780b7e478c119603319d737, type: 3}
+      View: {fileID: 410807052145958395, guid: 4b18bdaa8f23df54aa106572847cfb14, type: 3}
     - DamageType: 1
       Health: 364
       Damage: 182
@@ -255,7 +255,7 @@ MonoBehaviour:
       View: {fileID: 410807052145958395, guid: 0f611078a4f184d41892507e0d789e01, type: 3}
     - DamageType: 0
       Health: 1200000
-      Damage: 150000
+      Damage: 70000
       MovementSpeed: 0.03
       DamageSpeed: 1.5
       KillReward: 70000
