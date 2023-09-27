@@ -172,7 +172,7 @@ public class FinishLevelController : MonoBehaviour
         if (dontClickRewardBuyButton)
             return;
         dontClickRewardBuyButton = true;
-        Invoke("GetIncreasedRewardInvoke",0.5f);
+        Invoke("GetIncreasedRewardInvoke",0.35f);
         /*_finishLevelView.ArrowMove = false;
         if (_newResultLeaderboard != null)
         {
