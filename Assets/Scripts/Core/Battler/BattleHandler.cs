@@ -6,6 +6,7 @@ using Core.Characters;
 using Core.Field;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
