@@ -65,7 +65,7 @@ MonoBehaviour:
   _spawnParticlesDeath: {fileID: 2198301260944584311}
   _animator: {fileID: 2242193977228498449}
   _animatorEnemy: {fileID: 3861359813765028914}
-  _attackClip: {fileID: 98585834929204583, guid: a92e8a582f86fa14cbc966c04a46e72b, type: 2}
+  _attackClip: {fileID: 98585834929204583, guid: 7fbad0ce549c11f469620794fbf90530, type: 2}
   _attackEnemyClip: {fileID: 98585834929204583, guid: ce2b9e01f718a6f4d9ac494df31e542f, type: 2}
   timeBeforeAttack: 0.75
   timeBeforeEnemyAttack: 0.75

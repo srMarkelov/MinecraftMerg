@@ -68,6 +68,8 @@ public class MoneyСonverting : MonoBehaviour
         {10,"A"},
         {11,"AK"},
         {12,"AB"},
+        {13,"AD"},
+        {14,"AT"},
     };
 
     private void Update()

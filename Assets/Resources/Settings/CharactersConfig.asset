@@ -247,22 +247,22 @@ MonoBehaviour:
       KillReward: 14000
       View: {fileID: 410807052145958395, guid: fb153a28f936e11419d5c5a2a7f60a92, type: 3}
     - DamageType: 1
-      Health: 350000
+      Health: 315000
       Damage: 2500
       MovementSpeed: 0
       DamageSpeed: 1.5
       KillReward: 50000
       View: {fileID: 410807052145958395, guid: 0f611078a4f184d41892507e0d789e01, type: 3}
     - DamageType: 0
-      Health: 1200000
-      Damage: 70000
+      Health: 800000
+      Damage: 40000
       MovementSpeed: 0.03
       DamageSpeed: 1.5
       KillReward: 70000
       View: {fileID: 410807052145958395, guid: be66faed313fc954090b0f39db30f73d, type: 3}
     - DamageType: 1
-      Health: 8200000
-      Damage: 75000
+      Health: 7800000
+      Damage: 68000
       MovementSpeed: 0
       DamageSpeed: 1.5
       KillReward: 0
