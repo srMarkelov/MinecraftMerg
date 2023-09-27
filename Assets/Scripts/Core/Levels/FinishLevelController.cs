@@ -165,8 +165,24 @@ public class FinishLevelController : MonoBehaviour
         
         _levelData = _levelsDatabase.LevelDatas[levelData];
     }
-    
+
+    private bool dontClickRewardBuyButton;
     public void GetIncreasedReward()
+    {
+        if (dontClickRewardBuyButton)
+            return;
+        dontClickRewardBuyButton = true;
+        Invoke("GetIncreasedRewardInvoke",0.5f);
+        /*_finishLevelView.ArrowMove = false;
+        if (_newResultLeaderboard != null)
+        {
+            _newResultLeaderboard.NewName();
+            _newResultLeaderboard.NewScore();
+        }
+        AdsController.singleton.iAds.RewardedShow((int)AdsRewardType.IdIncreasedGoldReward,Reward);*/
+    }
+    
+    public void GetIncreasedRewardInvoke()
     {
         _finishLevelView.ArrowMove = false;
         if (_newResultLeaderboard != null)
@@ -175,6 +191,7 @@ public class FinishLevelController : MonoBehaviour
             _newResultLeaderboard.NewScore();
         }
         AdsController.singleton.iAds.RewardedShow((int)AdsRewardType.IdIncreasedGoldReward,Reward);
+        dontClickRewardBuyButton = false;
     }
     public void AdsdReward()
     {

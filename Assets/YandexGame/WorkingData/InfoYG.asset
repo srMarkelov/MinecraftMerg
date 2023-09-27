@@ -123,5 +123,5 @@ MonoBehaviour:
   bakcgroundImage: 2
   pixelRatioEnable: 0
   pixelRatioValue: 1
-  SDKStartDelay: 0
+  SDKStartDelay: 20
   staticRBTInGame: 0
