@@ -35,7 +35,10 @@ public class SaveCloudYandex : ICloud
     }
     public void Awake()
     {
-        GetDate();
+        if (YandexGame.SDKEnabled)
+        {
+            GetDate();
+        }
     }
 
     public void SetFieldConstructor(FieldConstructor fieldConstructor)
