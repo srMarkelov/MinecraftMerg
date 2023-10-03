@@ -30,6 +30,7 @@ public class LoadScene : MonoBehaviour
             float progresss = _asyncOperation.progress / 0.9f;
             LoadBar.fillAmount = progresss;
             Debug.Log("232");
+            YandexGame.GameReadyAPI();
             yield return 0;
         }
         

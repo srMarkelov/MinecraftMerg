@@ -998,7 +998,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.535
+  m_MatchWidthOrHeight: 0.876
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1605,7 +1605,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 189.39058, y: 66.987564}
+  m_ConnectedAnchor: {x: 308.26535, y: 119.91413}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 36
@@ -2107,7 +2107,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 240.63326, y: 79.2825}
+  m_ConnectedAnchor: {x: 398.4561, y: 141.55408}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 36
