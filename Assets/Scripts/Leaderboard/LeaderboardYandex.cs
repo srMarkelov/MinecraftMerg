@@ -22,5 +22,6 @@ public class LeaderboardYandex : ILeaderboard
     {
         var instantiateGameObject = GameObject.Instantiate(_leaderboardScriptableObject.LeaderboardGameObjects[0].LeaderboardGO);
         _finishLevelController.SetNewResultLeaderboard(instantiateGameObject.GetComponent<NewResultLeaderboard>());
+        // NewResultLeaderboard
     }
 }

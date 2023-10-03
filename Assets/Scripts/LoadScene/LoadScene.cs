@@ -22,11 +22,13 @@ public class LoadScene : MonoBehaviour
         yield return new WaitForSeconds(10f);
         _asyncOperation = SceneManager.LoadSceneAsync(SceneID);
         
-        while (_asyncOperation.isDone == false && YandexGame.SDKEnabled == false)
+        while (_asyncOperation.isDone == false 
+               && YandexGame.SDKEnabled == false 
+               && YandexGame.initializedLB 
+               && YandexGame.AccessToStartTheGame == false)
         {
-            
-            float progress = _asyncOperation.progress / 0.9f;
-            LoadBar.fillAmount = progress;
+            float progresss = _asyncOperation.progress / 0.9f;
+            LoadBar.fillAmount = progresss;
             Debug.Log("232");
             yield return 0;
         }
