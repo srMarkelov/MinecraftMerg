@@ -1,12 +1,9 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using Core.Characters;
-using DG.Tweening;
 using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
+using Random = System.Random;
+
 
 public class ShellsView : MonoBehaviour
 {
@@ -14,6 +11,8 @@ public class ShellsView : MonoBehaviour
     [SerializeField] private float _speedMoveShill;
     [SerializeField] private float _speedRotationShill;
     [SerializeField] private GameObject _shillRotation;
+    [SerializeField] private GameObject _chicken;
+    [SerializeField] private bool _itsChicken;
 
 
     private float _fixAngle;
@@ -29,7 +28,13 @@ public class ShellsView : MonoBehaviour
     public Action<ICharacter> OnShellsDestroyICharacters;
     public Action OnShellsDestroy;
     private ICharacter _targetCharacterTest;
-    
+    private int randomNumb;
+
+    private void Start()
+    {
+        Random random = new Random();
+        randomNumb = random.Next(1, 6);
+    }
 
     private void FixedUpdate()
     {
@@ -138,5 +143,14 @@ public class ShellsView : MonoBehaviour
     {
         _shellsController = controller;
         //aaa
+    }
+
+    private void OnDisable()
+    {
+        
+        if (_itsChicken && randomNumb == 3)
+        {
+            Instantiate(_chicken, new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z),quaternion.identity);
+        }
     }
 }

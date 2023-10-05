@@ -57,7 +57,7 @@ namespace Spine.Unity {
 		[SpineAnimation(dataField:"skeletonDataAsset")]
 		public string startingAnimation;
 		public bool startingLoop;
-		public float timeScale = 1f;
+		public float timeScale = 1.35f;
 		public bool freeze;
 
 		/// <summary>Update mode to optionally limit updates to e.g. only apply animations but not update the mesh.</summary>

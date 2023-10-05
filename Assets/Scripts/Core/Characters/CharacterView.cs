@@ -45,7 +45,9 @@ namespace Core.Characters
         [SerializeField] private AudioSource _audioRunMelee; 
         [SerializeField] private AudioSource _audioStartShellsAttack; 
         [SerializeField] private AudioSource _audioFinishShellsAttack; 
-        [SerializeField] private AudioSource _audioInvisible; 
+        [SerializeField] private AudioSource _audioInvisible;
+
+        public bool DistanceAttack;
 
         public ICharacter _Character;
         private Vector3 _targetPosition;
@@ -534,7 +536,7 @@ namespace Core.Characters
                     SetAttackAnimation();
                     SetRotation(pos);
                 }
-                /*else */if (IsButtler && _canAttack == false)
+                if (IsButtler && _canAttack == false)
                 {
                     if (_audioRunMelee != null &&  _onMoveAnimation == false)
                     {
@@ -585,15 +587,7 @@ namespace Core.Characters
                         return;
                     }
                 }
-
-                
             }
-
-            /*if (_Character.Health<=0)
-            {
-                transform.position = _killContainer;
-                return;
-            }*/
             pos = new Vector3(pos.x, pos.y, ZOrder);
             transform.position = pos;
             OldPosX = transform.position.x;

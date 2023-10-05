@@ -9,6 +9,7 @@ public interface ICloud
     public void OnEnable();
     public void OnDisable();
     public void Awake();
+    public void SetGuideGame(GuideGame.GuideGame guideGame);
     public void SetFieldConstructor(FieldConstructor fieldConstructor);
     public void Save();
     public void GetDate();

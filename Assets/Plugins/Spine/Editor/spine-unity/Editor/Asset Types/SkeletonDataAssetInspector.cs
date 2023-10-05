@@ -783,7 +783,7 @@ namespace Spine.Unity.Editor {
 		public Skeleton Skeleton { get { return IsValid ? skeletonAnimation.Skeleton : null; } }
 
 		public float TimeScale {
-			get { return IsValid ? skeletonAnimation.timeScale : 1f; }
+			get { return IsValid ? skeletonAnimation.timeScale : 1.35f; }
 			set { if (IsValid) skeletonAnimation.timeScale = value; }
 		}
 

@@ -25,7 +25,7 @@ namespace YG
         public class ClosingADValues
         {
             [Tooltip("Значение временной шкалы при закрытии рекламы")]
-            public float timeScale = 1;
+            public float timeScale = 1.35f;
 
             [Tooltip("Значение аудио паузы при закрытии рекламы")]
             public bool audioPause;

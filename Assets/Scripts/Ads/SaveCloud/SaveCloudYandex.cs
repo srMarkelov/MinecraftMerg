@@ -16,6 +16,7 @@ public class SaveCloudYandex : ICloud
     private TextMeshProUGUI STR;
     private FieldConstructor _fieldConstructor;
     private SaveCloudController _saveCloudController;
+    private GuideGame.GuideGame _guideGame;
     public int Count;
 
     private int[] characterTypeFOrCell = new int[15];
@@ -40,7 +41,10 @@ public class SaveCloudYandex : ICloud
             GetDate();
         }
     }
-
+    public void SetGuideGame(GuideGame.GuideGame guideGame)
+    {
+        _guideGame = guideGame;
+    }
     public void SetFieldConstructor(FieldConstructor fieldConstructor)
     {
         _fieldConstructor = fieldConstructor;
@@ -65,6 +69,13 @@ public class SaveCloudYandex : ICloud
     public int[] CellWidth = new int[15];
     public int[] CellHeight = new int[15];*/
         
+    
+        var _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
+                
+        if (_currentLevel == 0)
+        {
+            return;
+        }
         
         var moneyInTheStorage = PlayerPrefs.GetFloat(MoneyInTheStorage);
         YandexGame.savesData.MoneyInTheStorage = moneyInTheStorage;
@@ -126,6 +137,7 @@ public class SaveCloudYandex : ICloud
         public int[] CharacterTypeFOrCell = new int[15];
         public int[] CellWidth = new int[15];
         public int[] CellHeight = new int[15];*/
+
         var moneyInTheStorage = YandexGame.savesData.MoneyInTheStorage;
         PlayerPrefs.SetFloat(MoneyInTheStorage, moneyInTheStorage);
 

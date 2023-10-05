@@ -82,6 +82,7 @@ MonoBehaviour:
   _audioStartShellsAttack: {fileID: 0}
   _audioFinishShellsAttack: {fileID: 0}
   _audioInvisible: {fileID: 0}
+  DistanceAttack: 0
   SpawnShellsPosition: {x: 0, y: 0, z: 0}
   IsButtler: 0
   DethCharacter: 0
@@ -194,7 +195,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: f1ed360c1e11fe7489ba6d7707a37be0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.453
-  m_Pitch: 1.1482368
+  m_Pitch: 1.0271338
   Loop: 1
   Mute: 0
   Spatialize: 0

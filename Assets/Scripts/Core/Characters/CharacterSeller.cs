@@ -103,19 +103,18 @@ namespace Core.Characters
         private void Update()
         {
             _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
-            Debug.Log($"OLD || {_oldLevel}");
-            Debug.Log($"Curr || {_currentLevel}");
+
         }
 
         public void Reward(int idReward)
         {
             if (idReward == (int)AdsRewardType.IdAddRangeCharacter)
             {
-                Invoke("BuyRewardRange",1f);
+                Invoke("BuyRewardRange",0.3f);
             }
             else if (idReward == (int)AdsRewardType.IdAddMeleeCharacter)
             {
-                Invoke("BuyRewardMelee",1f);
+                Invoke("BuyRewardMelee",0.3f);
             }
             SaveCloudController.singleton.ICloud.Save();
         }

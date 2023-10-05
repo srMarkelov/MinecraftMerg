@@ -17,6 +17,7 @@ public class SaveCloudController : MonoBehaviour
     [SerializeField] private LibraryController _libraryController;
     [SerializeField] private CharacterSeller _characterSeller;
     [SerializeField] private FinishLevelView _finishLevelView;
+    [SerializeField] private GuideGame.GuideGame _guideGame;
     
     public ICloud ICloud;
     
@@ -41,6 +42,7 @@ public class SaveCloudController : MonoBehaviour
         {
             ICloud.SetSaveCloudController(this);
             ICloud.OnEnable();
+            ICloud.SetGuideGame(_guideGame);
             ICloud.SetFieldConstructor(_fieldConstructor);
         }
     }

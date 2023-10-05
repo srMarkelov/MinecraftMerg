@@ -6,8 +6,11 @@ using Core.Characters;
 using Core.Field;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = System.Random;
+
 
 namespace Core.Battler
 {
@@ -62,10 +65,11 @@ namespace Core.Battler
             if (_isBattle == false)
                 return;
             
+
             CheckMoving();
-            BattleLogic();
-            FixOverlap();
+            /*FixOverlap();*/
         }
+        
 
         private void Start()
         {
@@ -95,6 +99,12 @@ namespace Core.Battler
             KillCharacters();
             SetActiveViewAndAnimator();
             FinishBattle();
+            if (_isBattle == false)
+                return;
+            BattleLogic();
+            FixOverlap();
+
+            /*BattleLogic();*/
         }
 
         public void ResetLevel()
@@ -212,6 +222,7 @@ namespace Core.Battler
                 if (character.CurrentTarget == null
                     || character.CurrentTarget.Health <= 0)
                 {
+                    character.View.DistanceAttack = false;
                     character.View.SetCanAttack(false);
 
                     character.View.RefreshAttackSpeed(character.DamageSpeed);
@@ -237,20 +248,32 @@ namespace Core.Battler
                     character.View.SetTargetCharacterAndDamage(character.CurrentTarget, character.Damage);
                     continue;
                 }
-
+                
                 if (character.IsNearTarget() == false)
                 {
-                    if (character.View.GoRunBoss)
+                    if (character.CharacterType == CharacterType.FirstCharacterBoss)
+                    {
+                        if (character.View.GoRunBoss && character.View.DistanceAttack == false)
+                        {
+                            var direction = character.CurrentTarget.Position - character.Position;
+                            direction.Normalize();
+                            character.Position += direction * character.MovementSpeed * Time.deltaTime;
+                        }
+                    }
+                    else
                     {
                         
-                        var direction = character.CurrentTarget.Position - character.Position;
-                        direction.Normalize();
-                        character.Position += direction * character.MovementSpeed;
+                        if (character.View.DistanceAttack == false)
+                        {
+                            var direction = character.CurrentTarget.Position - character.Position;              /////////////
+                            direction.Normalize();
+                            character.Position += direction * character.MovementSpeed * Time.deltaTime;
+                        }
                     }
                 }
             }
         }
-
+        
         private void FinishBattle()
         {
             
@@ -384,9 +407,9 @@ namespace Core.Battler
                 character.View.SetLayerPosition(zPosition);
             }
         }
-        
 
-        
+
+
 
         private void FixOverlap()
         {
@@ -400,12 +423,21 @@ namespace Core.Battler
                     if(character == characterNear || character.Health <= 0)
                         continue;
                     
-                    if (Vector3.Distance(character.Position, characterNear.Position) < 0.25f)
+
+                    
+                    if (Vector3.Distance(character.Position, characterNear.Position) < 0.25f 
+                        && Math.Abs(character.CurrentTarget.View.transform.position.y - character.View.transform.position.y) < 0.5f)
                     {
+                        
                         var direction = characterNear.Position - character.Position;
                         direction.Normalize();
+                        character.View.DistanceAttack = true;
                         
-                        character.Position += -direction * character.MovementSpeed;
+                        /*character.Position += -direction * character.MovementSpeed;*/
+                        
+                        /*character.View.SetCanAttack(true);
+
+                        character.View.RefreshAttackSpeed(character.DamageSpeed);*/
                     }
                 }
             }
@@ -485,6 +517,13 @@ namespace Core.Battler
             {
                 if (сharacter == null) continue;
 
+                /*if (сharacter.CharacterType == CharacterType.FirstCharacterBoss)
+                {
+                    if (сharacter.View.GoRunBoss == false)
+                    {
+                        continue;
+                    }
+                }*/
                 сharacter.Move();
             }
         }

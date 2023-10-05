@@ -17,6 +17,7 @@ namespace YG
         public bool[] openLevels = new bool[3];
 
         // Ваши сохранения
+        public bool LevelOneComplete = false;
         public float MoneyInTheStorage = 400;
         public int MoneyLetter = 0;
         public float PriceMelee = 200;

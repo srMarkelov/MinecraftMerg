@@ -114,7 +114,7 @@ namespace Spine {
 		private readonly EventQueue queue; // Initialized by constructor.
 		private readonly HashSet<int> propertyIDs = new HashSet<int>();
 		private bool animationsChanged;
-		private float timeScale = 1;
+		private float timeScale = 1.35f;
 		private int unkeyedState;
 
 		private readonly Pool<TrackEntry> trackEntryPool = new Pool<TrackEntry>();
@@ -849,7 +849,7 @@ namespace Spine {
 			entry.trackLast = -1;
 			entry.nextTrackLast = -1; // nextTrackLast == -1 signifies a TrackEntry that wasn't applied yet.
 			entry.trackEnd = float.MaxValue; // loop ? float.MaxValue : animation.Duration;
-			entry.timeScale = 1;
+			entry.timeScale = 1.35f;
 
 			entry.alpha = 1;
 			entry.interruptAlpha = 1;
@@ -1002,7 +1002,7 @@ namespace Spine {
 		internal bool loop, holdPrevious;
 		internal float eventThreshold, attachmentThreshold, drawOrderThreshold;
 		internal float animationStart, animationEnd, animationLast, nextAnimationLast;
-		internal float delay, trackTime, trackLast, nextTrackLast, trackEnd, timeScale = 1f;
+		internal float delay, trackTime, trackLast, nextTrackLast, trackEnd, timeScale = 1.35f;
 		internal float alpha, mixTime, mixDuration, interruptAlpha, totalAlpha;
 		internal MixBlend mixBlend = MixBlend.Replace;
 		internal readonly ExposedList<int> timelineMode = new ExposedList<int>();

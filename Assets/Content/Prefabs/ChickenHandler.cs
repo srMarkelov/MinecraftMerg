@@ -7,7 +7,7 @@ public class ChickenHandler : MonoBehaviour
 {
     private void Start()
     {
-        Invoke("DeathChicken",3f);
+        Invoke("DeathChicken",1.5f);
 
     }
 

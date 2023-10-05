@@ -11,6 +11,7 @@ namespace Core.Field
         [SerializeField] private Cell _cell;
         [SerializeField] private Transform _leftUpPoint;
         [SerializeField] private CharacterSpawner _spawner;
+        [SerializeField] private GuideGame.GuideGame _guideGame;
         [SerializeField] private List<Cell> _cells;
 
         public List<Cell> Cells => _cells;
@@ -36,6 +37,10 @@ namespace Core.Field
 
             _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
             _levelData = _levelsDatabase.LevelDatas[_currentLevel];
+            if (_currentLevel == 0)
+            {
+                _guideGame.StartGuide();
+            }
             FillCharacters();
         }
 

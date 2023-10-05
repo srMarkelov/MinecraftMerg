@@ -105,7 +105,7 @@ public class UiLevelManager : MonoBehaviour
         {
             if (_stopBoxAnimationCoroutine == false)
             {
-                StartCoroutine(AnimationBoxReward());
+                /*StartCoroutine(AnimationBoxReward());*/
             }
             _stopBoxAnimationCoroutine = true;
         }
@@ -266,11 +266,6 @@ public class UiLevelManager : MonoBehaviour
     {
         if (_onSetting == false)
         {
-
-            /*
-            Time.timeScale = 0.000001f;
-            */
-
             _settingPanel.SetActive(true);
             _settingPanel.transform.GetComponent<Image>().DOColor(new Color(0.3f, 0.3f, 0.3f, 0.5f), 0.3f)
                 .SetLink(gameObject).SetUpdate(UpdateType.Normal, true);

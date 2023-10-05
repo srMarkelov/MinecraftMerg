@@ -73,7 +73,7 @@ namespace Core.Characters.Std
             {
                 /*View.SetYPosition(CurrentTarget.View.transform.position);*/
 
-                if (Math.Abs(CurrentTarget.View.transform.position.y - View.transform.position.y) < 0.5f)
+                if (Math.Abs(CurrentTarget.View.transform.position.y - View.transform.position.y) < 0.6f)
                 {
                     return true;
                 }

@@ -134,7 +134,7 @@ namespace Spine.Unity {
 		/// <summary>
 		/// The rate at which animations progress over time. 1 means 100%. 0.5 means 50%.</summary>
 		/// <remarks>AnimationState and TrackEntry also have their own timeScale. These are combined multiplicatively.</remarks>
-		public float timeScale = 1;
+		public float timeScale = 1.35f;
 		#endregion
 
 		#region Runtime Instantiation
