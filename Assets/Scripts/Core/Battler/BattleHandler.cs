@@ -251,24 +251,12 @@ namespace Core.Battler
                 
                 if (character.IsNearTarget() == false)
                 {
-                    if (character.CharacterType == CharacterType.FirstCharacterBoss)
-                    {
-                        if (character.View.GoRunBoss && character.View.DistanceAttack == false)
-                        {
-                            var direction = character.CurrentTarget.Position - character.Position;
-                            direction.Normalize();
-                            character.Position += direction * character.MovementSpeed * Time.deltaTime;
-                        }
-                    }
-                    else
+                    if (character.View.GoRunBoss)
                     {
                         
-                        if (character.View.DistanceAttack == false)
-                        {
-                            var direction = character.CurrentTarget.Position - character.Position;              /////////////
-                            direction.Normalize();
-                            character.Position += direction * character.MovementSpeed * Time.deltaTime;
-                        }
+                        var direction = character.CurrentTarget.Position - character.Position;
+                        direction.Normalize();
+                        character.Position += direction * character.MovementSpeed * Time.deltaTime;
                     }
                 }
             }
@@ -423,21 +411,13 @@ namespace Core.Battler
                     if(character == characterNear || character.Health <= 0)
                         continue;
                     
-
-                    
-                    if (Vector3.Distance(character.Position, characterNear.Position) < 0.25f 
-                        && Math.Abs(character.CurrentTarget.View.transform.position.y - character.View.transform.position.y) < 0.5f)
+                    if (Vector3.Distance(character.Position, characterNear.Position) < 0.25f && 
+                    Math.Abs(character.CurrentTarget.View.transform.position.y - character.View.transform.position.y) < 0.5f)
                     {
-                        
                         var direction = characterNear.Position - character.Position;
                         direction.Normalize();
-                        character.View.DistanceAttack = true;
                         
-                        /*character.Position += -direction * character.MovementSpeed;*/
-                        
-                        /*character.View.SetCanAttack(true);
-
-                        character.View.RefreshAttackSpeed(character.DamageSpeed);*/
+                        character.Position += -direction * character.MovementSpeed * Time.deltaTime;
                     }
                 }
             }

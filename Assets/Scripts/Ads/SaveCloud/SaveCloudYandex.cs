@@ -70,12 +70,12 @@ public class SaveCloudYandex : ICloud
     public int[] CellHeight = new int[15];*/
         
     
-        var _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
+        /*var _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
                 
         if (_currentLevel == 0)
         {
             return;
-        }
+        }*/
         
         var moneyInTheStorage = PlayerPrefs.GetFloat(MoneyInTheStorage);
         YandexGame.savesData.MoneyInTheStorage = moneyInTheStorage;
