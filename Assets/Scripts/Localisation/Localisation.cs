@@ -3,16 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
-using UnityEngine.UI;
+
 
 
 public class Localisation : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer bacground;
-    [SerializeField] private List<GameObject> _langButtens;
-    
+    [SerializeField] private List<GameObject> _langButtons;
+
     private bool active;
     private bool _onLangPanel;
     private bool starsGame;
@@ -29,15 +30,15 @@ public class Localisation : MonoBehaviour
             starsGame = true;
             return;
         }
-        for (int i = 0; i < _langButtens.Count; i++)
+        for (int i = 0; i < _langButtons.Count; i++)
         {
             if (lang == i)
             {
-                _langButtens[i].transform.DOScale(new Vector3(2f, 2f, 2f), 0.5f);
+                _langButtons[i].transform.DOScale(new Vector3(2f, 2f, 2f), 0.5f);
             }
             else
             {
-                _langButtens[i].transform.DOScale(new Vector3(1.47f, 1.47f, 1.47f), 0.5f);
+                _langButtons[i].transform.DOScale(new Vector3(1.47f, 1.47f, 1.47f), 0.5f);
             }
         }
     }
@@ -51,8 +52,27 @@ public class Localisation : MonoBehaviour
             StartCoroutine( SetLocalisation(lang));
         });
         CheckScaleButtons(lang);
+        LockClick();
     }
 
+    private void LockClick()
+    {
+        foreach (var button in _langButtons)
+        {
+
+            button.GetComponent<Button>().interactable = false;
+        }
+        Invoke("UnLockClick",3.5f);
+    }
+    private void UnLockClick()
+    {
+        foreach (var button in _langButtons)
+        {
+
+            button.GetComponent<Button>().interactable = true;
+        }
+    }
+    
     public IEnumerator SetLocalisation(int lang)
     {
         active = true;
@@ -60,7 +80,7 @@ public class Localisation : MonoBehaviour
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[lang];
         PlayerPrefs.SetInt("Localization", lang);
         yield return LocalizationSettings.StartupLocaleSelectors;
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(1.1f);
 
         active = false;
         bacground.DOColor(new Color(bacground.color.r, bacground.color.g, bacground.color.b, 0f),1f).OnComplete(() =>
@@ -75,7 +95,7 @@ public class Localisation : MonoBehaviour
         {
             _onLangPanel = true;
 
-            foreach (var item in _langButtens)
+            foreach (var item in _langButtons)
             {
                 item.SetActive(true);
 
@@ -90,7 +110,7 @@ public class Localisation : MonoBehaviour
         }
         else
         {
-            foreach (var item in _langButtens)
+            foreach (var item in _langButtons)
             {
                 item.transform.DOScale(new Vector3(0.3f, 0.3f, 0.3f), 0.8f).
                     SetEase(Ease.InBack).OnComplete(() =>
