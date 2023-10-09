@@ -6,7 +6,6 @@ using Core.Characters;
 using Core.Field;
 using DG.Tweening;
 using TMPro;
-using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -170,6 +169,11 @@ public class UiLevelManager : MonoBehaviour
 
     public void TakeRewardBox()
     {
+        if (InputBlocker.IsLock())
+        {
+            return;
+        }
+        InputBlocker.InputLock(this,0.5f);
         StopCoroutine(AnimationBoxReward());
         StartCoroutine(RewardBox());
     }
@@ -662,7 +666,7 @@ public class UiLevelManager : MonoBehaviour
             _storageVariable.AddMoney("_sum");
 
             Instantiate(_moneyParticles,new Vector3(_boxReward.transform.position.x,
-                _boxReward.transform.position.y + 0.5f, 2f),quaternion.identity);
+                _boxReward.transform.position.y + 0.5f, 2f),Quaternion.identity);
                     
                     
             /*_boxReward.transform.DOScale(new Vector3(1.3f,

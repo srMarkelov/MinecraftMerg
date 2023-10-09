@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using Core.Characters;
 using DG.Tweening;
 
-using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UIElements;
@@ -87,7 +86,7 @@ public class  ShellsController : MonoBehaviour
     }
     public void InstantiateShillsMass()
     {
-        var shills= Instantiate(_shills,_instantiatePosition.transform.position, quaternion.identity);
+        var shills= Instantiate(_shills,_instantiatePosition.transform.position, Quaternion.identity);
         shills.GetComponent<ShellsView>().OnShellsDestroyICharacters += _characterView.TakeMassDamageForShells;
         _ShellsViews.Add(shills.GetComponent<ShellsView>());
         for (int i = 0; i < _ShellsViews.Count; i++)

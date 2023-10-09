@@ -10,7 +10,6 @@ using UnityEngine;
 using UnityEngine.Accessibility;
 using YG;
 using YG.Example;
-using Random = Unity.Mathematics.Random;
 
 public class FinishLevelController : MonoBehaviour
 {
@@ -170,10 +169,15 @@ public class FinishLevelController : MonoBehaviour
     private bool dontClickRewardBuyButton;
     public void GetIncreasedReward()
     {
+        if (InputBlocker.IsLock())
+        {
+            return;
+        }
         if (dontClickRewardBuyButton)
             return;
         dontClickRewardBuyButton = true;
-        Invoke("GetIncreasedRewardInvoke",0.35f);
+        InputBlocker.InputLock(this,1.5f);
+        Invoke("GetIncreasedRewardInvoke",0.4f);
         /*_finishLevelView.ArrowMove = false;
         if (_newResultLeaderboard != null)
         {

@@ -1,6 +1,5 @@
 using System;
 using Core.Characters;
-using Unity.Mathematics;
 using UnityEngine;
 using Random = System.Random;
 
@@ -150,7 +149,7 @@ public class ShellsView : MonoBehaviour
         
         if (_itsChicken && randomNumb == 3)
         {
-            Instantiate(_chicken, new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z),quaternion.identity);
+            Instantiate(_chicken, new Vector3(transform.position.x, transform.position.y - 1.15f, transform.position.z),Quaternion.identity);
         }
     }
 }

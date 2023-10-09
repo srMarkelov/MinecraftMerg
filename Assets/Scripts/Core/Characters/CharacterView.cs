@@ -4,7 +4,6 @@ using System.Linq;
 using DG.Tweening;
 using Spine.Unity;
 using TMPro;
-using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -687,7 +686,7 @@ namespace Core.Characters
             if (OnDeath) return;
             if (_thisCharacterPlayer) return;
             
-            var KillBonus = Instantiate(_killReward,_spawnParticlesDeath.position,quaternion.identity);
+            var KillBonus = Instantiate(_killReward,_spawnParticlesDeath.position,Quaternion.identity);
             var text = KillBonus.transform.GetChild(0);
             text.GetComponent<TextMeshProUGUI>().text = $"+{/*_Character.KillReward.ToString()*/"$"}";
             KillBonus.transform.DOMove(new Vector3(transform.position.x, transform.position.y + 1,
@@ -703,7 +702,7 @@ namespace Core.Characters
         {
             if (OnDeath) return;
             
-            instantiateParticlesDeath = Instantiate(_particlesDeath,new Vector3(_spawnParticlesDeath.position.x,_spawnParticlesDeath.position.y, 2f),quaternion.identity);
+            instantiateParticlesDeath = Instantiate(_particlesDeath,new Vector3(_spawnParticlesDeath.position.x,_spawnParticlesDeath.position.y, 2f),Quaternion.identity);
             OnDeath = true;
             Invoke("DestroyParticlesDeath", 3f);
         }

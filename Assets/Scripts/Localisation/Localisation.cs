@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
+using UnityEngine.UI;
+
 
 
 
@@ -61,6 +61,7 @@ public class Localisation : MonoBehaviour
         {
 
             button.GetComponent<Button>().interactable = false;
+            button.GetComponent<Image>().DOColor(new Color(1f, 1f, 1f, 0.4f), 0.3f);
         }
         Invoke("UnLockClick",3.5f);
     }
@@ -68,8 +69,8 @@ public class Localisation : MonoBehaviour
     {
         foreach (var button in _langButtons)
         {
-
             button.GetComponent<Button>().interactable = true;
+            button.GetComponent<Image>().DOColor(new Color(1f, 1f, 1f, 1f), 0.3f);
         }
     }
     

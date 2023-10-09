@@ -199,6 +199,11 @@ public class LibraryItem : MonoBehaviour
     }
     public void ClickRewardAds()
     {
+        if (InputBlocker.IsLock())
+        {
+            return;
+        }
+        InputBlocker.InputLock(this,1f);
         _libraryController.ClickRewardAds(gameObject.GetComponent<LibraryItem>());
     }
     

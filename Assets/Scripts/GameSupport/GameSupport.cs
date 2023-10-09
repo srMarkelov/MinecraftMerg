@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Core.Battler;
 using DG.Tweening;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class GameSupport : MonoBehaviour
@@ -74,7 +73,7 @@ public class GameSupport : MonoBehaviour
                         timer = 14;
                         timerOn = false;
                         
-                        var finger = Instantiate(_finger, _battleHandler.PlayerCharacters[i].Position,quaternion.identity);
+                        var finger = Instantiate(_finger, _battleHandler.PlayerCharacters[i].Position,Quaternion.identity);
                         finger.transform.DOMove(_battleHandler.PlayerCharacters[j].Position, 2.5f).OnComplete(() =>
                         {
                             Destroy(finger);
@@ -103,7 +102,7 @@ public class GameSupport : MonoBehaviour
                         timer = 3;
                         timerOn = false;
                         
-                        var finger = Instantiate(_finger, _battleHandler.PlayerCharacters[i].Position,quaternion.identity);
+                        var finger = Instantiate(_finger, _battleHandler.PlayerCharacters[i].Position,Quaternion.identity);
                         finger.transform.DOMove(_battleHandler.PlayerCharacters[j].Position, 2.5f).OnComplete(() =>
                         {
                             Destroy(finger);

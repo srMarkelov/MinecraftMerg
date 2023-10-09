@@ -108,6 +108,12 @@ namespace Core.Characters
 
         public void Reward(int idReward)
         {
+            if (InputBlocker.IsLock())
+            {
+                return;
+            }
+            InputBlocker.InputLock(this,0.5f);
+            
             if (idReward == (int)AdsRewardType.IdAddRangeCharacter)
             {
                 Invoke("BuyRewardRange",0.3f);
