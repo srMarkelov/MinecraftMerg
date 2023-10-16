@@ -96,7 +96,9 @@ namespace Core.Characters
         private void Start()
         {
             StartSpeedIdleAnimation();
+            /*
             SetIdleAnimation();
+            */
             SetCharacterStartingPosition();
             SetStartingTimerForAttack();
         }

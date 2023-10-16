@@ -33,7 +33,6 @@ public class LoadScene : MonoBehaviour
             YandexGame.GameReadyAPI();
             yield return 0;
         }
-        
     }
     
 }
