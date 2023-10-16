@@ -39,6 +39,9 @@ namespace YG
         public UnityEvent PromptFail;
         public UnityEvent ReviewDo;
 
+        public static bool AccessToStartTheGame; // Переменная  для загрузочного экрана, ожидает инициализации SDK. Сейчас не использую
+
+
         #region Data Fields
         public static bool SDKEnabled { get => _SDKEnabled; }
         public static bool auth { get => _auth; }
@@ -413,7 +416,6 @@ namespace YG
         [DllImport("__Internal")]
         private static extern void InitGame_Internal(string playerPhotoSize, bool scopes, bool gameReadyApi);
 
-        public static bool AccessToStartTheGame;
         public void InitializationGame()
         {
 #if !UNITY_EDITOR

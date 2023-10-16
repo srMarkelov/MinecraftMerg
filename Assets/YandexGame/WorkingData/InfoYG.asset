@@ -21,12 +21,12 @@ MonoBehaviour:
     name: Player this
     uniqueID: 000
     photo: https://justplaygames.ru/public/icon_player.png
-  autoGameReadyAPI: 0
-  AdWhenLoadingScene: 1
-  showFirstAd: 1
+  autoGameReadyAPI: 1
+  AdWhenLoadingScene: 0
+  showFirstAd: 0
   rewardedAfterClosing: 1
   adDisplayCalls: 0
-  fullscreenAdInterval: 70
+  fullscreenAdInterval: 99999
   durationOfAdSimulation: 0.5
   testErrorOfRewardedAdsInEditor: 0
   saveCloud: 1

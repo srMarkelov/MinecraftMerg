@@ -14,7 +14,7 @@ public class LoadScene : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine("LoadSceneCor");
+        /*StartCoroutine("LoadSceneCor");*/
     }
 
     IEnumerator LoadSceneCor()

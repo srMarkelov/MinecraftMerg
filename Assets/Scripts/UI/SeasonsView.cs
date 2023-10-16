@@ -15,6 +15,7 @@ public class SeasonsView : MonoBehaviour
     [SerializeField] private int _summerLevel2;
 
     [SerializeField] private SpriteRenderer _background;
+    [SerializeField] private SpriteRenderer _backgroundSupport;
     [SerializeField] private SpriteRenderer _background2;
     [SerializeField] private Image _buyMelee;
     [SerializeField] private Image _buyRange;
@@ -25,6 +26,7 @@ public class SeasonsView : MonoBehaviour
     [SerializeField] private List<GameObject> _snowGameObjects;
 
     [SerializeField] private List<Sprite> _backgroundSprites;
+    [SerializeField] private List<Sprite> _supportBackgroundSprites;
     [SerializeField] private List<Sprite> _buyMeleeSprites;
     [SerializeField] private List<Sprite> _buyRangeSprites;
     /*
@@ -78,6 +80,7 @@ public class SeasonsView : MonoBehaviour
         _audioSources[1].enabled = false;
         
         _background.sprite = _backgroundSprites[0];
+        _backgroundSupport.sprite = _supportBackgroundSprites[0];
         _background2.sprite = _backgroundSprites[0];
         /*_buyMelee.sprite = _buyMeleeSprites[0];
         _buyRange.sprite = _buyRangeSprites[0];
@@ -98,6 +101,8 @@ public class SeasonsView : MonoBehaviour
         _autumnGameObjects.SetActive(true);
         _background.sprite = _backgroundSprites[1];
         _background2.sprite = _backgroundSprites[1];
+        _backgroundSupport.sprite = _supportBackgroundSprites[1];
+
         /*_buyMelee.sprite = _buyMeleeSprites[1];
         _buyRange.sprite = _buyRangeSprites[1];
         _startGame.sprite = _buyStartGameSprites[1];*/
@@ -115,6 +120,8 @@ public class SeasonsView : MonoBehaviour
 
         _background.sprite = _backgroundSprites[2];
         _background2.sprite = _backgroundSprites[2];
+        _backgroundSupport.sprite = _supportBackgroundSprites[2];
+
         /*_buyMelee.sprite = _buyMeleeSprites[2];
         _buyRange.sprite = _buyRangeSprites[2];
         _startGame.sprite = _buyStartGameSprites[2];*/
@@ -134,6 +141,8 @@ public class SeasonsView : MonoBehaviour
 
         _background.sprite = _backgroundSprites[3];
         _background2.sprite = _backgroundSprites[3];
+        _backgroundSupport.sprite = _supportBackgroundSprites[3];
+
         /*_buyMelee.sprite = _buyMeleeSprites[3];
         _buyRange.sprite = _buyRangeSprites[3];
         _startGame.sprite = _buyStartGameSprites[3];*/

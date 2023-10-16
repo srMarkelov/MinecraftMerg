@@ -24,6 +24,11 @@ public class SaveCloudController : MonoBehaviour
 
     private void Awake()
     {
+        
+    }
+
+    private void Start()
+    {
         if (singleton == null)
         {
             singleton = this;

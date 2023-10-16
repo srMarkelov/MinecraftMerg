@@ -431,6 +431,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1469271010}
+        m_TargetAssemblyTypeName: LevelSupport, Assembly-CSharp
+        m_MethodName: SwapBackBackground
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!82 &14166450
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2608,6 +2620,90 @@ MonoBehaviour:
   _width: 4
   _height: 2
   OnFirstBound: 0
+--- !u!1 &128181927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128181929}
+  - component: {fileID: 128181928}
+  m_Layer: 0
+  m_Name: BackgroundSupport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &128181928
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128181927}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: aff186bbcd647e24ba79759388bb57c3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &128181929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128181927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0087, y: 0.9799, z: 0}
+  m_LocalScale: {x: 0.9313253, y: 0.93300164, z: 0.9638133}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130691577
 GameObject:
   m_ObjectHideFlags: 0
@@ -18886,7 +18982,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 153c247aa703ab8449089abd390ade7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27870,7 +27966,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_TargetDisplay: 0
 --- !u!224 &1205977318
 RectTransform:
@@ -36930,6 +37026,51 @@ PrefabInstance:
       objectReference: {fileID: 1432584802, guid: fae6d93a5173fb048bfb982b0e7a7188, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15eb157d1243642deb25519b5fd47764, type: 3}
+--- !u!1 &1469271009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469271011}
+  - component: {fileID: 1469271010}
+  m_Layer: 0
+  m_Name: LevelSupport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1469271010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469271009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5267f389e98aa4595edcbc4c93494d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _background: {fileID: 128181928}
+--- !u!4 &1469271011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469271009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12765664, y: 0.6681111, z: 0.7620147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1474277142
 GameObject:
   m_ObjectHideFlags: 0
@@ -38234,7 +38375,7 @@ MonoBehaviour:
   _fortuna: {fileID: 85046529}
   _plateWin: {fileID: 1238069900}
   _plateLose: {fileID: 705254543}
-  _checkPont: 41
+  _checkPont: 81
   _winSound: {fileID: 1590386923}
   _loseSound: {fileID: 1590386922}
   ArrowMove: 0
@@ -40483,6 +40624,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1590386921}
         m_TargetAssemblyTypeName: FinishLevelController, Assembly-CSharp
         m_MethodName: GetReward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1469271010}
+        m_TargetAssemblyTypeName: LevelSupport, Assembly-CSharp
+        m_MethodName: SwapBackBackground
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -43259,6 +43412,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1469271010}
+        m_TargetAssemblyTypeName: LevelSupport, Assembly-CSharp
+        m_MethodName: SwapBackground
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1945220441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43841,6 +44006,7 @@ MonoBehaviour:
   _springLevel: 60
   _summerLevel2: 80
   _background: {fileID: 619974745}
+  _backgroundSupport: {fileID: 128181928}
   _background2: {fileID: 1084608271}
   _buyMelee: {fileID: 471804635}
   _buyRange: {fileID: 359668823}
@@ -43856,6 +44022,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5897fa6c3b200034eafa0ba19e554e30, type: 3}
   - {fileID: 21300000, guid: 54f765b34566d3f46a7059488182a658, type: 3}
   - {fileID: 21300000, guid: 3f946f4f96e6d914a87bd8e830594159, type: 3}
+  _supportBackgroundSprites:
+  - {fileID: 21300000, guid: aff186bbcd647e24ba79759388bb57c3, type: 3}
+  - {fileID: 21300000, guid: ec41846258e1b5a4d8c7364c987038be, type: 3}
+  - {fileID: 21300000, guid: 6ebdca230154afe478a09db015e05c54, type: 3}
+  - {fileID: 21300000, guid: 93f22f922ab723a4fb2966a7490388c9, type: 3}
   _buyMeleeSprites:
   - {fileID: -1474577148, guid: a5dd9d6ed9f9858479cd981480859ecf, type: 3}
   - {fileID: -1474577148, guid: a5dd9d6ed9f9858479cd981480859ecf, type: 3}
