@@ -1,5 +1,5 @@
 {
-    "idSave": 604,
+    "idSave": 631,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
@@ -11,10 +11,10 @@
         false
     ],
     "LevelOneComplete": false,
-    "MoneyInTheStorage": 96.95011901855469,
+    "MoneyInTheStorage": 108.49429321289063,
     "MoneyLetter": 3,
-    "PriceMelee": 10.45750617980957,
-    "PriceRange": 33.33945846557617,
+    "PriceMelee": 13.594757080078125,
+    "PriceRange": 43.34129333496094,
     "PriceMeleeLetter": 3,
     "PriceRangeLette": 2,
     "currentLevel": 81,

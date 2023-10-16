@@ -115,14 +115,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 12
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -132,10 +132,10 @@ TextureImporter:
       name: Background_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 550
-        width: 1220
-        height: 1476
+        x: 67
+        y: 154
+        width: 398
+        height: 482
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 805742014e1aba04d842d3b166c78b20
-      internalID: -1002081861
+      spriteID: 0a5a30e9bc8b43549a2e7cca7bca24de
+      internalID: -2100093255
       vertices: []
       indices: 
       edges: []
@@ -153,10 +153,10 @@ TextureImporter:
       name: Background_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 154
-        width: 256
-        height: 262
+        x: 95
+        y: 26
+        width: 82
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0a393a0de40474ea499c2b27ab46a6
-      internalID: -245401316
+      spriteID: af061f77f52d92b4e819652b3c1c13f0
+      internalID: -1492573672
       vertices: []
       indices: 
       edges: []
@@ -174,10 +174,10 @@ TextureImporter:
       name: Background_2
       rect:
         serializedVersion: 2
-        x: 504
-        y: 141
-        width: 388
-        height: 323
+        x: 219
+        y: 21
+        width: 127
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19bdc650f1e8cd5419d92093ec584297
-      internalID: -1751065215
+      spriteID: 42e3cba207991dc409a1f3746a9fb5ff
+      internalID: 180162130
       vertices: []
       indices: 
       edges: []
@@ -194,7 +194,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: eadf13c2a8e1fc1438a296188c9075a0
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -202,9 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background_1: -245401316
-      Background_0: -1002081861
-      Background_2: -1751065215
+      Background_1: -1492573672
+      Background_0: -2100093255
+      Background_2: 180162130
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

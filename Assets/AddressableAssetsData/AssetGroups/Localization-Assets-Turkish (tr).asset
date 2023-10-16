@@ -22,16 +22,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-tr
-  - m_GUID: 37736307c81cc473f8a872c8eab69c5a
-    m_Address: MusicTR-12
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-tr
-  - m_GUID: 7a0d4bf9c23414fbba81149133f5070c
-    m_Address: SoundsTR-12
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-tr
   - m_GUID: 1ee89c73200115d44acc6450302fc6bb
     m_Address: SettingTR
     m_ReadOnly: 1

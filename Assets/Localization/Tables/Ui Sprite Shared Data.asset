@@ -35,14 +35,6 @@ MonoBehaviour:
     m_Key: Setting
     m_Metadata:
       m_Items: []
-  - m_Id: 40681052561408
-    m_Key: SettingMusic
-    m_Metadata:
-      m_Items: []
-  - m_Id: 42464688726016
-    m_Key: SettingSounds
-    m_Metadata:
-      m_Items: []
   - m_Id: 67522358403072
     m_Key: TakeBurronFinishPanel
     m_Metadata:

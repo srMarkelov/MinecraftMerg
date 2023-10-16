@@ -19248,7 +19248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1751065215, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
+  m_Sprite: {fileID: 180162130, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19935,7 +19935,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -245401316, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
+  m_Sprite: {fileID: -1492573672, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20995,7 +20995,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &705542400
@@ -29272,7 +29272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1002081861, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
+  m_Sprite: {fileID: -2100093255, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -37193,7 +37193,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &1474277147
@@ -39338,7 +39338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1751065215, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
+  m_Sprite: {fileID: 180162130, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -45938,7 +45938,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -245401316, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
+  m_Sprite: {fileID: -1492573672, guid: aa513b4a0309bdd4dadf3e6b9e023a27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
