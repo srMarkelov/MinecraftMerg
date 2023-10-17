@@ -9,10 +9,15 @@ public class LevelSupport : MonoBehaviour
 
     public void SwapBackground()
     {
-        _background.DOColor(new Color(1, 1, 1, 0f), 1f);
+        if (InputBlocker.IsLock())
+        {
+            return;
+        }
+        _background.DOColor(new Color(1, 1, 1, 0f), 1.5f);
     }
     public void SwapBackBackground()
     {
-        _background.DOColor(new Color(1, 1, 1, 1f), 2.5f);
+        
+        _background.DOColor(new Color(1, 1, 1, 1f), 1.1f);
     }
 }

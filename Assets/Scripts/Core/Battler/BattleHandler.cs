@@ -132,6 +132,10 @@ namespace Core.Battler
         }
         public void StartBattle()
         {
+            if (InputBlocker.IsLock())
+            {
+                return;
+            }
             foreach (var cell in fieldConstructor.Cells)
             {
                 if(cell.IsBusy())

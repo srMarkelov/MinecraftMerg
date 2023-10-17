@@ -145,6 +145,7 @@ public class FinishLevelController : MonoBehaviour
             _newResultLeaderboard.NewName();
             _newResultLeaderboard.NewScore();
         }
+        InputBlocker.InputLock(this, 1.2f);
     }
 
     public void GetCurrentLevel(int currentLevel)
@@ -185,6 +186,7 @@ public class FinishLevelController : MonoBehaviour
             _newResultLeaderboard.NewScore();
         }
         AdsController.singleton.iAds.RewardedShow((int)AdsRewardType.IdIncreasedGoldReward,Reward);*/
+        
     }
     
     public void GetIncreasedRewardInvoke()

@@ -422,13 +422,14 @@ public class UiLevelManager : MonoBehaviour
         }
     }
 
-    
     public IEnumerator CheckStorageAndPriceMelee()
     {
         if (_battleHandler.IsBattle)
         {
             yield break;
         }
+
+       
         if (_moneyСonverting.MoreOrEqual(MoneyInTheStorage, PriceMeleeS))
         {
             _buyMelee.sprite = _enoughMoney[0];
@@ -495,13 +496,17 @@ public class UiLevelManager : MonoBehaviour
     }
     public IEnumerator CheckStorageAndPriceRange()
     {
+        if (_battleHandler.IsBattle)
+        {
+            yield break;
+        }
+
         if (_moneyСonverting.MoreOrEqual(MoneyInTheStorage, PriceRangeS))
         {
             _priceRangeCharacterText.gameObject.SetActive(true);
             _priceRangeCharacterTextBackgrpund.gameObject.SetActive(true);
             _buyRange.sprite = _enoughMoney[1];
             _noMoneyStateRange = false;
-
         }
         else
         {
@@ -629,6 +634,7 @@ public class UiLevelManager : MonoBehaviour
     }
     public IEnumerator RewardBox()
     {
+        
         if (_stopTimer)
         {
             /*_boxReward.transform.DOScale(new Vector3(1.25f,

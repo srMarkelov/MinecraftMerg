@@ -1,5 +1,5 @@
 {
-    "idSave": 638,
+    "idSave": 1013,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
@@ -11,34 +11,34 @@
         false
     ],
     "LevelOneComplete": false,
-    "MoneyInTheStorage": 108.49429321289063,
-    "MoneyLetter": 3,
-    "PriceMelee": 13.594757080078125,
-    "PriceRange": 43.34129333496094,
-    "PriceMeleeLetter": 3,
-    "PriceRangeLette": 2,
-    "currentLevel": 81,
+    "MoneyInTheStorage": 19.86634063720703,
+    "MoneyLetter": 4,
+    "PriceMelee": 63.531150817871097,
+    "PriceRange": 62.86875534057617,
+    "PriceMeleeLetter": 4,
+    "PriceRangeLette": 4,
+    "currentLevel": 46,
     "currentOpenCharacter": 0,
-    "OldCharacterTypeMelee": 8,
-    "OldCharacterTypeRange": 7,
-    "CurrentMaxCharacterMelee": 8,
-    "CurrentMaxCharacterRange": 7,
+    "OldCharacterTypeMelee": 9,
+    "OldCharacterTypeRange": 10,
+    "CurrentMaxCharacterMelee": 9,
+    "CurrentMaxCharacterRange": 10,
     "CharacterTypeFOrCell": [
-        6,
-        4,
-        8,
-        4,
-        24,
-        24,
+        9,
         0,
-        6,
-        22,
         16,
-        4,
-        18,
-        20,
         24,
-        2
+        23,
+        26,
+        7,
+        22,
+        21,
+        20,
+        4,
+        4,
+        4,
+        0,
+        0
     ],
     "CellWidth": [
         1,
@@ -54,8 +54,8 @@
         1,
         2,
         3,
-        4,
-        5
+        0,
+        0
     ],
     "CellHeight": [
         1,
@@ -71,7 +71,7 @@
         3,
         3,
         3,
-        3,
-        3
+        0,
+        0
     ]
 }

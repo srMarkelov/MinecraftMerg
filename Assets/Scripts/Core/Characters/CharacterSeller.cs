@@ -429,7 +429,6 @@ namespace Core.Characters
                 StartCoroutine(_uiLevelManager.CheckStorageAndPriceMelee());
 
                 SaveCloudController.singleton.ICloud.Save();
-
             }
         }
         
