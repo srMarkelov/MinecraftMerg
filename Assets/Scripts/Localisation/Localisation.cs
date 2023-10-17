@@ -20,7 +20,9 @@ public class Localisation : MonoBehaviour
     private void Start()
     {
         var lang = PlayerPrefs.GetInt("Localization", 0);
+        /*
         Delay(lang);
+    */
     }
 
     public void CheckScaleButtons(int lang)
