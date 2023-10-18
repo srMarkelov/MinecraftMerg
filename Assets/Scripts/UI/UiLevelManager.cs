@@ -84,6 +84,8 @@ public class UiLevelManager : MonoBehaviour
     private bool _noMoneyStateRange;
     public bool NoMoneyStateMelee =>_noMoneyStateMelee; 
     public bool NoMoneyStateRange =>_noMoneyStateRange;
+    private bool _lockRewardChest;
+
 
     private void Start()
     {
@@ -169,6 +171,9 @@ public class UiLevelManager : MonoBehaviour
 
     public void TakeRewardBox()
     {
+        if (_lockRewardChest)
+            return;
+        
         if (InputBlocker.IsLock())
         {
             return;
@@ -693,5 +698,17 @@ public class UiLevelManager : MonoBehaviour
             _moneySound.Play();
 
         }
+        
+    }
+
+    public void LockRewardChest()
+    {
+        _lockRewardChest = true;
+        Invoke("UnLockRewardChest",2.2f);
+    }
+
+    private void UnLockRewardChest()
+    {
+        _lockRewardChest = false;
     }
 }
