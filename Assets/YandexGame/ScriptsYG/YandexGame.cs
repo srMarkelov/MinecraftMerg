@@ -886,6 +886,7 @@ namespace YG
 
         public void _ReviewShow(bool authDialog)
         {
+            Debug.Log("ПОСТУЧАЛСЯ");
             Message("Review");
 #if !UNITY_EDITOR
             if (authDialog)
