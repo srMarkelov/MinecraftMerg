@@ -1,5 +1,5 @@
 {
-    "idSave": 37,
+    "idSave": 43,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": true,
@@ -11,13 +11,13 @@
         false
     ],
     "LevelOneComplete": false,
-    "MoneyInTheStorage": 58.7548828125,
+    "MoneyInTheStorage": 639.7191162109375,
     "MoneyLetter": 0,
     "PriceMelee": 314.703857421875,
     "PriceRange": 224.0,
     "PriceMeleeLetter": 0,
     "PriceRangeLette": 0,
-    "currentLevel": 1,
+    "currentLevel": 2,
     "currentOpenCharacter": 0,
     "OldCharacterTypeMelee": 2,
     "OldCharacterTypeRange": 1,
@@ -36,8 +36,8 @@
         0,
         0,
         0,
-        17,
         0,
+        17,
         0
     ],
     "CellWidth": [
@@ -53,8 +53,8 @@
         0,
         0,
         0,
-        3,
         0,
+        4,
         0
     ],
     "CellHeight": [
@@ -70,8 +70,8 @@
         0,
         0,
         0,
-        3,
         0,
+        3,
         0
     ]
 }
