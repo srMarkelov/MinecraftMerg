@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -38356,7 +38356,7 @@ MonoBehaviour:
   _fortuna: {fileID: 85046529}
   _plateWin: {fileID: 1238069900}
   _plateLose: {fileID: 705254543}
-  _checkPont: 81
+  _checkPont: 110
   _winSound: {fileID: 1590386923}
   _loseSound: {fileID: 1590386922}
   ArrowMove: 0
@@ -45911,7 +45911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2138231182
 RectTransform:
   m_ObjectHideFlags: 0

@@ -302,7 +302,7 @@ namespace Core.Battler
                 /*_allCharactersOnTheField.Clear();*/
                 OnBattleComplete?.Invoke(true);
                 
-                if (_currentLevel != 99)
+                if (_currentLevel != 199)
                 {
                     PlayerPrefs.SetInt("CurrentLevel",_currentLevel + 1);
                 }

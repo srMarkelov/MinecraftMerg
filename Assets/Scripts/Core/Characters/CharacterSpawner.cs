@@ -105,7 +105,7 @@ namespace Core.Characters
                     type = type+ 1;
                 }
             }
-            else if (_currentLevel < 109)
+            else
             {
                 if (type == CharacterType.Mace || type == CharacterType.MagicWandRange)
                 {
@@ -186,7 +186,7 @@ namespace Core.Characters
                     type = type+ 1;
                 }
             }
-            else if (_currentLevel < 109)
+            else
             {
                 if (type == CharacterType.TwoDaggers || type == CharacterType.BigMagicBallRange)
                 {

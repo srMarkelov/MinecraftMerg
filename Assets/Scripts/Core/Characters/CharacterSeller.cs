@@ -323,7 +323,7 @@ namespace Core.Characters
                     freeCell.Character = _spawner.SpawnCharacter(CharacterType.Mace,
                         freeCell.transform.position, false);
                 }
-                else if (_currentLevel < 109)
+                else 
                 {
                     freeCell.Character = _spawner.SpawnCharacter(CharacterType.Saber,
                         freeCell.transform.position, false);
@@ -419,7 +419,7 @@ namespace Core.Characters
                     freeCell.Character = _spawner.SpawnCharacter(CharacterType.MagicWandRange,
                         freeCell.transform.position, false);
                 }
-                else if (_currentLevel < 109)
+                else
                 {
                     freeCell.Character = _spawner.SpawnCharacter(CharacterType.BadStaffRange,
                         freeCell.transform.position, false);
@@ -498,7 +498,7 @@ namespace Core.Characters
                 freeCell.Character = _spawner.SpawnCharacter(CharacterType.Mace,
                     freeCell.transform.position, false);
             }
-            else if (_currentLevel < 109)
+            else
             {
                 freeCell.Character = _spawner.SpawnCharacter(CharacterType.Saber,
                     freeCell.transform.position, false);
@@ -577,7 +577,7 @@ namespace Core.Characters
                 freeCell.Character = _spawner.SpawnCharacter(CharacterType.MagicWandRange,
                     freeCell.transform.position, false);
             }
-            else if (_currentLevel < 109)
+            else
             {
                 freeCell.Character = _spawner.SpawnCharacter(CharacterType.BadStaffRange,
                     freeCell.transform.position, false);
