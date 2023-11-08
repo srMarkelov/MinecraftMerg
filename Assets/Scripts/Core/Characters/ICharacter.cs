@@ -13,6 +13,7 @@ namespace Core.Characters
         public float MovementSpeed { get; set; }
         public float TimeLastDamage { get; set; }
         public int KillReward { get; set; }
+        public int WeightCharacters { get; set; }
         public CharacterView View { get; set; }
         public List<ICharacter> Targets { get; set; }
         public Vector3 Position { get; set; }

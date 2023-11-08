@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using Utils;
 
@@ -38,6 +39,7 @@ namespace Core.Characters
         public float MovementSpeed;
         public float DamageSpeed;
         public int KillReward;
+        public int WeightMeleeCharacters;
         public CharacterView View;
     }
 }

@@ -21,6 +21,18 @@ namespace Core.Field
         private readonly List<Cell> _field = new List<Cell>();
         public List<Cell> Field => _field;
         private bool restartGame; 
+        
+        private int[] characterTypeFOrCell = new int[15];
+        public int[] CharacterTypeFOrCell => characterTypeFOrCell;
+        
+        
+        private int[] _cellWidth = new int[15];
+        public int[] CellWidth => _cellWidth;
+        
+        
+        private int[] _cellHeight = new int[15];
+        public int[] CellHeight => _cellHeight;
+        
 
         private void Start()
         {
@@ -132,16 +144,7 @@ namespace Core.Field
             }
         }
 
-        private int[] characterTypeFOrCell = new int[15];
-        public int[] CharacterTypeFOrCell => characterTypeFOrCell;
         
-        
-        private int[] _cellWidth = new int[15];
-        public int[] CellWidth => _cellWidth;
-        
-        
-        private int[] _cellHeight = new int[15];
-        public int[] CellHeight => _cellHeight;
         
         
         public void FillAndSaveCharacters()

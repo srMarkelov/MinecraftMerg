@@ -17,6 +17,7 @@ namespace Core.Characters.Std
         public float MovementSpeed { get; set; }
         public float TimeLastDamage { get; set; }
         public int KillReward { get; set; }
+        public int WeightCharacters { get; set; }
         private CharacterView _view;
         private float MaxHealth;
         private bool Test;

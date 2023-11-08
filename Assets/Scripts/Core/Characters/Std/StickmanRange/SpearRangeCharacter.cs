@@ -14,6 +14,7 @@ namespace Core.Characters.Std
         public float MovementSpeed { get; set; }
         public float TimeLastDamage { get; set; }
         public int KillReward { get; set; }
+        public int WeightCharacters { get; set; }
         private CharacterView _view;
         private float MaxHealth;
         
@@ -44,6 +45,7 @@ namespace Core.Characters.Std
             MovementSpeed = config.MovementSpeed;
             DamageSpeed = config.DamageSpeed;
             KillReward = config.KillReward;
+            WeightCharacters = config.WeightMeleeCharacters;
 
         }
 

@@ -103,7 +103,7 @@ namespace Core.Field
                 }
             }
         }
-
+        
         private void FillCharacters()
         {
             _characters.Clear();
