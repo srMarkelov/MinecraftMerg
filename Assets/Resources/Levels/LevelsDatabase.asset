@@ -2900,8 +2900,8 @@ MonoBehaviour:
       PositionY: 2
   - FieldWidth: 5
     FieldHeight: 3
-    VictoryReward: 689.1494
-    DefeatReward: 369.98538
+    VictoryReward: 6.9894485
+    DefeatReward: 4.8973475
     Characters:
     - Type: 14
       PositionX: 1
@@ -2910,8 +2910,8 @@ MonoBehaviour:
       PositionX: 5
       PositionY: 1
     - Type: 15
-      PositionX: 3
-      PositionY: 3
+      PositionX: 2
+      PositionY: 2
     - Type: 28
       PositionX: 2
       PositionY: 1
@@ -2922,5 +2922,473 @@ MonoBehaviour:
       PositionX: 4
       PositionY: 1
     - Type: 15
+      PositionX: 4
+      PositionY: 2
+    - Type: 16
+      PositionX: 1
+      PositionY: 3
+    - Type: 16
+      PositionX: 5
+      PositionY: 3
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 9.420236
+    DefeatReward: 5.4300504
+    Characters:
+    - Type: 0
+      PositionX: 1
+      PositionY: 1
+    - Type: 0
+      PositionX: 3
+      PositionY: 1
+    - Type: 0
+      PositionX: 5
+      PositionY: 1
+    - Type: 16
+      PositionX: 2
+      PositionY: 2
+    - Type: 16
+      PositionX: 4
+      PositionY: 2
+    - Type: 15
+      PositionX: 4
+      PositionY: 3
+    - Type: 15
+      PositionX: 2
+      PositionY: 3
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 10.2743845
+    DefeatReward: 4.853457
+    Characters:
+    - Type: 1
+      PositionX: 1
+      PositionY: 1
+    - Type: 1
+      PositionX: 3
+      PositionY: 1
+    - Type: 1
+      PositionX: 5
+      PositionY: 1
+    - Type: 18
+      PositionX: 2
+      PositionY: 2
+    - Type: 18
+      PositionX: 4
+      PositionY: 2
+    - Type: 18
+      PositionX: 4
+      PositionY: 3
+    - Type: 15
+      PositionX: 2
+      PositionY: 3
+    - Type: 15
+      PositionX: 1
+      PositionY: 3
+    - Type: 15
+      PositionX: 5
+      PositionY: 3
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 11.695009
+    DefeatReward: 6.9189954
+    Characters:
+    - Type: 1
+      PositionX: 1
+      PositionY: 1
+    - Type: 1
+      PositionX: 3
+      PositionY: 1
+    - Type: 1
+      PositionX: 5
+      PositionY: 1
+    - Type: 18
+      PositionX: 2
+      PositionY: 2
+    - Type: 18
+      PositionX: 4
+      PositionY: 2
+    - Type: 15
+      PositionX: 4
+      PositionY: 3
+    - Type: 15
+      PositionX: 2
+      PositionY: 3
+    - Type: 15
+      PositionX: 3
+      PositionY: 3
+    - Type: 13
+      PositionX: 1
+      PositionY: 2
+    - Type: 13
+      PositionX: 5
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 12.10412
+    DefeatReward: 5.744018
+    Characters:
+    - Type: 13
+      PositionX: 1
+      PositionY: 1
+    - Type: 13
+      PositionX: 5
+      PositionY: 3
+    - Type: 14
+      PositionX: 1
+      PositionY: 3
+    - Type: 14
+      PositionX: 5
+      PositionY: 1
+    - Type: 3
+      PositionX: 3
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 12.591022
+    DefeatReward: 6.19244
+    Characters:
+    - Type: 13
+      PositionX: 1
+      PositionY: 1
+    - Type: 13
+      PositionX: 5
+      PositionY: 3
+    - Type: 14
+      PositionX: 1
+      PositionY: 3
+    - Type: 14
+      PositionX: 5
+      PositionY: 1
+    - Type: 15
+      PositionX: 3
+      PositionY: 2
+    - Type: 15
+      PositionX: 3
+      PositionY: 1
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 34.96966
+    DefeatReward: 18.118881
+    Characters:
+    - Type: 4
+      PositionX: 1
+      PositionY: 1
+    - Type: 4
+      PositionX: 5
+      PositionY: 3
+    - Type: 14
+      PositionX: 1
+      PositionY: 3
+    - Type: 14
+      PositionX: 5
+      PositionY: 1
+    - Type: 15
+      PositionX: 3
+      PositionY: 2
+    - Type: 15
+      PositionX: 3
+      PositionY: 1
+    - Type: 15
+      PositionX: 3
+      PositionY: 3
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 27.787165
+    DefeatReward: 20.5789
+    Characters:
+    - Type: 27
+      PositionX: 1
+      PositionY: 3
+    - Type: 27
+      PositionX: 2
+      PositionY: 3
+    - Type: 27
+      PositionX: 3
+      PositionY: 3
+    - Type: 27
+      PositionX: 4
+      PositionY: 3
+    - Type: 27
+      PositionX: 5
+      PositionY: 3
+    - Type: 28
+      PositionX: 5
+      PositionY: 2
+    - Type: 28
+      PositionX: 4
+      PositionY: 2
+    - Type: 28
+      PositionX: 3
+      PositionY: 2
+    - Type: 28
+      PositionX: 2
+      PositionY: 2
+    - Type: 28
+      PositionX: 1
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 35.249424
+    DefeatReward: 19.467829
+    Characters:
+    - Type: 27
+      PositionX: 1
+      PositionY: 3
+    - Type: 27
+      PositionX: 2
+      PositionY: 3
+    - Type: 27
+      PositionX: 3
+      PositionY: 3
+    - Type: 27
+      PositionX: 4
+      PositionY: 3
+    - Type: 27
+      PositionX: 5
+      PositionY: 3
+    - Type: 28
+      PositionX: 5
+      PositionY: 2
+    - Type: 28
+      PositionX: 4
+      PositionY: 2
+    - Type: 28
+      PositionX: 3
+      PositionY: 2
+    - Type: 28
+      PositionX: 2
+      PositionY: 2
+    - Type: 28
+      PositionX: 1
+      PositionY: 2
+    - Type: 29
+      PositionX: 1
+      PositionY: 1
+    - Type: 29
+      PositionX: 2
+      PositionY: 1
+    - Type: 29
+      PositionX: 3
+      PositionY: 1
+    - Type: 29
+      PositionX: 4
+      PositionY: 1
+    - Type: 29
+      PositionX: 5
+      PositionY: 1
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 31.194891
+    DefeatReward: 16.738892
+    Characters:
+    - Type: 28
+      PositionX: 1
+      PositionY: 3
+    - Type: 28
+      PositionX: 2
+      PositionY: 3
+    - Type: 28
+      PositionX: 3
+      PositionY: 3
+    - Type: 28
+      PositionX: 4
+      PositionY: 3
+    - Type: 28
+      PositionX: 5
+      PositionY: 3
+    - Type: 29
+      PositionX: 5
+      PositionY: 2
+    - Type: 29
+      PositionX: 4
+      PositionY: 2
+    - Type: 29
+      PositionX: 3
+      PositionY: 2
+    - Type: 29
+      PositionX: 2
+      PositionY: 2
+    - Type: 29
+      PositionX: 1
+      PositionY: 2
+    - Type: 30
+      PositionX: 1
+      PositionY: 1
+    - Type: 30
+      PositionX: 2
+      PositionY: 1
+    - Type: 30
+      PositionX: 3
+      PositionY: 1
+    - Type: 30
+      PositionX: 4
+      PositionY: 1
+    - Type: 30
+      PositionX: 5
+      PositionY: 1
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 27.143269
+    DefeatReward: 16.319065
+    Characters:
+    - Type: 29
+      PositionX: 1
+      PositionY: 3
+    - Type: 29
+      PositionX: 2
+      PositionY: 3
+    - Type: 29
+      PositionX: 3
+      PositionY: 3
+    - Type: 29
+      PositionX: 4
+      PositionY: 3
+    - Type: 29
+      PositionX: 5
+      PositionY: 3
+    - Type: 30
+      PositionX: 5
+      PositionY: 2
+    - Type: 30
+      PositionX: 4
+      PositionY: 2
+    - Type: 30
+      PositionX: 3
+      PositionY: 2
+    - Type: 30
+      PositionX: 2
+      PositionY: 2
+    - Type: 30
+      PositionX: 1
+      PositionY: 2
+    - Type: 31
+      PositionX: 2
+      PositionY: 1
+    - Type: 31
+      PositionX: 3
+      PositionY: 1
+    - Type: 31
+      PositionX: 4
+      PositionY: 1
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 42.030777
+    DefeatReward: 18.811977
+    Characters:
+    - Type: 14
+      PositionX: 1
+      PositionY: 2
+    - Type: 14
+      PositionX: 3
+      PositionY: 1
+    - Type: 14
+      PositionX: 5
+      PositionY: 2
+    - Type: 14
+      PositionX: 3
+      PositionY: 3
+    - Type: 15
+      PositionX: 3
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 41.443382
+    DefeatReward: 19.374779
+    Characters:
+    - Type: 14
+      PositionX: 2
+      PositionY: 1
+    - Type: 14
+      PositionX: 4
+      PositionY: 1
+    - Type: 14
+      PositionX: 4
+      PositionY: 3
+    - Type: 14
+      PositionX: 2
+      PositionY: 3
+    - Type: 15
+      PositionX: 1
+      PositionY: 2
+    - Type: 15
+      PositionX: 5
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 36.17243
+    DefeatReward: 18.090803
+    Characters:
+    - Type: 14
+      PositionX: 2
+      PositionY: 1
+    - Type: 14
+      PositionX: 4
+      PositionY: 1
+    - Type: 14
+      PositionX: 4
+      PositionY: 3
+    - Type: 14
+      PositionX: 2
+      PositionY: 3
+    - Type: 15
+      PositionX: 1
+      PositionY: 2
+    - Type: 15
+      PositionX: 5
+      PositionY: 2
+    - Type: 15
+      PositionX: 3
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 29.751673
+    DefeatReward: 18.32159
+    Characters:
+    - Type: 29
+      PositionX: 2
+      PositionY: 1
+    - Type: 29
+      PositionX: 4
+      PositionY: 1
+    - Type: 14
+      PositionX: 4
+      PositionY: 3
+    - Type: 14
+      PositionX: 2
+      PositionY: 3
+    - Type: 15
+      PositionX: 1
+      PositionY: 2
+    - Type: 15
+      PositionX: 5
+      PositionY: 2
+    - Type: 15
+      PositionX: 3
+      PositionY: 2
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 29.751673
+    DefeatReward: 18.32159
+    Characters:
+    - Type: 29
+      PositionX: 2
+      PositionY: 1
+    - Type: 29
+      PositionX: 4
+      PositionY: 1
+    - Type: 14
+      PositionX: 4
+      PositionY: 3
+    - Type: 14
+      PositionX: 2
+      PositionY: 3
+    - Type: 30
+      PositionX: 1
+      PositionY: 2
+    - Type: 30
+      PositionX: 5
+      PositionY: 2
+    - Type: 30
       PositionX: 3
       PositionY: 2
