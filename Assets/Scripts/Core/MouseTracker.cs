@@ -165,7 +165,7 @@ namespace Core
                        )
                     {
                         var type = MovingCharacter.CharacterType;
-                        if (type == CharacterType.BlueFireRange)
+                        if (type == CharacterType.BowIronCharacter)
                         {
                             continue;  
                         }
@@ -219,7 +219,7 @@ namespace Core
 
         private void CheckNewCharacterType(CharacterType characterType)
         {
-            if ((int)characterType < 18)
+            if ((int)characterType < 17)
             {
                 if ((int)characterType > oldCharacterTypeMelee)
                 {
@@ -229,14 +229,13 @@ namespace Core
                 }
             }
 
-            if ((int)characterType < 32 && (int)characterType > 15)
+            if ((int)characterType < 36 && (int)characterType > 17)
             {
-                if ((int)characterType > oldCharacterTypeRange+16)
+                if ((int)characterType > oldCharacterTypeRange+17)
                 {
                     oldCharacterTypeRange++;
                     PlayerPrefs.SetInt("OldCharacterTypeRange", oldCharacterTypeRange);
                     _libraryController.SetSpriteCharactersLibraryRange(oldCharacterTypeRange, characterType);
-
                 }
             }
         }

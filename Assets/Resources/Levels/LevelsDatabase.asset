@@ -15,10 +15,10 @@ MonoBehaviour:
   LevelDatas:
   - FieldWidth: 5
     FieldHeight: 3
-    VictoryReward: 602.57623
-    DefeatReward: 329.68396
+    VictoryReward: 501.52097
+    DefeatReward: 295.0727
     Characters:
-    - Type: 16
+    - Type: 18
       PositionX: 3
       PositionY: 1
     - Type: 0
@@ -32,7 +32,7 @@ MonoBehaviour:
     - Type: 0
       PositionX: 4
       PositionY: 3
-    - Type: 16
+    - Type: 18
       PositionX: 3
       PositionY: 1
     - Type: 0
@@ -52,13 +52,13 @@ MonoBehaviour:
     - Type: 1
       PositionX: 4
       PositionY: 3
-    - Type: 16
+    - Type: 18
       PositionX: 1
       PositionY: 1
-    - Type: 16
+    - Type: 18
       PositionX: 5
       PositionY: 1
-    - Type: 16
+    - Type: 18
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -72,10 +72,10 @@ MonoBehaviour:
     - Type: 1
       PositionX: 4
       PositionY: 3
-    - Type: 16
+    - Type: 18
       PositionX: 4
       PositionY: 1
-    - Type: 16
+    - Type: 18
       PositionX: 2
       PositionY: 1
   - FieldWidth: 5
@@ -92,10 +92,10 @@ MonoBehaviour:
     - Type: 1
       PositionX: 2
       PositionY: 3
-    - Type: 17
+    - Type: 19
       PositionX: 5
       PositionY: 1
-    - Type: 17
+    - Type: 19
       PositionX: 1
       PositionY: 1
   - FieldWidth: 5
@@ -103,10 +103,10 @@ MonoBehaviour:
     VictoryReward: 3.794706
     DefeatReward: 2.2211666
     Characters:
-    - Type: 16
+    - Type: 18
       PositionX: 2
       PositionY: 1
-    - Type: 17
+    - Type: 19
       PositionX: 4
       PositionY: 1
     - Type: 2
@@ -126,10 +126,10 @@ MonoBehaviour:
     VictoryReward: 5.100694
     DefeatReward: 2.4956253
     Characters:
-    - Type: 17
+    - Type: 19
       PositionX: 2
       PositionY: 2
-    - Type: 17
+    - Type: 19
       PositionX: 4
       PositionY: 2
     - Type: 2
@@ -164,13 +164,13 @@ MonoBehaviour:
     - Type: 1
       PositionX: 5
       PositionY: 2
-    - Type: 17
+    - Type: 19
       PositionX: 4
       PositionY: 1
-    - Type: 17
+    - Type: 19
       PositionX: 2
       PositionY: 1
-    - Type: 16
+    - Type: 20
       PositionX: 3
       PositionY: 1
     - Type: 2
@@ -190,10 +190,10 @@ MonoBehaviour:
     - Type: 2
       PositionX: 4
       PositionY: 2
-    - Type: 19
+    - Type: 21
       PositionX: 2
       PositionY: 1
-    - Type: 19
+    - Type: 21
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -216,13 +216,13 @@ MonoBehaviour:
     - Type: 2
       PositionX: 5
       PositionY: 3
-    - Type: 19
+    - Type: 21
       PositionX: 1
       PositionY: 1
-    - Type: 19
+    - Type: 21
       PositionX: 5
       PositionY: 1
-    - Type: 18
+    - Type: 20
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -230,10 +230,10 @@ MonoBehaviour:
     VictoryReward: 37.806858
     DefeatReward: 15.839305
     Characters:
-    - Type: 17
+    - Type: 19
       PositionX: 1
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 5
       PositionY: 1
     - Type: 3
@@ -250,7 +250,7 @@ MonoBehaviour:
     VictoryReward: 37.16158
     DefeatReward: 23.436443
     Characters:
-    - Type: 19
+    - Type: 21
       PositionX: 3
       PositionY: 1
     - Type: 4
@@ -264,13 +264,13 @@ MonoBehaviour:
     VictoryReward: 62.73363
     DefeatReward: 30.15313
     Characters:
-    - Type: 18
+    - Type: 20
       PositionX: 3
       PositionY: 1
-    - Type: 18
+    - Type: 20
       PositionX: 5
       PositionY: 1
-    - Type: 18
+    - Type: 20
       PositionX: 1
       PositionY: 1
     - Type: 4
@@ -284,10 +284,10 @@ MonoBehaviour:
     VictoryReward: 206.50468
     DefeatReward: 88.45567
     Characters:
-    - Type: 20
+    - Type: 22
       PositionX: 2
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 4
       PositionY: 1
     - Type: 4
@@ -310,16 +310,16 @@ MonoBehaviour:
     - Type: 4
       PositionX: 4
       PositionY: 2
-    - Type: 17
+    - Type: 19
       PositionX: 1
       PositionY: 1
-    - Type: 17
+    - Type: 19
       PositionX: 5
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 3
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -333,13 +333,13 @@ MonoBehaviour:
     - Type: 3
       PositionX: 4
       PositionY: 2
-    - Type: 20
+    - Type: 22
       PositionX: 1
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 5
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 3
       PositionY: 1
     - Type: 3
@@ -368,10 +368,10 @@ MonoBehaviour:
     - Type: 3
       PositionX: 5
       PositionY: 3
-    - Type: 20
+    - Type: 22
       PositionX: 1
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -379,10 +379,10 @@ MonoBehaviour:
     VictoryReward: 1.193079
     DefeatReward: 636.0384
     Characters:
-    - Type: 20
+    - Type: 22
       PositionX: 2
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 4
       PositionY: 1
     - Type: 3
@@ -402,10 +402,10 @@ MonoBehaviour:
     VictoryReward: 1.9114872
     DefeatReward: 1.1326827
     Characters:
-    - Type: 20
+    - Type: 22
       PositionX: 2
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 4
       PositionY: 1
     - Type: 5
@@ -422,7 +422,7 @@ MonoBehaviour:
     VictoryReward: 265.27792
     DefeatReward: 119.17069
     Characters:
-    - Type: 32
+    - Type: 36
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -436,13 +436,13 @@ MonoBehaviour:
     - Type: 4
       PositionX: 5
       PositionY: 2
-    - Type: 21
+    - Type: 23
       PositionX: 3
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 2
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 4
       PositionY: 1
     - Type: 4
@@ -465,13 +465,13 @@ MonoBehaviour:
     - Type: 5
       PositionX: 4
       PositionY: 2
-    - Type: 21
+    - Type: 23
       PositionX: 3
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 4
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 2
       PositionY: 1
   - FieldWidth: 5
@@ -529,7 +529,7 @@ MonoBehaviour:
     - Type: 4
       PositionX: 5
       PositionY: 3
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -543,7 +543,7 @@ MonoBehaviour:
     - Type: 5
       PositionX: 4
       PositionY: 2
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
     - Type: 7
@@ -557,19 +557,19 @@ MonoBehaviour:
     - Type: 7
       PositionX: 3
       PositionY: 2
-    - Type: 21
+    - Type: 23
       PositionX: 2
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 1
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 5
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -583,16 +583,16 @@ MonoBehaviour:
     - Type: 23
       PositionX: 3
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 1
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 5
       PositionY: 1
-    - Type: 17
+    - Type: 19
       PositionX: 2
       PositionY: 1
-    - Type: 17
+    - Type: 19
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -654,13 +654,13 @@ MonoBehaviour:
     - Type: 5
       PositionX: 4
       PositionY: 2
-    - Type: 22
+    - Type: 24
       PositionX: 3
       PositionY: 1
-    - Type: 22
+    - Type: 24
       PositionX: 1
       PositionY: 1
-    - Type: 22
+    - Type: 24
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -683,7 +683,7 @@ MonoBehaviour:
     - Type: 5
       PositionX: 5
       PositionY: 2
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -697,7 +697,7 @@ MonoBehaviour:
     - Type: 7
       PositionX: 4
       PositionY: 3
-    - Type: 22
+    - Type: 24
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -714,13 +714,13 @@ MonoBehaviour:
     - Type: 4
       PositionX: 3
       PositionY: 3
-    - Type: 22
+    - Type: 24
       PositionX: 1
       PositionY: 1
-    - Type: 22
+    - Type: 24
       PositionX: 5
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 3
       PositionY: 1
     - Type: 6
@@ -746,7 +746,7 @@ MonoBehaviour:
     - Type: 7
       PositionX: 5
       PositionY: 2
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -754,22 +754,22 @@ MonoBehaviour:
     VictoryReward: 118.69131
     DefeatReward: 71.68537
     Characters:
-    - Type: 23
+    - Type: 25
       PositionX: 2
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 4
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 2
-    - Type: 21
+    - Type: 23
       PositionX: 1
       PositionY: 3
-    - Type: 20
+    - Type: 22
       PositionX: 3
       PositionY: 3
-    - Type: 21
+    - Type: 23
       PositionX: 5
       PositionY: 3
   - FieldWidth: 5
@@ -777,16 +777,16 @@ MonoBehaviour:
     VictoryReward: 163.94563
     DefeatReward: 93.730606
     Characters:
-    - Type: 22
+    - Type: 24
       PositionX: 3
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 1
       PositionY: 2
     - Type: 8
       PositionX: 3
       PositionY: 3
-    - Type: 20
+    - Type: 22
       PositionX: 5
       PositionY: 2
   - FieldWidth: 5
@@ -811,13 +811,13 @@ MonoBehaviour:
     - Type: 8
       PositionX: 4
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 1
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 5
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -825,7 +825,7 @@ MonoBehaviour:
     VictoryReward: 4.3423123
     DefeatReward: 2.2849767
     Characters:
-    - Type: 33
+    - Type: 37
       PositionX: 3
       PositionY: 3
   - FieldWidth: 5
@@ -839,10 +839,10 @@ MonoBehaviour:
     - Type: 8
       PositionX: 1
       PositionY: 2
-    - Type: 23
+    - Type: 25
       PositionX: 5
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 1
       PositionY: 1
   - FieldWidth: 5
@@ -853,7 +853,7 @@ MonoBehaviour:
     - Type: 8
       PositionX: 4
       PositionY: 3
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 1
     - Type: 8
@@ -870,10 +870,10 @@ MonoBehaviour:
     - Type: 8
       PositionX: 4
       PositionY: 3
-    - Type: 23
+    - Type: 25
       PositionX: 1
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -887,13 +887,13 @@ MonoBehaviour:
     - Type: 6
       PositionX: 4
       PositionY: 3
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 3
-    - Type: 23
+    - Type: 25
       PositionX: 1
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 5
       PositionY: 1
     - Type: 4
@@ -922,7 +922,7 @@ MonoBehaviour:
     - Type: 7
       PositionX: 4
       PositionY: 2
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -936,7 +936,7 @@ MonoBehaviour:
     - Type: 5
       PositionX: 5
       PositionY: 3
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
     - Type: 9
@@ -956,10 +956,10 @@ MonoBehaviour:
     - Type: 8
       PositionX: 4
       PositionY: 2
-    - Type: 23
+    - Type: 25
       PositionX: 2
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 4
       PositionY: 1
     - Type: 8
@@ -973,7 +973,7 @@ MonoBehaviour:
     - Type: 9
       PositionX: 3
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 1
     - Type: 8
@@ -996,7 +996,7 @@ MonoBehaviour:
     - Type: 7
       PositionX: 5
       PositionY: 3
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
     - Type: 8
@@ -1022,10 +1022,10 @@ MonoBehaviour:
     - Type: 8
       PositionX: 4
       PositionY: 3
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -1036,10 +1036,10 @@ MonoBehaviour:
     - Type: 10
       PositionX: 3
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 1
-    - Type: 25
+    - Type: 27
       PositionX: 1
       PositionY: 1
   - FieldWidth: 5
@@ -1050,10 +1050,10 @@ MonoBehaviour:
     - Type: 10
       PositionX: 2
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 1
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 5
       PositionY: 1
     - Type: 7
@@ -1064,19 +1064,19 @@ MonoBehaviour:
     VictoryReward: 6.9433684
     DefeatReward: 4.6677146
     Characters:
-    - Type: 19
+    - Type: 21
       PositionX: 1
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 2
       PositionY: 1
-    - Type: 21
+    - Type: 23
       PositionX: 3
       PositionY: 1
-    - Type: 22
+    - Type: 24
       PositionX: 4
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 5
       PositionY: 1
     - Type: 9
@@ -1132,13 +1132,13 @@ MonoBehaviour:
     VictoryReward: 137.5625
     DefeatReward: 94.01281
     Characters:
-    - Type: 22
+    - Type: 24
       PositionX: 1
       PositionY: 1
-    - Type: 22
+    - Type: 24
       PositionX: 5
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 1
     - Type: 9
@@ -1155,13 +1155,13 @@ MonoBehaviour:
     VictoryReward: 362.21658
     DefeatReward: 177.78079
     Characters:
-    - Type: 22
+    - Type: 24
       PositionX: 2
       PositionY: 1
-    - Type: 22
+    - Type: 24
       PositionX: 4
       PositionY: 1
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 1
     - Type: 7
@@ -1190,7 +1190,7 @@ MonoBehaviour:
     - Type: 9
       PositionX: 4
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1198,7 +1198,7 @@ MonoBehaviour:
     VictoryReward: 369.41312
     DefeatReward: 197.94003
     Characters:
-    - Type: 34
+    - Type: 38
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -1218,10 +1218,10 @@ MonoBehaviour:
     - Type: 8
       PositionX: 2
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 5
       PositionY: 1
-    - Type: 25
+    - Type: 27
       PositionX: 1
       PositionY: 1
   - FieldWidth: 5
@@ -1241,7 +1241,7 @@ MonoBehaviour:
     - Type: 8
       PositionX: 1
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 5
       PositionY: 1
     - Type: 11
@@ -1264,13 +1264,13 @@ MonoBehaviour:
     - Type: 7
       PositionX: 5
       PositionY: 2
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 2
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -1304,13 +1304,13 @@ MonoBehaviour:
     VictoryReward: 26.72292
     DefeatReward: 11.733081
     Characters:
-    - Type: 24
+    - Type: 26
       PositionX: 2
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 4
       PositionY: 1
     - Type: 11
@@ -1341,25 +1341,25 @@ MonoBehaviour:
     VictoryReward: 36.371212
     DefeatReward: 27.122356
     Characters:
-    - Type: 23
+    - Type: 25
       PositionX: 2
       PositionY: 1
-    - Type: 23
+    - Type: 25
       PositionX: 4
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 1
       PositionY: 2
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 2
-    - Type: 25
+    - Type: 27
       PositionX: 5
       PositionY: 2
-    - Type: 26
+    - Type: 28
       PositionX: 2
       PositionY: 3
-    - Type: 26
+    - Type: 28
       PositionX: 4
       PositionY: 3
   - FieldWidth: 5
@@ -1384,13 +1384,13 @@ MonoBehaviour:
     - Type: 11
       PositionX: 4
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 1
       PositionY: 2
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 2
-    - Type: 25
+    - Type: 27
       PositionX: 5
       PositionY: 2
   - FieldWidth: 5
@@ -1398,13 +1398,13 @@ MonoBehaviour:
     VictoryReward: 444.75342
     DefeatReward: 260.1343
     Characters:
-    - Type: 26
+    - Type: 28
       PositionX: 1
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 3
-    - Type: 26
+    - Type: 28
       PositionX: 5
       PositionY: 3
     - Type: 8
@@ -1421,19 +1421,19 @@ MonoBehaviour:
     - Type: 10
       PositionX: 4
       PositionY: 2
-    - Type: 24
+    - Type: 26
       PositionX: 1
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 2
       PositionY: 1
-    - Type: 20
+    - Type: 22
       PositionX: 3
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 4
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 5
       PositionY: 1
     - Type: 10
@@ -1503,13 +1503,13 @@ MonoBehaviour:
     - Type: 11
       PositionX: 3
       PositionY: 3
-    - Type: 26
+    - Type: 28
       PositionX: 2
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1567,16 +1567,16 @@ MonoBehaviour:
     VictoryReward: 5.2403703
     DefeatReward: 3.544454
     Characters:
-    - Type: 26
+    - Type: 28
       PositionX: 2
       PositionY: 2
-    - Type: 26
+    - Type: 28
       PositionX: 4
       PositionY: 2
     - Type: 11
       PositionX: 3
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
     - Type: 10
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     VictoryReward: 23.010128
     DefeatReward: 10.290621
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
     - Type: 11
@@ -1608,10 +1608,10 @@ MonoBehaviour:
     - Type: 7
       PositionX: 3
       PositionY: 3
-    - Type: 26
+    - Type: 28
       PositionX: 2
       PositionY: 1
-    - Type: 26
+    - Type: 28
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -1642,7 +1642,7 @@ MonoBehaviour:
     VictoryReward: 124.697525
     DefeatReward: 66.169395
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
     - Type: 12
@@ -1656,13 +1656,13 @@ MonoBehaviour:
     VictoryReward: 161.30475
     DefeatReward: 99.52614
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 1
     - Type: 13
       PositionX: 3
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 1
   - FieldWidth: 5
@@ -1670,7 +1670,7 @@ MonoBehaviour:
     VictoryReward: 772.89777
     DefeatReward: 438.21432
     Characters:
-    - Type: 35
+    - Type: 39
       PositionX: 3
       PositionY: 3
   - FieldWidth: 5
@@ -1678,7 +1678,7 @@ MonoBehaviour:
     VictoryReward: 1.2328
     DefeatReward: 642.4385
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
     - Type: 12
@@ -1718,7 +1718,7 @@ MonoBehaviour:
     - Type: 11
       PositionX: 4
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1767,13 +1767,13 @@ MonoBehaviour:
     - Type: 12
       PositionX: 4
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 1
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -1790,7 +1790,7 @@ MonoBehaviour:
     - Type: 11
       PositionX: 3
       PositionY: 3
-    - Type: 25
+    - Type: 27
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1807,7 +1807,7 @@ MonoBehaviour:
     - Type: 12
       PositionX: 3
       PositionY: 3
-    - Type: 23
+    - Type: 25
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1821,13 +1821,13 @@ MonoBehaviour:
     - Type: 13
       PositionX: 4
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1849,19 +1849,19 @@ MonoBehaviour:
     VictoryReward: 723.2795
     DefeatReward: 474.54532
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 3
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 1
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 4
       PositionY: 1
-    - Type: 24
+    - Type: 26
       PositionX: 5
       PositionY: 1
     - Type: 14
@@ -1872,10 +1872,10 @@ MonoBehaviour:
     VictoryReward: 2.590915
     DefeatReward: 1.3105487
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 2
     - Type: 13
@@ -1886,10 +1886,10 @@ MonoBehaviour:
     VictoryReward: 4.2608156
     DefeatReward: 1.8176026
     Characters:
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 1
     - Type: 13
@@ -1903,13 +1903,13 @@ MonoBehaviour:
     VictoryReward: 5.3112645
     DefeatReward: 2.9087257
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
     - Type: 13
@@ -1926,13 +1926,13 @@ MonoBehaviour:
     VictoryReward: 7.917087
     DefeatReward: 5.286965
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 1
     - Type: 13
@@ -1981,7 +1981,7 @@ MonoBehaviour:
     - Type: 13
       PositionX: 5
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -1989,7 +1989,7 @@ MonoBehaviour:
     VictoryReward: 107.85585
     DefeatReward: 70.30243
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
     - Type: 15
@@ -2000,7 +2000,7 @@ MonoBehaviour:
     VictoryReward: 152.90123
     DefeatReward: 95.92264
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
     - Type: 14
@@ -2014,10 +2014,10 @@ MonoBehaviour:
     VictoryReward: 296.38525
     DefeatReward: 115.3
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 1
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 1
     - Type: 13
@@ -2029,7 +2029,7 @@ MonoBehaviour:
     - Type: 13
       PositionX: 3
       PositionY: 2
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 1
   - FieldWidth: 5
@@ -2037,22 +2037,22 @@ MonoBehaviour:
     VictoryReward: 1.4581261
     DefeatReward: 700.62665
     Characters:
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 1
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 5
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 3
   - FieldWidth: 5
@@ -2060,7 +2060,7 @@ MonoBehaviour:
     VictoryReward: 3.3569062
     DefeatReward: 1.5216234
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
     - Type: 13
@@ -2077,13 +2077,13 @@ MonoBehaviour:
     VictoryReward: 6.416557
     DefeatReward: 2.8280714
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -2091,13 +2091,13 @@ MonoBehaviour:
     VictoryReward: 13.681466
     DefeatReward: 7.852699
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 1
     - Type: 14
@@ -2128,19 +2128,19 @@ MonoBehaviour:
     VictoryReward: 57.418472
     DefeatReward: 30.445625
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -2148,19 +2148,19 @@ MonoBehaviour:
     VictoryReward: 92.66609
     DefeatReward: 48.05833
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
     - Type: 12
@@ -2171,7 +2171,7 @@ MonoBehaviour:
     VictoryReward: 78.808205
     DefeatReward: 51.453293
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 1
     - Type: 15
@@ -2200,7 +2200,7 @@ MonoBehaviour:
     - Type: 13
       PositionX: 1
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -2272,13 +2272,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 4
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -2318,10 +2318,10 @@ MonoBehaviour:
     - Type: 15
       PositionX: 3
       PositionY: 3
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -2346,28 +2346,28 @@ MonoBehaviour:
     VictoryReward: 1.5387746
     DefeatReward: 987.1441
     Characters:
-    - Type: 28
+    - Type: 30
       PositionX: 1
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 5
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 3
   - FieldWidth: 5
@@ -2375,13 +2375,13 @@ MonoBehaviour:
     VictoryReward: 2.4737372
     DefeatReward: 1.4570425
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
     - Type: 14
@@ -2398,13 +2398,13 @@ MonoBehaviour:
     VictoryReward: 4.911187
     DefeatReward: 2.972991
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
     - Type: 11
@@ -2430,13 +2430,13 @@ MonoBehaviour:
     VictoryReward: 6.353215
     DefeatReward: 3.9708757
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
     - Type: 11
@@ -2462,13 +2462,13 @@ MonoBehaviour:
     VictoryReward: 29.381554
     DefeatReward: 12.258831
     Characters:
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
     - Type: 13
@@ -2549,10 +2549,10 @@ MonoBehaviour:
     - Type: 14
       PositionX: 2
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 1
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -2578,13 +2578,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 2
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 1
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 5
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -2641,13 +2641,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 5
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 5
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 1
       PositionY: 1
   - FieldWidth: 5
@@ -2831,13 +2831,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -2863,13 +2863,13 @@ MonoBehaviour:
     - Type: 15
       PositionX: 3
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -2886,13 +2886,13 @@ MonoBehaviour:
     - Type: 15
       PositionX: 3
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
     - Type: 15
@@ -2912,22 +2912,22 @@ MonoBehaviour:
     - Type: 15
       PositionX: 2
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 15
+    - Type: 17
       PositionX: 4
       PositionY: 2
-    - Type: 16
+    - Type: 18
       PositionX: 1
       PositionY: 3
-    - Type: 16
+    - Type: 18
       PositionX: 5
       PositionY: 3
   - FieldWidth: 5
@@ -2944,10 +2944,10 @@ MonoBehaviour:
     - Type: 0
       PositionX: 5
       PositionY: 1
-    - Type: 16
+    - Type: 18
       PositionX: 2
       PositionY: 2
-    - Type: 16
+    - Type: 18
       PositionX: 4
       PositionY: 2
     - Type: 15
@@ -2970,13 +2970,13 @@ MonoBehaviour:
     - Type: 1
       PositionX: 5
       PositionY: 1
-    - Type: 18
+    - Type: 20
       PositionX: 2
       PositionY: 2
-    - Type: 18
+    - Type: 20
       PositionX: 4
       PositionY: 2
-    - Type: 18
+    - Type: 20
       PositionX: 4
       PositionY: 3
     - Type: 15
@@ -3002,13 +3002,13 @@ MonoBehaviour:
     - Type: 1
       PositionX: 5
       PositionY: 1
-    - Type: 18
+    - Type: 20
       PositionX: 2
       PositionY: 2
-    - Type: 18
+    - Type: 20
       PositionX: 4
       PositionY: 2
-    - Type: 15
+    - Type: 19
       PositionX: 4
       PositionY: 3
     - Type: 15
@@ -3097,34 +3097,34 @@ MonoBehaviour:
     VictoryReward: 27.787165
     DefeatReward: 20.5789
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 1
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 5
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 5
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 1
       PositionY: 2
   - FieldWidth: 5
@@ -3132,49 +3132,49 @@ MonoBehaviour:
     VictoryReward: 35.249424
     DefeatReward: 19.467829
     Characters:
-    - Type: 27
+    - Type: 29
       PositionX: 1
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 2
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 3
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 4
       PositionY: 3
-    - Type: 27
+    - Type: 29
       PositionX: 5
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 5
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 2
-    - Type: 28
+    - Type: 30
       PositionX: 1
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 1
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 3
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -3182,49 +3182,49 @@ MonoBehaviour:
     VictoryReward: 31.194891
     DefeatReward: 16.738892
     Characters:
-    - Type: 28
+    - Type: 30
       PositionX: 1
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 3
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 5
       PositionY: 3
-    - Type: 29
+    - Type: 31
       PositionX: 5
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 3
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 1
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -3232,43 +3232,43 @@ MonoBehaviour:
     VictoryReward: 27.143269
     DefeatReward: 16.319065
     Characters:
-    - Type: 29
+    - Type: 31
       PositionX: 1
       PositionY: 3
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 3
-    - Type: 29
+    - Type: 31
       PositionX: 3
       PositionY: 3
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 3
-    - Type: 29
+    - Type: 31
       PositionX: 5
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -3345,10 +3345,10 @@ MonoBehaviour:
     VictoryReward: 29.751673
     DefeatReward: 18.32159
     Characters:
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 1
     - Type: 14
@@ -3371,10 +3371,10 @@ MonoBehaviour:
     VictoryReward: 29.751673
     DefeatReward: 18.32159
     Characters:
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 1
     - Type: 14
@@ -3383,13 +3383,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 2
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
   - FieldWidth: 5
@@ -3397,10 +3397,10 @@ MonoBehaviour:
     VictoryReward: 34.240963
     DefeatReward: 20.806942
     Characters:
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 1
     - Type: 14
@@ -3409,13 +3409,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 2
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
     - Type: 15
@@ -3426,10 +3426,10 @@ MonoBehaviour:
     VictoryReward: 47.657055
     DefeatReward: 32.368176
     Characters:
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 1
     - Type: 14
@@ -3438,13 +3438,13 @@ MonoBehaviour:
     - Type: 14
       PositionX: 2
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
     - Type: 15
@@ -3508,10 +3508,10 @@ MonoBehaviour:
     - Type: 15
       PositionX: 5
       PositionY: 3
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -3519,25 +3519,25 @@ MonoBehaviour:
     VictoryReward: 1.1683437
     DefeatReward: 591.0627
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 3
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 3
   - FieldWidth: 5
@@ -3545,22 +3545,22 @@ MonoBehaviour:
     VictoryReward: 1.5495015
     DefeatReward: 677.30695
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 3
     - Type: 15
@@ -3571,22 +3571,22 @@ MonoBehaviour:
     VictoryReward: 4.0526214
     DefeatReward: 2.1081715
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 3
     - Type: 15
@@ -3603,19 +3603,19 @@ MonoBehaviour:
     VictoryReward: 13.210078
     DefeatReward: 6.7895675
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
     - Type: 14
@@ -3647,10 +3647,10 @@ MonoBehaviour:
     VictoryReward: 11.993299
     DefeatReward: 6.564372
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
     - Type: 15
@@ -3676,10 +3676,10 @@ MonoBehaviour:
     VictoryReward: 69.020065
     DefeatReward: 39.20617
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
     - Type: 15
@@ -3705,10 +3705,10 @@ MonoBehaviour:
     VictoryReward: 150.09904
     DefeatReward: 100.49765
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
     - Type: 15
@@ -3729,10 +3729,10 @@ MonoBehaviour:
     - Type: 14
       PositionX: 5
       PositionY: 3
-    - Type: 29
+    - Type: 31
       PositionX: 1
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 5
       PositionY: 1
   - FieldWidth: 5
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     VictoryReward: 282.3736
     DefeatReward: 140.13971
     Characters:
-    - Type: 32
+    - Type: 36
       PositionX: 3
       PositionY: 2
     - Type: 15
@@ -3815,7 +3815,7 @@ MonoBehaviour:
     VictoryReward: 365.81516
     DefeatReward: 151.82582
     Characters:
-    - Type: 32
+    - Type: 36
       PositionX: 4
       PositionY: 2
     - Type: 15
@@ -3827,7 +3827,7 @@ MonoBehaviour:
     - Type: 15
       PositionX: 5
       PositionY: 3
-    - Type: 32
+    - Type: 36
       PositionX: 2
       PositionY: 2
   - FieldWidth: 5
@@ -3835,7 +3835,7 @@ MonoBehaviour:
     VictoryReward: 466.17426
     DefeatReward: 211.73471
     Characters:
-    - Type: 32
+    - Type: 36
       PositionX: 4
       PositionY: 2
     - Type: 15
@@ -3847,7 +3847,7 @@ MonoBehaviour:
     - Type: 15
       PositionX: 5
       PositionY: 3
-    - Type: 32
+    - Type: 36
       PositionX: 2
       PositionY: 2
   - FieldWidth: 5
@@ -3855,7 +3855,7 @@ MonoBehaviour:
     VictoryReward: 506.4282
     DefeatReward: 278.3939
     Characters:
-    - Type: 32
+    - Type: 36
       PositionX: 4
       PositionY: 2
     - Type: 15
@@ -3867,22 +3867,22 @@ MonoBehaviour:
     - Type: 15
       PositionX: 5
       PositionY: 3
-    - Type: 32
+    - Type: 36
       PositionX: 2
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 3
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 1
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 5
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 3
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 3
   - FieldWidth: 5
@@ -3905,10 +3905,10 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -3931,19 +3931,19 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 29
+    - Type: 31
       PositionX: 2
       PositionY: 2
-    - Type: 29
+    - Type: 31
       PositionX: 4
       PositionY: 2
   - FieldWidth: 5
@@ -3966,19 +3966,19 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 30
+    - Type: 32
       PositionX: 2
       PositionY: 2
-    - Type: 30
+    - Type: 32
       PositionX: 4
       PositionY: 2
   - FieldWidth: 5
@@ -4001,19 +4001,19 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 2
   - FieldWidth: 5
@@ -4036,19 +4036,19 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 2
     - Type: 13
@@ -4077,19 +4077,19 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 3
-    - Type: 28
+    - Type: 30
       PositionX: 2
       PositionY: 1
-    - Type: 28
+    - Type: 30
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 2
     - Type: 13
@@ -4150,10 +4150,10 @@ MonoBehaviour:
     - Type: 15
       PositionX: 4
       PositionY: 2
-    - Type: 26
+    - Type: 28
       PositionX: 2
       PositionY: 1
-    - Type: 26
+    - Type: 28
       PositionX: 4
       PositionY: 1
   - FieldWidth: 5
@@ -4161,34 +4161,34 @@ MonoBehaviour:
     VictoryReward: 8.86614
     DefeatReward: 5.1998115
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
   - FieldWidth: 5
@@ -4205,22 +4205,22 @@ MonoBehaviour:
     - Type: 31
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
     - Type: 14
@@ -4234,31 +4234,31 @@ MonoBehaviour:
     VictoryReward: 324.31866
     DefeatReward: 161.14177
     Characters:
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 2
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 4
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 1
-    - Type: 31
+    - Type: 33
       PositionX: 1
       PositionY: 2
     - Type: 14
       PositionX: 2
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 3
       PositionY: 2
     - Type: 14
       PositionX: 4
       PositionY: 2
-    - Type: 31
+    - Type: 33
       PositionX: 5
       PositionY: 2
     - Type: 15

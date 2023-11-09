@@ -67,6 +67,8 @@ namespace Core.Characters
         StaffAndOrbRange,
         FireRange,
         BlueFireRange,
+        BowGoldCharacter,
+        BowIronCharacter,
         
         FirstCharacterBoss,
         SecondCharacterBoss,

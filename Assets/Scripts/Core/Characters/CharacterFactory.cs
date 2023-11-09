@@ -147,6 +147,16 @@ namespace Core.Characters
                     character = new BlueFireRangeCharacter();
                     character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
                     return character;
+                case CharacterType.BowGoldCharacter:
+                    character = new BowGoldCharacter();
+                    character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
+                    return character;
+                case CharacterType.BowIronCharacter:
+                    character = new BowIronCharacter();
+                    character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
+                    return character;
+                
+                
                 case CharacterType.FirstCharacterBoss:
                     character = new FirstCharacterBoss();
                     character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));

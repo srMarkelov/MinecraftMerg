@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CharactersConfig
   m_EditorClassIdentifier: 
   _charactersDictionary:
-    m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000
+    m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000
     m_values:
     - DamageType: 0
       Health: 30
@@ -166,7 +166,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 82
       WeightMeleeCharacters: 4
-      View: {fileID: 410807052145958395, guid: 7e3fbaebda9cc7649b78a06d7baf1751, type: 3}
+      View: {fileID: 410807052145958395, guid: 3065ee46b2c07584f89c7103bb49721a, type: 3}
     - DamageType: 1
       Health: 155
       Damage: 78
@@ -174,7 +174,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 192
       WeightMeleeCharacters: 8
-      View: {fileID: 410807052145958395, guid: 4b18bdaa8f23df54aa106572847cfb14, type: 3}
+      View: {fileID: 7690555978401786366, guid: 26b4c8bf76e14554ba3adcd91174640d, type: 3}
     - DamageType: 1
       Health: 364
       Damage: 182
@@ -182,7 +182,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 451
       WeightMeleeCharacters: 16
-      View: {fileID: 410807052145958395, guid: 7b06a71c506e4544fac9547b51686181, type: 3}
+      View: {fileID: 410807052145958395, guid: 7e3fbaebda9cc7649b78a06d7baf1751, type: 3}
     - DamageType: 1
       Health: 855
       Damage: 428
@@ -190,7 +190,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 1059
       WeightMeleeCharacters: 32
-      View: {fileID: 410807052145958395, guid: 6da980a3614178547aaa3442f4523ff6, type: 3}
+      View: {fileID: 410807052145958395, guid: 4b18bdaa8f23df54aa106572847cfb14, type: 3}
     - DamageType: 1
       Health: 2009
       Damage: 1005
@@ -198,7 +198,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 2488
       WeightMeleeCharacters: 64
-      View: {fileID: 410807052145958395, guid: 74c89267a1702324e975a1924f2a501c, type: 3}
+      View: {fileID: 410807052145958395, guid: 7b06a71c506e4544fac9547b51686181, type: 3}
     - DamageType: 1
       Health: 4721
       Damage: 2361
@@ -206,7 +206,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 5523
       WeightMeleeCharacters: 128
-      View: {fileID: 410807052145958395, guid: 4ea6f9533f09bd54c8d7d4fe4a147706, type: 3}
+      View: {fileID: 410807052145958395, guid: 6da980a3614178547aaa3442f4523ff6, type: 3}
     - DamageType: 1
       Health: 11094
       Damage: 5547
@@ -214,7 +214,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 10234
       WeightMeleeCharacters: 256
-      View: {fileID: 410807052145958395, guid: 0decb0ba3d634ba4ba5398a7e6a3d56d, type: 3}
+      View: {fileID: 410807052145958395, guid: 74c89267a1702324e975a1924f2a501c, type: 3}
     - DamageType: 1
       Health: 26070
       Damage: 13035
@@ -222,7 +222,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 18256
       WeightMeleeCharacters: 512
-      View: {fileID: 410807052145958395, guid: 5a49254db03036d448fc487b21dc5554, type: 3}
+      View: {fileID: 410807052145958395, guid: 4ea6f9533f09bd54c8d7d4fe4a147706, type: 3}
     - DamageType: 1
       Health: 61264
       Damage: 30632
@@ -230,7 +230,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 35476
       WeightMeleeCharacters: 1024
-      View: {fileID: 410807052145958395, guid: 0195e50346068c14e8a56ef5f3bf9710, type: 3}
+      View: {fileID: 410807052145958395, guid: 0decb0ba3d634ba4ba5398a7e6a3d56d, type: 3}
     - DamageType: 1
       Health: 143970
       Damage: 71985
@@ -238,7 +238,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 65278
       WeightMeleeCharacters: 2048
-      View: {fileID: 410807052145958395, guid: 476423c11b1d5e748a371ef4f7648dda, type: 3}
+      View: {fileID: 410807052145958395, guid: 5a49254db03036d448fc487b21dc5554, type: 3}
     - DamageType: 1
       Health: 338329
       Damage: 169165
@@ -246,7 +246,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 156321
       WeightMeleeCharacters: 4096
-      View: {fileID: 410807052145958395, guid: 1b9887283ab466e4cbb0c5cf38bf7531, type: 3}
+      View: {fileID: 410807052145958395, guid: 0195e50346068c14e8a56ef5f3bf9710, type: 3}
     - DamageType: 1
       Health: 795073
       Damage: 397538
@@ -254,7 +254,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 223456
       WeightMeleeCharacters: 8192
-      View: {fileID: 410807052145958395, guid: 487c9fde79bfab54eb8d352559b67857, type: 3}
+      View: {fileID: 410807052145958395, guid: 476423c11b1d5e748a371ef4f7648dda, type: 3}
     - DamageType: 1
       Health: 1868421
       Damage: 934214
@@ -262,7 +262,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 289564
       WeightMeleeCharacters: 16384
-      View: {fileID: 410807052145958395, guid: 3d2116574cce91940900fb2a07ff7b2d, type: 3}
+      View: {fileID: 410807052145958395, guid: 1b9887283ab466e4cbb0c5cf38bf7531, type: 3}
     - DamageType: 1
       Health: 4390791
       Damage: 2195405
@@ -270,7 +270,7 @@ MonoBehaviour:
       DamageSpeed: 1
       KillReward: 333521
       WeightMeleeCharacters: 32768
-      View: {fileID: 410807052145958395, guid: cf04a422ee56f314ab414f05c678e994, type: 3}
+      View: {fileID: 410807052145958395, guid: 487c9fde79bfab54eb8d352559b67857, type: 3}
     - DamageType: 0
       Health: 20000
       Damage: 1500
@@ -278,7 +278,7 @@ MonoBehaviour:
       DamageSpeed: 1.5
       KillReward: 14000
       WeightMeleeCharacters: 0
-      View: {fileID: 410807052145958395, guid: fb153a28f936e11419d5c5a2a7f60a92, type: 3}
+      View: {fileID: 410807052145958395, guid: 3d2116574cce91940900fb2a07ff7b2d, type: 3}
     - DamageType: 1
       Health: 315000
       Damage: 2500
@@ -286,13 +286,29 @@ MonoBehaviour:
       DamageSpeed: 1.5
       KillReward: 50000
       WeightMeleeCharacters: 0
-      View: {fileID: 410807052145958395, guid: 0f611078a4f184d41892507e0d789e01, type: 3}
-    - DamageType: 0
-      Health: 800000
-      Damage: 40000
+      View: {fileID: 410807052145958395, guid: cf04a422ee56f314ab414f05c678e994, type: 3}
+    - DamageType: 1
+      Health: 378000
+      Damage: 3500
       MovementSpeed: 1.8
       DamageSpeed: 1.5
       KillReward: 70000
+      WeightMeleeCharacters: 0
+      View: {fileID: 410807052145958395, guid: e3ac127f523e0f04ca510935b2722396, type: 3}
+    - DamageType: 1
+      Health: 453600
+      Damage: 4500
+      MovementSpeed: 0
+      DamageSpeed: 1.5
+      KillReward: 0
+      WeightMeleeCharacters: 0
+      View: {fileID: 410807052145958395, guid: d864aadd10868774db24f2750ac3935b, type: 3}
+    - DamageType: 1
+      Health: 7800000
+      Damage: 68000
+      MovementSpeed: 0
+      DamageSpeed: 1.5
+      KillReward: 0
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: be66faed313fc954090b0f39db30f73d, type: 3}
     - DamageType: 1
