@@ -143,22 +143,22 @@ MonoBehaviour:
       KillReward: 233542
       WeightMeleeCharacters: 32768
       View: {fileID: 410807052145958395, guid: 745fc6a52de73df44b21f13bd1c2bf53, type: 3}
-    - DamageType: 1
-      Health: 12
-      Damage: 6
-      MovementSpeed: 0
+    - DamageType: 0
+      Health: 30969850
+      Damage: 2195856
+      MovementSpeed: 1
       DamageSpeed: 1
       KillReward: 15
-      WeightMeleeCharacters: 1
-      View: {fileID: 410807052145958395, guid: 7769a334f780b7e478c119603319d737, type: 3}
-    - DamageType: 1
-      Health: 30
-      Damage: 24
-      MovementSpeed: 0
-      DamageSpeed: 1.5
+      WeightMeleeCharacters: 65536
+      View: {fileID: 410807052145958395, guid: 30df64a846bb2eb4da02b7ca5e2cff6e, type: 3}
+    - DamageType: 0
+      Health: 50969850
+      Damage: 2635027.2
+      MovementSpeed: 1
+      DamageSpeed: 1
       KillReward: 35
       WeightMeleeCharacters: 2
-      View: {fileID: 7690555978401786366, guid: e4b1dfcfa6aeeed46992842e366b3e17, type: 3}
+      View: {fileID: 410807052145958395, guid: c9dd2ec2e5baefd498e873e92d2235ff, type: 3}
     - DamageType: 1
       Health: 66
       Damage: 33

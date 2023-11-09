@@ -31,10 +31,10 @@ namespace YG
         public int CurrentMaxCharacterMelee = 0;
         public int CurrentMaxCharacterRange = 0;
         
-        public int[] CharacterTypeFOrCell = new int[15];
-        public int[] CellWidth = new int[15];
+        public int[] CharacterTypeFOrCell = new int[16];
+        public int[] CellWidth = new int[16];
 
-        public int[] CellHeight = new int[15];
+        public int[] CellHeight = new int[16];
         // ...
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны

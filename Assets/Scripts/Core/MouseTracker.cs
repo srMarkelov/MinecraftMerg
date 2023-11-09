@@ -141,7 +141,7 @@ namespace Core
                         )
                     {
                         var type = MovingCharacter.CharacterType;
-                        if (type == CharacterType.BigSword)
+                        if (type == CharacterType.BlueSword)
                         {
                             continue;  
                         }
@@ -219,7 +219,7 @@ namespace Core
 
         private void CheckNewCharacterType(CharacterType characterType)
         {
-            if ((int)characterType < 16)
+            if ((int)characterType < 18)
             {
                 if ((int)characterType > oldCharacterTypeMelee)
                 {

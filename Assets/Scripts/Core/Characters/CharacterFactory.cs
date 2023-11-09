@@ -74,6 +74,14 @@ namespace Core.Characters
                     character = new BigSwordCharacter();
                     character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
                     return character;
+                case CharacterType.BluePick:
+                    character = new BluePickCharacter();
+                    character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
+                    return character;
+                case CharacterType.BlueSword:
+                    character = new BlueSwordCharacter();
+                    character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
+                    return character;
                 
                 case CharacterType.SlingshotRange:
                     character = new SlingshotRangeCharacter();

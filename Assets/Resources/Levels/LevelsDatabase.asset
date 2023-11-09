@@ -4231,8 +4231,8 @@ MonoBehaviour:
       PositionY: 3
   - FieldWidth: 5
     FieldHeight: 3
-    VictoryReward: 39.180504
-    DefeatReward: 23.793278
+    VictoryReward: 324.31866
+    DefeatReward: 161.14177
     Characters:
     - Type: 31
       PositionX: 1
@@ -4264,3 +4264,8 @@ MonoBehaviour:
     - Type: 15
       PositionX: 3
       PositionY: 3
+  - FieldWidth: 5
+    FieldHeight: 3
+    VictoryReward: 39.180504
+    DefeatReward: 23.793278
+    Characters: []

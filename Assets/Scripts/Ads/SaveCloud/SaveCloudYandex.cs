@@ -90,8 +90,9 @@ public class SaveCloudYandex : ICloud
         YandexGame.savesData.PriceRangeLette = priceRangeLetter;
         
         _fieldConstructor.FillAndSaveCharacters();
-        
-        YandexGame.savesData.CharacterTypeFOrCell = _fieldConstructor.CharacterTypeFOrCell;
+
+        /*int[] a = new int[15];*/
+        YandexGame.savesData.CharacterTypeFOrCell =  _fieldConstructor.CharacterTypeFOrCell;
         YandexGame.savesData.CellWidth = _fieldConstructor.CellWidth;
         YandexGame.savesData.CellHeight = _fieldConstructor.CellHeight;
 

@@ -179,7 +179,7 @@ public class LibraryItem : MonoBehaviour
                 _rewardVideoButton.gameObject.SetActive(false);
                 _notAvailable.SetActive(true);            }
         }
-        else if (_currentLevel < 109)
+        else if (_currentLevel < 199)
         {
             if (_characterType == CharacterType.Fist || _characterType == CharacterType.SlingshotRange||
                 _characterType == CharacterType.Stick || _characterType == CharacterType.BigSlingshotRange||

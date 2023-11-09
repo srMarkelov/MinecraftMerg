@@ -22,23 +22,23 @@ namespace Core.Field
         public List<Cell> Field => _field;
         private bool restartGame; 
         
-        private int[] characterTypeFOrCell = new int[15];
+        private int[] characterTypeFOrCell;
         public int[] CharacterTypeFOrCell => characterTypeFOrCell;
         
         
-        private int[] _cellWidth = new int[15];
+        private int[] _cellWidth;
         public int[] CellWidth => _cellWidth;
         
         
-        private int[] _cellHeight = new int[15];
+        private int[] _cellHeight;
         public int[] CellHeight => _cellHeight;
         
 
         private void Start()
         {
-            /*
-            SpawnCharactersOnTheField();
-        */
+            /*characterTypeFOrCell = new int[16];
+            _cellWidth = new int[16];
+            _cellHeight = new int[16];*/
         }
 
         public void ResetLevel()
@@ -117,15 +117,14 @@ namespace Core.Field
                         int CharacterType = PlayerPrefs.GetInt($"CharacterType{i}");*/
                         
                         
-                        if (/*SaveCellWidth == w && SaveCellHeight == h*/
-                            _cellWidth[i] == w && _cellHeight[i] == h)
+                        if (_cellWidth[i] == w && _cellHeight[i] == h)
                         {
                             for (int j = 0; j < Cells.Count; j++)
                             {
-                                if (Math.Abs(Cells[j].Width - /*SaveCellWidth*/ _cellWidth[i]) < 1f &&
-                                    Math.Abs(Cells[j].Height - /*SaveCellHeight*/ _cellHeight[i]) < 1f)
+                                if (Math.Abs(Cells[j].Width - _cellWidth[i]) < 1f &&
+                                    Math.Abs(Cells[j].Height - _cellHeight[i]) < 1f)
                                 {
-                                    Cells[j].Character = _spawner.SpawnCharacter((CharacterType)/*CharacterType*/ characterTypeFOrCell[i],
+                                    Cells[j].Character = _spawner.SpawnCharacter((CharacterType)characterTypeFOrCell[i],
                                         Cells[j].transform.position, true);
                                 }
                             }

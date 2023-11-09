@@ -115,6 +115,7 @@ namespace Core.Characters
             var config = GameConfigSingleton.Instance.CharactersConfig.GetConfig(type);
             var newCharacter = CharacterFactory.Create(type);
             position *= Vector2.one;
+            
             if (config.View != null)
             {
                 var view = Instantiate(config.View, position, Quaternion.identity, isEnemy ? _containerEnemy : _containerPlayers);
