@@ -113,6 +113,7 @@ namespace Core.Field
             }
 
             SpawnCharactersOnTheField();
+            
         }
     }
 }

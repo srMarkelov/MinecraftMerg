@@ -293,7 +293,7 @@ public class UiLevelManager : MonoBehaviour
         }
         else
         {
-            Time.timeScale = 1.35f;
+            Time.timeScale = 3.5f;
 
             _settingPanel.transform.GetComponent<Image>().DOColor(new Color(0.3f, 0.3f, 0.3f, 0f), 0.4f)
                 .SetLink(gameObject);

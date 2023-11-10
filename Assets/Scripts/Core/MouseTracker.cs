@@ -219,7 +219,7 @@ namespace Core
 
         private void CheckNewCharacterType(CharacterType characterType)
         {
-            if ((int)characterType < 17)
+            if ((int)characterType < 18)
             {
                 if ((int)characterType > oldCharacterTypeMelee)
                 {
@@ -231,7 +231,7 @@ namespace Core
 
             if ((int)characterType < 36 && (int)characterType > 17)
             {
-                if ((int)characterType > oldCharacterTypeRange+17)
+                if ((int)characterType > oldCharacterTypeRange+18)
                 {
                     oldCharacterTypeRange++;
                     PlayerPrefs.SetInt("OldCharacterTypeRange", oldCharacterTypeRange);

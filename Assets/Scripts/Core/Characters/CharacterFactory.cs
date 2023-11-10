@@ -173,6 +173,10 @@ namespace Core.Characters
                     character = new FourthCharacterBoss();
                     character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
                     return character;
+                case CharacterType.FifthBossCharacter:
+                    character = new FifthBossCharacter();
+                    character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
+                    return character;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(type), type, null);
             }

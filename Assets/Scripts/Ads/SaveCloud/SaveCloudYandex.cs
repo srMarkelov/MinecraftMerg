@@ -52,27 +52,26 @@ public class SaveCloudYandex : ICloud
 
     public void Save()
     {
-    /*public float MoneyInTheStorage = 400;
-    public int MoneyLetter = 0;
-    public float PriceMelee = 200;
-    public float PriceRange = 200;
-    public int PriceMeleeLetter = 0;
-    public int PriceRangeLette = 0;
-    public int currentLevel = 0;
-    public int currentOpenCharacter = 0;
-    public int OldCharacterTypeMelee = 0;
-    public int OldCharacterTypeRange = 0;
-    public int CurrentMaxCharacterMelee = 0;
-    public int CurrentMaxCharacterRange = 0;
+        /*public float MoneyInTheStorage = 400;
+        public int MoneyLetter = 0;
+        public float PriceMelee = 200;
+        public float PriceRange = 200;
+        public int PriceMeleeLetter = 0;
+        public int PriceRangeLette = 0;
+        public int currentLevel = 0;
+        public int currentOpenCharacter = 0;
+        public int OldCharacterTypeMelee = 0;
+        public int OldCharacterTypeRange = 0;
+        public int CurrentMaxCharacterMelee = 0;
+        public int CurrentMaxCharacterRange = 0;
+            
+        public int[] CharacterTypeFOrCell = new int[15];
+        public int[] CellWidth = new int[15];
+        public int[] CellHeight = new int[15];*/
         
-    public int[] CharacterTypeFOrCell = new int[15];
-    public int[] CellWidth = new int[15];
-    public int[] CellHeight = new int[15];*/
-        
-    
-        /*var _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
+        var _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
                 
-        if (_currentLevel == 0)
+        /*if (_currentLevel == 0)
         {
             return;
         }*/

@@ -44,7 +44,7 @@ public class FinishLevelController : MonoBehaviour
 
     public void RestartLevel()
     {
-        Time.timeScale = 1.3f;
+        Time.timeScale = 3.5f;
         _rewardKills = 0f;
         _finishLevelView.OffFinishLosePanel();
         _finishLevelView.OffFinishWinPanel();
@@ -106,7 +106,7 @@ public class FinishLevelController : MonoBehaviour
 
         var randomPercentageVictory = UnityEngine.Random.Range(2f, 3.2f);
         var randomPercentageDefeat = UnityEngine.Random.Range(1.8f, 2.4f);
-        if (_currentLevel == 19 || _currentLevel == 39 ||_currentLevel == 59)
+        if (_currentLevel == 24 || _currentLevel == 49 ||_currentLevel == 74 || _currentLevel == 99)
         {
            randomPercentageVictory = UnityEngine.Random.Range(4f, 5.5f);
            randomPercentageDefeat = UnityEngine.Random.Range(3f, 4f);

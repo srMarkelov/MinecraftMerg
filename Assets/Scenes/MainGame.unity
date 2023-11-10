@@ -38793,7 +38793,7 @@ MonoBehaviour:
   _fortuna: {fileID: 85046529}
   _plateWin: {fileID: 1238069900}
   _plateLose: {fileID: 705254543}
-  _checkPont: 175
+  _checkPont: 19
   _winSound: {fileID: 1590386923}
   _loseSound: {fileID: 1590386922}
   ArrowMove: 0
@@ -44601,10 +44601,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _battleHandler: {fileID: 1351574696}
   _summerLevel: 0
-  _autumnLevel: 20
-  _snowLevel: 40
-  _springLevel: 60
-  _summerLevel2: 80
+  _autumnLevel: 25
+  _snowLevel: 50
+  _springLevel: 75
+  _summerLevel2: 100
   _background: {fileID: 619974745}
   _backgroundSupport: {fileID: 128181928}
   _background2: {fileID: 1084608271}

@@ -73,7 +73,8 @@ namespace Core.Characters
         FirstCharacterBoss,
         SecondCharacterBoss,
         ThirdCharacterBoss,
-        FourthCharacterBoss 
+        FourthCharacterBoss,
+        FifthBossCharacter
         
     }
 
