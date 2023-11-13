@@ -404,7 +404,8 @@ namespace Core.Characters
                             shellsControllerEnemy.SetView(this);
                             if (_сharactersNearby != null && shellsControllerEnemy != null && 
                                 _Character.CharacterType == CharacterType.SecondCharacterBoss ||
-                                _Character.CharacterType == CharacterType.FourthCharacterBoss)
+                                _Character.CharacterType == CharacterType.FourthCharacterBoss ||
+                                _Character.CharacterType == CharacterType.SixthBossCharacter)
                             {
                                 for (int i = 0; i < _сharactersNearby.Count ; i++)
                                 {
@@ -503,7 +504,8 @@ namespace Core.Characters
         {
             if (_Character.CharacterType == CharacterType.FirstCharacterBoss || 
                 _Character.CharacterType == CharacterType.SecondCharacterBoss ||
-            _Character.CharacterType == CharacterType.FourthCharacterBoss) return;
+            _Character.CharacterType == CharacterType.FourthCharacterBoss ||
+                _Character.CharacterType == CharacterType.SixthBossCharacter) return;
             
             if (pos.x < _targetPosition.x)
             {

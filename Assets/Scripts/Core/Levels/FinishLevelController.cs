@@ -106,7 +106,8 @@ public class FinishLevelController : MonoBehaviour
 
         var randomPercentageVictory = UnityEngine.Random.Range(2f, 3.2f);
         var randomPercentageDefeat = UnityEngine.Random.Range(1.8f, 2.4f);
-        if (_currentLevel == 24 || _currentLevel == 49 ||_currentLevel == 74 || _currentLevel == 99)
+        if (_currentLevel == 24 || _currentLevel == 49 ||_currentLevel == 74 || _currentLevel == 99 ||
+            _currentLevel == 124 || _currentLevel == 149 || _currentLevel == 174 || _currentLevel == 199)
         {
            randomPercentageVictory = UnityEngine.Random.Range(4f, 5.5f);
            randomPercentageDefeat = UnityEngine.Random.Range(3f, 4f);

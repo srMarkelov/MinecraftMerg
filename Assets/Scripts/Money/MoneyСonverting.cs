@@ -70,6 +70,16 @@ public class MoneyСonverting : MonoBehaviour
         {12,"AB"},
         {13,"AD"},
         {14,"AT"},
+        {15,"C"},
+        {16,"CK"},
+        {17,"CB"},
+        {18,"CD"},
+        {19,"CT"},
+        {20,"F"},
+        {21,"FK"},
+        {22,"FB"},
+        {23,"FD"},
+        {24,"FT"},
     };
 
     private void Update()
