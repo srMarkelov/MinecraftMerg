@@ -662,7 +662,8 @@ namespace Core.Characters
             if (_Character.CharacterType != CharacterType.FirstCharacterBoss && 
                 _Character.CharacterType != CharacterType.SecondCharacterBoss &&
                 _Character.CharacterType != CharacterType.ThirdCharacterBoss && 
-                _Character.CharacterType != CharacterType.FourthCharacterBoss) 
+                _Character.CharacterType != CharacterType.FourthCharacterBoss && 
+                _Character.CharacterType != CharacterType.EighthBossCharacter) 
             {
                 _damageParticleSystem.gameObject.SetActive(true);
                 transform.DOScale(new Vector3(0.6f, 0.6f, 0.6f), 0.1f).OnComplete(() =>

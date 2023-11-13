@@ -44605,6 +44605,9 @@ MonoBehaviour:
   _snowLevel: 50
   _springLevel: 75
   _summerLevel2: 100
+  _autumnLevel2: 125
+  _snowLevel2: 150
+  _springLevel2: 175
   _background: {fileID: 619974745}
   _backgroundSupport: {fileID: 128181928}
   _background2: {fileID: 1084608271}
