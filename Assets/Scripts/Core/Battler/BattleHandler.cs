@@ -203,7 +203,8 @@ namespace Core.Battler
                     enemy.CharacterType == CharacterType.SecondCharacterBoss ||
                     enemy.CharacterType == CharacterType.FourthCharacterBoss ||
                     enemy.CharacterType == CharacterType.FifthBossCharacter ||
-                    enemy.CharacterType == CharacterType.SixthBossCharacter
+                    enemy.CharacterType == CharacterType.SixthBossCharacter||
+                    enemy.CharacterType == CharacterType.EighthBossCharacter
                     )
                 {
                     _playerCharacters.Clear();

@@ -185,6 +185,10 @@ namespace Core.Characters
                     character = new SeventhBossCharacter();
                     character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
                     return character;
+                case CharacterType.EighthBossCharacter:
+                    character = new EighthBossCharacter();
+                    character.Init(GameConfigSingleton.Instance.CharactersConfig.GetConfig(type));
+                    return character;
                 
                 default:
                     throw new ArgumentOutOfRangeException(nameof(type), type, null);
