@@ -304,7 +304,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: d864aadd10868774db24f2750ac3935b, type: 3}
     - DamageType: 0
-      Health: 70000
+      Health: 110000
       Damage: 1500
       MovementSpeed: 4
       DamageSpeed: 1.5
@@ -312,7 +312,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: fb153a28f936e11419d5c5a2a7f60a92, type: 3}
     - DamageType: 1
-      Health: 1225000
+      Health: 1870000
       Damage: 2500
       MovementSpeed: 0
       DamageSpeed: 1.5
@@ -320,7 +320,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: 0f611078a4f184d41892507e0d789e01, type: 3}
     - DamageType: 0
-      Health: 4200000
+      Health: 5610000
       Damage: 150000
       MovementSpeed: 4
       DamageSpeed: 1.5
@@ -328,7 +328,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: be66faed313fc954090b0f39db30f73d, type: 3}
     - DamageType: 1
-      Health: 10500000
+      Health: 84150000
       Damage: 300000
       MovementSpeed: 0
       DamageSpeed: 1.5
@@ -336,7 +336,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: cf9e5d68ef1c62941a55366a2b2a2146, type: 3}
     - DamageType: 1
-      Health: 40500000
+      Health: 254150000
       Damage: 450000
       MovementSpeed: 0
       DamageSpeed: 1.5
@@ -360,7 +360,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: 2d698947bc7bdf94ebe7143840c0906f, type: 3}
     - DamageType: 0
-      Health: 910969800
+      Health: 1.1109699e+9
       Damage: 6586213.5
       MovementSpeed: 4
       DamageSpeed: 1.5

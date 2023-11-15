@@ -9541,7 +9541,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 6c61180ea7362a24cb3096e29b67ce31, type: 3}
+    - sprite: {fileID: 21300000, guid: 6a9b566d0b3116742924fe2237a9f000, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -14693,7 +14693,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 753a90aebd69ecb48a4817dde662a753, type: 3}
+    - sprite: {fileID: 21300000, guid: 2fca4af0959401247b6c647667f7736e, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -26566,8 +26566,8 @@ MonoBehaviour:
   - {fileID: -1826312025, guid: 8543e571fda97964f956dbc0a0446d4c, type: 3}
   - {fileID: 1174124276, guid: fd13353361551444eb5ab74f8698cf42, type: 3}
   - {fileID: 1432584802, guid: fae6d93a5173fb048bfb982b0e7a7188, type: 3}
-  - {fileID: 1432584802, guid: fae6d93a5173fb048bfb982b0e7a7188, type: 3}
-  - {fileID: 1432584802, guid: fae6d93a5173fb048bfb982b0e7a7188, type: 3}
+  - {fileID: 21300000, guid: 7d98808f55b0e6a4c8547c81a607d6c8, type: 3}
+  - {fileID: 21300000, guid: abd9bc53ed4f1e2419c729983e46f0e1, type: 3}
   _shadowlCharcterMelee:
   - {fileID: -706668778, guid: 6ecdd19d486712d4986d64e9bd1e398f, type: 3}
   - {fileID: -706668778, guid: 6ecdd19d486712d4986d64e9bd1e398f, type: 3}
@@ -26604,8 +26604,8 @@ MonoBehaviour:
   - {fileID: -806474822, guid: 7f7bbbeea57dc3f43ad0a05c5ce57657, type: 3}
   - {fileID: 1231022002, guid: 7800e74ac169fe34694970ab66bf5544, type: 3}
   - {fileID: -1898924534, guid: ca92577494e1f7e4bbf34702f5d33a38, type: 3}
-  - {fileID: -1898924534, guid: ca92577494e1f7e4bbf34702f5d33a38, type: 3}
-  - {fileID: -1898924534, guid: ca92577494e1f7e4bbf34702f5d33a38, type: 3}
+  - {fileID: 21300000, guid: 47e53ed193d27ca458c44e6e109db358, type: 3}
+  - {fileID: 21300000, guid: a83798503258c5d4eb38eda9fcc1463e, type: 3}
   _shadowlCharcterRange:
   - {fileID: -706668778, guid: 6ecdd19d486712d4986d64e9bd1e398f, type: 3}
   - {fileID: -706668778, guid: 6ecdd19d486712d4986d64e9bd1e398f, type: 3}
@@ -38793,7 +38793,7 @@ MonoBehaviour:
   _fortuna: {fileID: 85046529}
   _plateWin: {fileID: 1238069900}
   _plateLose: {fileID: 705254543}
-  _checkPont: 149
+  _checkPont: 75
   _winSound: {fileID: 1590386923}
   _loseSound: {fileID: 1590386922}
   ArrowMove: 0

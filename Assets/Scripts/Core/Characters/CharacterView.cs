@@ -405,6 +405,7 @@ namespace Core.Characters
                             if (_сharactersNearby != null && shellsControllerEnemy != null && 
                                 _Character.CharacterType == CharacterType.SecondCharacterBoss ||
                                 _Character.CharacterType == CharacterType.FourthCharacterBoss ||
+                                _Character.CharacterType == CharacterType.FifthBossCharacter ||
                                 _Character.CharacterType == CharacterType.SixthBossCharacter)
                             {
                                 for (int i = 0; i < _сharactersNearby.Count ; i++)
@@ -663,7 +664,8 @@ namespace Core.Characters
                 _Character.CharacterType != CharacterType.SecondCharacterBoss &&
                 _Character.CharacterType != CharacterType.ThirdCharacterBoss && 
                 _Character.CharacterType != CharacterType.FourthCharacterBoss && 
-                _Character.CharacterType != CharacterType.EighthBossCharacter) 
+                _Character.CharacterType != CharacterType.EighthBossCharacter && 
+                _Character.CharacterType != CharacterType.SixthBossCharacter) 
             {
                 _damageParticleSystem.gameObject.SetActive(true);
                 transform.DOScale(new Vector3(0.6f, 0.6f, 0.6f), 0.1f).OnComplete(() =>

@@ -71,10 +71,10 @@ public class SaveCloudYandex : ICloud
         
         var _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
                 
-        /*if (_currentLevel == 0)
+        if (_currentLevel == 0)
         {
             return;
-        }*/
+        }
         
         var moneyInTheStorage = PlayerPrefs.GetFloat(MoneyInTheStorage);
         YandexGame.savesData.MoneyInTheStorage = moneyInTheStorage;

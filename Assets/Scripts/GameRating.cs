@@ -11,7 +11,7 @@ public class GameRating : MonoBehaviour
     [SerializeField] private float time;
     private void Update()
     {
-        if (_battleHandler.IsBattle)
+        /*if (_battleHandler.IsBattle)
         {
             return;
         }
@@ -21,7 +21,7 @@ public class GameRating : MonoBehaviour
         {
             YandexGame.ReviewShow(true);
             time = 15f;
-        }
+        }*/
     }
 }
 

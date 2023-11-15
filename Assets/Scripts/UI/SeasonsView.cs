@@ -67,7 +67,7 @@ public class SeasonsView : MonoBehaviour
             _snowParticleSystem.gameObject.SetActive(true);
             SetSnowSprites();
         }
-        else if (_currentLevel > _springLevel && _currentLevel < _summerLevel2)
+        else if (_currentLevel >= _springLevel && _currentLevel < _summerLevel2)
         {
             SetSpringSprites();
         }
