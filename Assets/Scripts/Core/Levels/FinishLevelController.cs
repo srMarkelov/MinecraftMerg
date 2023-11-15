@@ -44,7 +44,7 @@ public class FinishLevelController : MonoBehaviour
 
     public void RestartLevel()
     {
-        Time.timeScale = 3.5f;
+        Time.timeScale = 2f;
         _rewardKills = 0f;
         _finishLevelView.OffFinishLosePanel();
         _finishLevelView.OffFinishWinPanel();

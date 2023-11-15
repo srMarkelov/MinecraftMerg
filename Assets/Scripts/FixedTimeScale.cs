@@ -11,6 +11,6 @@ public class FixedTimeScale : MonoBehaviour
     
     public void TimeScaleFixed()
     {
-        Time.timeScale = 3.5f;
+        Time.timeScale = 2f;
     }
 }

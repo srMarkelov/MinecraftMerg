@@ -73,7 +73,7 @@ namespace Core.Battler
 
         private void Start()
         {
-            Time.timeScale = 3.5f;
+            Time.timeScale = 2f;
 
             SetActiveViewAndAnimator();
             /*

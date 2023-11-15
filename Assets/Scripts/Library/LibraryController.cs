@@ -306,7 +306,7 @@ public class LibraryController : MonoBehaviour
     public void RewardAds()
     {
         _libraryItem._countBuyClick++;
-        if (_libraryItem._countBuyClick >= 3)
+        if (_libraryItem._countBuyClick >= 5)
         {
             _characterSeller.SpawnCharacter(_libraryItem._characterType);
             _libraryItem._countBuyClick = 0;

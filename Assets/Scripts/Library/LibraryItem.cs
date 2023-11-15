@@ -54,8 +54,8 @@ public class LibraryItem : MonoBehaviour
 
     private void Update()
     {
-        _priceBuy.text = $"{_countBuyClick}/3";
-        _priceBuyBackground.text = $"{_countBuyClick}/3";
+        _priceBuy.text = $"{_countBuyClick}/5";
+        _priceBuyBackground.text = $"{_countBuyClick}/5";
         _currentLevel = PlayerPrefs.GetInt("CurrentLevel");
         ControlAvailableCharacter();
         
@@ -179,7 +179,7 @@ public class LibraryItem : MonoBehaviour
                 _rewardVideoButton.gameObject.SetActive(false);
                 _notAvailable.SetActive(true);            }
         }
-        else if (_currentLevel < 199)
+        else if (_currentLevel < 200)
         {
             if (_characterType == CharacterType.Fist || _characterType == CharacterType.SlingshotRange||
                 _characterType == CharacterType.Stick || _characterType == CharacterType.BigSlingshotRange||
