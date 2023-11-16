@@ -6,7 +6,7 @@ public class FixedTimeScale : MonoBehaviour
 {
     public void TimeScale()
     {
-        Invoke("TimeScaleFixed",1f);
+        Invoke("TimeScaleFixed",0.3f);
     }
     
     public void TimeScaleFixed()

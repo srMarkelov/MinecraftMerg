@@ -136,6 +136,8 @@ namespace Core.Battler
             {
                 return;
             }
+
+            Time.timeScale = 2f;
             foreach (var cell in fieldConstructor.Cells)
             {
                 if(cell.IsBusy())

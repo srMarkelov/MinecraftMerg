@@ -328,7 +328,7 @@ MonoBehaviour:
       WeightMeleeCharacters: 0
       View: {fileID: 410807052145958395, guid: be66faed313fc954090b0f39db30f73d, type: 3}
     - DamageType: 1
-      Health: 84150000
+      Health: 74150000
       Damage: 300000
       MovementSpeed: 0
       DamageSpeed: 1.5

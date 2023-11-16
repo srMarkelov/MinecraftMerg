@@ -75,7 +75,7 @@ public class SaveCloudYandex : ICloud
         {
             return;
         }
-        
+
         var moneyInTheStorage = PlayerPrefs.GetFloat(MoneyInTheStorage);
         YandexGame.savesData.MoneyInTheStorage = moneyInTheStorage;
         

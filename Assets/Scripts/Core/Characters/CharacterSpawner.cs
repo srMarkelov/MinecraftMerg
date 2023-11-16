@@ -107,7 +107,8 @@ namespace Core.Characters
             }
             else
             {
-                if (type == CharacterType.Mace || type == CharacterType.MagicWandRange)
+                if (type == CharacterType.TwoDaggers || type == CharacterType.BigMagicBallRange ||
+                    type == CharacterType.Mace || type == CharacterType.MagicWandRange)
                 {
                     type = type+ 1;
                 }
